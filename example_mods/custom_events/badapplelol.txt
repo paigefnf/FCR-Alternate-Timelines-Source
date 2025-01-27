@@ -1,0 +1,6 @@
+Does the shadow thing.
+
+Value 1: 'a' to make the BG white and characters black, 'b' to undo.
+Value 2: Silhouette Fade In/Out Time. (0 DOESN'T WORK, USE 0.01)
+
+Script by Saltyboii#2461

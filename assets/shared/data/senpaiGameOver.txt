@@ -1,0 +1,3 @@
+:bfglitch:Delete(BOYFRIEND.XML);
+:bfglitch:Request Accepted("Successfully deleted BOYFRIEND.XML")
+:bfglitch:Console.Write("Game Over");

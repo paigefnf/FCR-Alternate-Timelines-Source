@@ -1,0 +1,4 @@
+Sets the stage zoom
+Value1: Camera Zoom value
+Value2: Time(Default: 1)
+Use0.001 for an instant zoom!

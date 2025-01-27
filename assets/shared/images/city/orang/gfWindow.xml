@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfChudWindow.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfWindow0000" x="0" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0001" x="529" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0002" x="1058" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0003" x="1587" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0004" x="2116" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0005" x="2645" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0006" x="3174" y="0" width="529" height="484"/>
+	<SubTexture name="gfWindow0007" x="0" y="484" width="529" height="484"/>
+	<SubTexture name="gfWindow0008" x="529" y="484" width="529" height="484"/>
+	<SubTexture name="gfWindow0009" x="1058" y="484" width="529" height="484"/>
+	<SubTexture name="gfWindow0010" x="1587" y="484" width="529" height="484"/>
+	<SubTexture name="gfWindow0011" x="2116" y="484" width="529" height="484"/>
+	<SubTexture name="gfWindow0012" x="2645" y="484" width="529" height="484"/>
+	<SubTexture name="gfWindow0013" x="3174" y="484" width="529" height="484"/>
+</TextureAtlas>

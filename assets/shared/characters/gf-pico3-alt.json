@@ -1,0 +1,1 @@
+{"animations": [{"offsets": [0,0],"indices": [],"fps": 24,"anim": "idle","loop": false,"name": "speakers"}],"no_antialiasing": false,"image": "characters/pico/speakers","position": [0,300],"healthicon": "gf-worried","flip_x": false,"healthbar_colors": [165,0,77],"camera_position": [-50,200],"sing_duration": 4,"scale": 1}

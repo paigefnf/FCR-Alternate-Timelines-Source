@@ -1,0 +1,1 @@
+function opponentNoteHit()health = getProperty('health')if getProperty('dad.curCharacter') == 'mom-paige2' and getProperty('health') > 0.013 thensetProperty('health', health- 0.007);endend

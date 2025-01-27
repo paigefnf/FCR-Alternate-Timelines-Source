@@ -1,0 +1,6 @@
+Changes extra character with a different character.
+
+Value 1: Extr. Character Name
+Value 2: New Char. Name, Object Order
+
+Anything after the new character name is optional.

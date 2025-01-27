@@ -1,0 +1,28 @@
+{
+	"directory": "bedroom",
+	"defaultZoom": 0.9,
+	"isPixelStage": false,
+
+	"boyfriend": [700, 100],
+	"girlfriend": [400, 130],
+	"opponent": [0, 100],
+	"hide_girlfriend": true,
+
+	"camera_boyfriend": [0, 0],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+	"preload": {
+		"images/overlay": 1,
+		"images/bg": 3,
+		"images/bed": 3,
+		"images/drawer": 3,
+		"images/window": 3
+	},
+
+	"_editorMeta": {
+		"dad": "senpai-wretched",
+		"boyfriend": "pico-wretched",
+		"gf": "gf"
+	}
+}

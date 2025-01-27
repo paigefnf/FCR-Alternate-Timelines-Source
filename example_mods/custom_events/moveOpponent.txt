@@ -1,0 +1,2 @@
+value 1: x, y, time
+value 2: object to tween

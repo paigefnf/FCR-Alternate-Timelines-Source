@@ -1,0 +1,8 @@
+A TOGGLE Event, that puts the cam between DAD and BF
+Can be Buggy on Pixel Chars (use Offset values)
+Input values are optional
+
+Value1: custom Zoom
+value2: X,Y Position offset (separate with , )
+[Ex: 0.8 | 50,60]
+50 right 60 down
