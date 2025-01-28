@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spiritText2.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="this was meant to instancia 10000" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10001" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10002" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10003" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10004" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10005" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10006" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10007" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10008" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10009" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10010" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10011" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10012" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10013" x="10" y="1470" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10014" x="2590" y="740" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10015" x="1300" y="740" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10016" x="10" y="740" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10017" x="2590" y="10" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10018" x="1300" y="10" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10019" x="10" y="10" width="1280" height="720"/>
+	<SubTexture name="this was meant to instancia 10020" x="10" y="10" width="1280" height="720"/>
+</TextureAtlas>

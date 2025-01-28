@@ -3,55 +3,55 @@ if count == 1 then
 end
 end
 function onCreatePost()
-makeAnimatedLuaSprite('splashes0','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashes0','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashes0','hold','hold',36,true)
 addLuaSprite('splashes0')
 
-makeAnimatedLuaSprite('splashes1','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashes1','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashes1','hold','hold',36,true)
 addLuaSprite('splashes1')
 
-makeAnimatedLuaSprite('splashes2','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashes2','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashes2','hold','hold',36,true)
 addLuaSprite('splashes2')
 
-makeAnimatedLuaSprite('splashes3','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashes3','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashes3','hold','hold',36,true)
 addLuaSprite('splashes3')
 
-makeAnimatedLuaSprite('splashesp0','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp0','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp0','hold','hold',36,true)
 addAnimationByPrefix('splashesp0','end','end',36,false)
 addLuaSprite('splashesp0')
 
-makeAnimatedLuaSprite('splashesp1','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp1','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp1','hold','hold',36,true)
 addAnimationByPrefix('splashesp1','end','end',36,false)
 addLuaSprite('splashesp1')
 
-makeAnimatedLuaSprite('splashesp2','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp2','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp2','hold','hold',36,true)
 addAnimationByPrefix('splashesp2','end','end',36,false)
 addLuaSprite('splashesp2')
 
-makeAnimatedLuaSprite('splashesp3','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp3','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp3','hold','hold',36,true)
 addAnimationByPrefix('splashesp3','end','end',36,false)
 addLuaSprite('splashesp3')
 
-makeAnimatedLuaSprite('splashesp4','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp4','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp4','end','end',36,false)
 addLuaSprite('splashesp4')
 
-makeAnimatedLuaSprite('splashesp5','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp5','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp5','end','end',36,false)
 addLuaSprite('splashesp5')
 
-makeAnimatedLuaSprite('splashesp6','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp6','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp6','end','end',36,false)
 addLuaSprite('splashesp6')
 
-makeAnimatedLuaSprite('splashesp7','noteSplashes/holdSplashes/holdSplash')
+makeAnimatedLuaSprite('splashesp7','ui/holdSplashes/holdSplash')
 addAnimationByPrefix('splashesp7','end','end',36,false)
 addLuaSprite('splashesp7')
 

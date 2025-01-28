@@ -1,39 +1,39 @@
 function onCreate()
 
-makeLuaSprite('sky','limo/limoSky',-3200,-800)
+makeLuaSprite('sky','stage_assets/limo/limoSky',-3200,-800)
 setScrollFactor('sky',0.7,0.7)
 addLuaSprite('sky')
 
-makeLuaSprite('front','limo/frontStreet',300,-200)
+makeLuaSprite('front','stage_assets/limo/frontStreet',300,-200)
 setScrollFactor('front',0.9,0.9)
 screenCenter('front','x')
 addLuaSprite('front')
 
-makeLuaSprite('light1','limo/streetLight',-500,-600)
+makeLuaSprite('light1','stage_assets/limo/streetLight',-500,-600)
 addLuaSprite('light1')
 
-makeLuaSprite('light2','limo/streetLight',300,-600)
+makeLuaSprite('light2','stage_assets/limo/streetLight',300,-600)
 addLuaSprite('light2')
 
-makeLuaSprite('light3','limo/streetLight',1100,-600)
+makeLuaSprite('light3','stage_assets/limo/streetLight',1100,-600)
 addLuaSprite('light3')
 
-makeLuaSprite('light4','limo/streetLight',1900,-600)
+makeLuaSprite('light4','stage_assets/limo/streetLight',1900,-600)
 addLuaSprite('light4')
 
-makeLuaSprite('backCar','limo/backCar',-300,50)
+makeLuaSprite('backCar','stage_assets/limo/backCar',-300,50)
 scaleObject('backCar',1.2,1)
 addLuaSprite('backCar')
 
-makeLuaSprite('frontCar','limo/frontCar',-25,0)
+makeLuaSprite('frontCar','stage_assets/limo/frontCar',-25,0)
 addLuaSprite('frontCar')
 
-makeLuaSprite('filter','limo/filter',-3200,-800)
+makeLuaSprite('filter','stage_assets/limo/filter',-3200,-800)
 setScrollFactor('filter',0.7,0.7)
 setProperty('filter.alpha',1)
 addLuaSprite('filter',true)
 
-makeAnimatedLuaSprite('fog','limo/fog',-600,-600)
+makeAnimatedLuaSprite('fog','stage_assets/limo/fog',-600,-600)
 addAnimationByPrefix('fog','fog','theFog',24,true)
 setGraphicSize('fog',3000,3000)
 screenCenter('fog')

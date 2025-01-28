@@ -1,19 +1,19 @@
 function onCreate()
-makeLuaSprite('bg','mall/evilSnow', -600, 700);
-makeAnimatedLuaSprite('chudncompany', 'mall/chudncompany', 650, 150)
+makeLuaSprite('bg','stage_assets/mall/evilSnow', -600, 700);
+makeAnimatedLuaSprite('chudncompany', 'stage_assets/mall/chudncompany', 650, 150)
 addAnimationByPrefix('chudncompany', 'nnn', 'Bottom Level Boppers', 24, true)
-makeLuaSprite('evilTree','mall/evilTree', 400, 0);
+makeLuaSprite('evilTree','stage_assets/mall/evilTree', 400, 0);
 setLuaSpriteScrollFactor('evilTree', 0.6, 0.6)
-makeLuaSprite('bgescalators','mall/bgescalators', -1300, -700);
+makeLuaSprite('bgescalators','stage_assets/mall/bgescalators', -1300, -700);
 setLuaSpriteScrollFactor('bgescalators', 0.6, 0.6)
-makeAnimatedLuaSprite('upperfellas', 'mall/upperfellas', -300, -20)
+makeAnimatedLuaSprite('upperfellas', 'stage_assets/mall/upperfellas', -300, -20)
 addAnimationByPrefix('upperfellas', 'nnn', 'Upper Crowd Bob', 24, true)
 setLuaSpriteScrollFactor('upperfellas', 0.6, 0.6)
 scaleObject('upperfellas', 0.9, 0.9);
-makeLuaSprite('evilBG','mall/evilBG', -1100, -600);
+makeLuaSprite('evilBG','stage_assets/mall/evilBG', -1100, -600);
 setLuaSpriteScrollFactor('evilBG', 0.6, 0.6)
 scaleObject('evilBG', 0.9, 0.9);
-makeLuaSprite('oey', 'mall/overlay', 0, 0);
+makeLuaSprite('oey', 'stage_assets/mall/overlay', 0, 0);
 setObjectCamera('oey', 'hud');
 addLuaSprite('oey');
 addLuaSprite('evilBG', false);

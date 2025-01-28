@@ -1,8 +1,8 @@
 function onCreate()
-makeLuaSprite('stageback', 'stagebackFCR', -600, -400);
+makeLuaSprite('stageback', 'stage_assets/father/stagebackFCR', -600, -400);
 setScrollFactor('stageback', 0.9, 0.9);
 
-makeLuaSprite('stagefront', 'stagefrontFCR', -800, 600);
+makeLuaSprite('stagefront', 'stage_assets/father/stagefrontFCR', -800, 600);
 scaleObject('stagefront', 1.1, 1.1);
 
 makeLuaSprite('light','stage_lightFCR',-50,-50)
@@ -18,17 +18,17 @@ setProperty('light2.visible',false)
 setProperty('light2-alt.visible',false)
 
 
-makeLuaSprite('stagecurtains', 'stagecurtainsFCR', -650, -300);
+makeLuaSprite('stagecurtains', 'stage_assets/father/stagecurtainsFCR', -650, -300);
 
 addLuaSprite('stageback', false);
 addLuaSprite('stagefront', false);
 
-makeLuaSprite('stagefront2', 'stagefrontAlt', -800, 600);
+makeLuaSprite('stagefront2', 'stage_assets/father/stagefrontAlt', -800, 600);
 scaleObject('stagefront2', 1.1, 1.1);
 setProperty('stagefront2.visible',false)
 addLuaSprite('stagefront2', false);
 
-makeLuaSprite('lights','lights',-700,-300)
+makeLuaSprite('lights','stage_assets/father/lights',-700,-300)
 scaleObject('lights', 1.1, 1.1);
 setProperty('lights.alpha',0)
 addLuaSprite('light',true)
@@ -53,7 +53,7 @@ setObjectCamera('lay2','hud')
 setProperty('lay2.visible',false)
 addLuaSprite('lay2')
 
-makeLuaSprite('bfl','revealBF',-200,0)
+makeLuaSprite('bfl','stage_assets/father/revealBF',-200,0)
 scaleObject('bfl', 0.75, 0.75);
 setObjectCamera('bfl','hud')
 addLuaSprite('bfl',true)

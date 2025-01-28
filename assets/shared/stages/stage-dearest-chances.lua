@@ -1,34 +1,34 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('stageback', 'fatherShadow/stagebackShadow', -600, -400);
+	makeLuaSprite('stageback', 'stage_assets/fatherShadow/stagebackShadow', -600, -400);
 	setScrollFactor('stageback', 0.9, 0.9);
 	addLuaSprite('stageback', false);
     setProperty('stageback.alpha', 0.3)
 
-	makeLuaSprite('stagefront', 'fatherShadow/stagefrontShadow', -600, 600);
+	makeLuaSprite('stagefront', 'stage_assets/fatherShadow/stagefrontShadow', -600, 600);
 	setScrollFactor('stagefront', 0.9, 0.9);
 	scaleObject('stagefront', 1.1, 1.1);
 	addLuaSprite('stagefront', false);
     setProperty('stagefront.alpha', 0.3)
 
-	makeLuaSprite('stagecurtains', 'fatherShadow/stagecurtainsShadow', -400, -300);
+	makeLuaSprite('stagecurtains', 'stage_assets/fatherShadow/stagecurtainsShadow', -400, -300);
 	setScrollFactor('stagecurtains', 1.3, 1.3);
 	scaleObject('stagecurtains', 0.9, 0.9);
 	addLuaSprite('stagecurtains', false);
     setProperty('stagecurtains.alpha', 1)
 	
-    makeLuaSprite('stagebg', 'stagebackFCR', -600, -400);
+    makeLuaSprite('stagebg', 'stage_assets/stagebackFCR', -600, -400);
     setScrollFactor('stagebg', 0.9, 0.9);
     addLuaSprite('stagebg', false)
     setProperty('stagebg.alpha', 0)
 
-    makeLuaSprite('front', 'stagefrontFCR', -800, 600);
+    makeLuaSprite('front', 'stage_assets/stagefrontFCR', -800, 600);
     setScrollFactor('front', 0.9, 0.9);
     scaleObject('front', 1.1, 1.1);
     addLuaSprite('front', false)
     setProperty('front.alpha', 0)
 
-    makeLuaSprite('stagecurtain', 'stagecurtainsFCR', -500, -300);
+    makeLuaSprite('stagecurtain', 'stage_assets/stagecurtainsFCR', -500, -300);
     setScrollFactor('stagecurtain', 1.3, 1.3);
     scaleObject('stagecurtain', 0.9, 0.9);
     addLuaSprite('stagecurtain', false);

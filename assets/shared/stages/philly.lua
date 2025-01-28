@@ -1,17 +1,17 @@
 function onCreate()
-   makeLuaSprite('bg','philly/sky', -800, -1000);
+   makeLuaSprite('bg','stage_assets/philly/sky', -800, -1000);
    setLuaSpriteScrollFactor('bg', 0.1, 0.1);		
-   makeLuaSprite('fakeSky','philly/fakeSky', -100, 00);
+   makeLuaSprite('fakeSky','stage_assets/philly/fakeSky', -100, 00);
    setLuaSpriteScrollFactor('fakeSky', 0.1, 0.1);		
    setLuaSpriteScrollFactor('fakeSky', 0.1, 0.1);				
-   makeLuaSprite('city','philly/city', -600, -400);
+   makeLuaSprite('city','stage_assets/philly/city', -600, -400);
    setLuaSpriteScrollFactor('city', 0.3, 0.3)	
-   makeLuaSprite('streetBehind','behindTrain', -200, -50);
-    makeLuaSprite('phillyStreet','street', -650, 550);	
+   makeLuaSprite('streetBehind','stage_assets/philly/behindTrain', -200, -50);
+    makeLuaSprite('phillyStreet','stage_assets/philly/street', -650, 550);	
     makeLuaSprite('overlayLights', 'overlay', 0, 0);
     setObjectCamera('overlayLights', 'hud');
    
-   makeLuaSprite('fakeOverlay', 'fakeOverlay', 0, 0);
+   makeLuaSprite('fakeOverlay', 'stage_assets/philly/fakeOverlay', 0, 0);
     setObjectCamera('fakeOverlay', 'hud');
    
     makeLuaSprite('black', '', 0, 0);
@@ -21,7 +21,7 @@ function onCreate()
     makeGraphic('black2',1280,720, '000000')	
     setProperty('black2.scale.x',99)
    setProperty('black2.scale.y',99)    
-    makeLuaSprite('lightOverlay','philly/lightOverlay', -600, 0);
+    makeLuaSprite('lightOverlay','stage_assets/philly/lightOverlay', -600, 0);
     scaleObject('lightOverlay', 0.5, 0.5)
     addLuaSprite('black', true);
     addLuaSprite('overlayLights', false);

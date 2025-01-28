@@ -1,46 +1,46 @@
 function onCreate()
-    makeLuaSprite('frontstage', 'graveyard2/frontstage', -300, -50);
+    makeLuaSprite('frontstage', 'stage_assets/graveyard2/frontstage', -300, -50);
     scaleObject('frontstage', 1.1, 1.1);
     
-    makeLuaSprite('frontgraves', 'graveyard2/frontgraves', -195, -15);
+    makeLuaSprite('frontgraves', 'stage_assets/graveyard2/frontgraves', -195, -15);
     
-    makeLuaSprite('gate', 'graveyard2/gate', -200, 50);
+    makeLuaSprite('gate', 'stage_assets/graveyard2/gate', -200, 50);
     setScrollFactor('gate', 0.9, 0.9);
     
-    makeLuaSprite('bg', 'graveyard2/bg', -200, -150);
+    makeLuaSprite('bg', 'stage_assets/graveyard2/bg', -200, -150);
     setScrollFactor('bg', 0.1, 0.1);
     
-    makeLuaSprite('backhills', 'graveyard2/backhills', -400, 0);
+    makeLuaSprite('backhills', 'stage_assets/graveyard2/backhills', -400, 0);
     setScrollFactor('backhills', 0.35, 1);
     
-    makeLuaSprite('spookymansion', 'graveyard2/spookymansion', -50, -80);
+    makeLuaSprite('spookymansion', 'stage_assets/graveyard2/spookymansion', -50, -80);
     scaleObject('spookymansion', 0.85, 0.85);
     setScrollFactor('spookymansion', 0.3, 0.3);
     
-    makeLuaSprite('trees', 'graveyard2/trees', -380, -70);
+    makeLuaSprite('trees', 'stage_assets/graveyard2/trees', -380, -70);
     setScrollFactor('trees', 0.5, 0.5);
     
-    makeLuaSprite('backtombs', 'graveyard2/backtombs', -200, -50);
+    makeLuaSprite('backtombs', 'stage_assets/graveyard2/backtombs', -200, -50);
     setScrollFactor('backtombs', 0.4, 1);
     
-    makeAnimatedLuaSprite('GHOSTbacktombs','graveyard2/GHOSTbacktombs', -200, -50)
+    makeAnimatedLuaSprite('GHOSTbacktombs','stage_assets/graveyard2/GHOSTbacktombs', -200, -50)
 	addAnimationByPrefix('GHOSTbacktombs','idle','ghost idle',43,true);
 	objectPlayAnimation('GHOSTbacktombs','idle',true);
 	setScrollFactor('GHOSTbacktombs', 0.4, 1);
 	setProperty('GHOSTbacktombs.alpha', 0);
 	
-	makeAnimatedLuaSprite('lemon','lemon', 0, 200)
+	makeAnimatedLuaSprite('lemon','stage_assets/graveyard2/lemon', 0, 200)
 	addAnimationByPrefix('lemon','idle','monster idle',43,true);
 	objectPlayAnimation('lemon','idle',true);
 	setProperty('lemon.alpha', 0);
 	
-	makeAnimatedLuaSprite('fogRigor','fogRigor', 0, 0)
+	makeAnimatedLuaSprite('fogRigor','stage_assets/rigor/fogRigor', 0, 0)
 	addAnimationByPrefix('fogRigor','anim','fog idle',24,true);
 	objectPlayAnimation('fogRigor','anim',true);
     setObjectCamera('fogRigor', 'other');
     scaleObject('fogRigor', 2.2, 2.2);
     
-    makeAnimatedLuaSprite('fogRigorLame','fogRigorLame', 0, 0)
+    makeAnimatedLuaSprite('fogRigorLame','stage_assets/rigor/fogRigorLame', 0, 0)
 	addAnimationByPrefix('fogRigorLame','anim','fog idle',24,true);
 	objectPlayAnimation('fogRigorLame','anim',true);
     setObjectCamera('fogRigorLame', 'hud');

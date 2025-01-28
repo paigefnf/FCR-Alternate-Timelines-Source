@@ -1,12 +1,12 @@
 function onCreate()
 
-makeLuaSprite('stageback', 'father2/stageback', -600, -400);
+makeLuaSprite('stageback', 'stage_assets/father2/stageback', -600, -400);
 setScrollFactor('stageback', 0.9, 0.9);
 
-makeLuaSprite('stagefront', 'father2/stagefront', -800, 600);
+makeLuaSprite('stagefront', 'stage_assets/father2/stagefront', -800, 600);
 scaleObject('stagefront', 1.1, 1.1);
 
-makeLuaSprite('stagecurtains', 'father2/stagecurtains', -650, -200);
+makeLuaSprite('stagecurtains', 'stage_assets/father2/stagecurtains', -650, -200);
 
 addLuaSprite('stageback', false);
 addLuaSprite('stagefront', false);

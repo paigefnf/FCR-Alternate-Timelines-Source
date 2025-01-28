@@ -1,17 +1,17 @@
 local windowColor = 1
 function onCreate()
-		makeLuaSprite('sky','philly2/sky', -800, -1000);
+		makeLuaSprite('sky','stage_assets/philly2/sky', -800, -1000);
 		setLuaSpriteScrollFactor('sky', 0.1, 0.1);		
-        makeLuaSprite('fakeSky','philly2/moon', -800, 0);
+        makeLuaSprite('fakeSky','stage_assets/philly2/moon', -800, 0);
 		setLuaSpriteScrollFactor('fakeSky', 0.1, 0.1);		
 		makeLuaSprite('city','philly2/city', -600, -400);
 		setLuaSpriteScrollFactor('city', 0.3, 0.3)	
-		makeLuaSprite('city2','fakeCity', -600, -400);
+		makeLuaSprite('city2','stage_assets/philly/fakeCity', -600, -400);
 		setLuaSpriteScrollFactor('city2', 0.3, 0.3)	
-		makeLuaSprite('window','windows', -600, -400);
+		makeLuaSprite('window','stage_assets/philly/windows', -600, -400);
 		setLuaSpriteScrollFactor('window', 0.3, 0.3)	
-		makeLuaSprite('behindTrain','behindTrain', -200, -50);
-		makeLuaSprite('street','street', -1000, 500);	
+		makeLuaSprite('behindTrain','stage_assets/philly/behindTrain', -200, -50);
+		makeLuaSprite('street','stage_assets/philly/street', -1000, 500);	
 	     scaleObject('street', 1.2, 1.2);
 	makeLuaSprite('overlayLights2', 'overlay', 0, 0);
     setObjectCamera('overlayLights2', 'hud');
@@ -21,7 +21,7 @@ function onCreate()
 	makeLuaSprite('black', '', 0, 0);
     makeGraphic('black',1280,720,'000000')	
     setObjectCamera('black', 'other');
-    makeLuaSprite('lightOverlay','philly2/lightOverlay', -1800, -200);
+    makeLuaSprite('lightOverlay','stage_assets/philly2/lightOverlay', -1800, -200);
     makeLuaSprite('flash', '', 0, 0);
 makeGraphic('flash',1280,720,'ffffff')
 setProperty('flash.scale.x',999)

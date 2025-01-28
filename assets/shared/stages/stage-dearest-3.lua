@@ -1,39 +1,39 @@
 function onCreate()
 
-makeLuaSprite('stageback', 'stageback', -600, -300);
+makeLuaSprite('stageback', 'stage_assets/father2/stageback', -600, -300);
 setScrollFactor('stageback', 0.9, 0.9);
 addLuaSprite('stageback', false);
 
-makeAnimatedLuaSprite('stagebackbf','father3/stagebackAltBf',-550,-270)
+makeAnimatedLuaSprite('stagebackbf','stage_assets/father3/stagebackAltBf',-550,-270)
 addAnimationByPrefix('stagebackbf','idle','stageback glow',24,true)
 setProperty('stagebackbf.visible',false)
 addLuaSprite('stagebackbf')
 
-makeAnimatedLuaSprite('stagebackpico','father3/stagebackAltPico',-550,-270)
+makeAnimatedLuaSprite('stagebackpico','stage_assets/father3/stagebackAltPico',-550,-270)
 addAnimationByPrefix('stagebackpico','idle','stageback glow',24,true)
 setProperty('stagebackpico.visible',false)
 addLuaSprite('stagebackpico')
 
-makeAnimatedLuaSprite('stagebackspooky','father3/stagebackAltSP',-550,-270)
+makeAnimatedLuaSprite('stagebackspooky','stage_assets/father3/stagebackAltSP',-550,-270)
 addAnimationByPrefix('stagebackspooky','idle','stageback glow',24,true)
 setProperty('stagebackspooky.visible',false)
 addLuaSprite('stagebackspooky')
 
-makeAnimatedLuaSprite('stagebackmom','father3/stagebackAltMom',-550,-270)
+makeAnimatedLuaSprite('stagebackmom','stage_assets/father3/stagebackAltMom',-550,-270)
 addAnimationByPrefix('stagebackmom','idle','stageback glow',24,true)
 setProperty('stagebackmom.visible',false)
 addLuaSprite('stagebackmom')
 
-makeLuaSprite('stagefront', 'stagefront', -800, 600);
+makeLuaSprite('stagefront', 'stage_assets/father2/stagefront', -800, 600);
 scaleObject('stagefront', 1.1, 1.1);
 addLuaSprite('stagefront', false);
 
-makeLuaSprite('stagefront2', 'stagefrontAlt', -800, 600);
+makeLuaSprite('stagefront2', 'stage_assets/father/stagefrontAlt', -800, 600);
 scaleObject('stagefront2', 1.1, 1.1);
 setProperty('stagefront2.visible',false)
 addLuaSprite('stagefront2', false);
 
-makeLuaSprite('stagecurtains', 'father2/stagecurtains', -650, -300);
+makeLuaSprite('stagecurtains', 'stage_assets/father2/stagecurtains', -650, -300);
 addLuaSprite('stagecurtains', true);
 
 makeLuaSprite('flash', '', 0, 0);

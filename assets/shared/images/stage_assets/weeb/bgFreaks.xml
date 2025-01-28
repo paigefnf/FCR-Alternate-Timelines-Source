@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgFreaks.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG fangirls ghoul0000" x="10" y="10" width="457" height="90" frameX="-3" frameY="-1" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0001" x="10" y="10" width="457" height="90" frameX="-3" frameY="-1" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0002" x="477" y="10" width="436" height="91" frameX="-8" frameY="-2" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0003" x="477" y="10" width="436" height="91" frameX="-8" frameY="-2" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0004" x="10" y="111" width="439" height="90" frameX="-3" frameY="-3" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0005" x="10" y="111" width="439" height="90" frameX="-3" frameY="-3" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0006" x="459" y="111" width="440" height="87" frameX="-2" frameY="-4" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0007" x="10" y="211" width="439" height="94" frameX="-2" frameY="0" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0008" x="459" y="211" width="446" height="92" frameX="0" frameY="-4" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0009" x="10" y="315" width="443" height="93" frameX="-3" frameY="-3" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0010" x="463" y="315" width="451" height="79" frameX="-3" frameY="-5" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0011" x="463" y="315" width="451" height="79" frameX="-3" frameY="-5" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0012" x="10" y="418" width="445" height="86" frameX="-3" frameY="-6" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0013" x="465" y="418" width="446" height="70" frameX="-3" frameY="-13" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0014" x="921" y="418" width="0" height="0" frameX="-3" frameY="4" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls ghoul0015" x="921" y="418" width="0" height="0" frameX="-3" frameY="4" frameWidth="460" frameHeight="96"/>
+	<SubTexture name="BG fangirls glitch0000" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0001" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0002" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0003" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0004" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0005" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0006" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0007" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0008" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0009" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0010" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0011" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0012" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0013" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0014" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0015" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0016" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0017" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0018" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0019" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0020" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0021" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0022" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0023" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0024" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0025" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0026" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0027" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0028" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG fangirls glitch0029" x="10" y="514" width="451" height="96"/>
+	<SubTexture name="BG girls group0000" x="471" y="514" width="450" height="96"/>
+	<SubTexture name="BG girls group0001" x="471" y="514" width="450" height="96"/>
+	<SubTexture name="BG girls group0002" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0003" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0004" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0005" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0006" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0007" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0008" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0009" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0010" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0011" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0012" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0013" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0014" x="10" y="726" width="450" height="96"/>
+	<SubTexture name="BG girls group0015" x="10" y="726" width="450" height="96"/>
+	<SubTexture name="BG girls group0016" x="470" y="726" width="450" height="96"/>
+	<SubTexture name="BG girls group0017" x="470" y="726" width="450" height="96"/>
+	<SubTexture name="BG girls group0018" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0019" x="470" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0020" x="10" y="832" width="450" height="96"/>
+	<SubTexture name="BG girls group0021" x="10" y="832" width="450" height="96"/>
+	<SubTexture name="BG girls group0022" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0023" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0024" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0025" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0026" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0027" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0028" x="10" y="620" width="450" height="96"/>
+	<SubTexture name="BG girls group0029" x="10" y="620" width="450" height="96"/>
+</TextureAtlas>

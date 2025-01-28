@@ -1,53 +1,53 @@
 function onCreate()
 	
-makeLuaSprite('stageback', 'fatherShadow/stagebackShadow', -300, -400);
+makeLuaSprite('stageback', 'stage_assets/fatherShadow/stagebackShadow', -300, -400);
 setScrollFactor('stageback', 0.9, 0.9);
 addLuaSprite('stageback', false);
 
-makeAnimatedLuaSprite('spico','fatherTempest/tempestBG-pico',-500,-270)
+makeAnimatedLuaSprite('spico','stage_assets/fatherTempest/tempestBG-pico',-500,-270)
 addAnimationByPrefix('spico','idle','stageback glow',24,true)
 setProperty('spico.visible',false)
 addLuaSprite('spico')
 
-makeAnimatedLuaSprite('spicospooky','fatherTempest/tempestBG-picoSpooky',-500,-270)
+makeAnimatedLuaSprite('spicospooky','stage_assets/fatherTempest/tempestBG-picoSpooky',-500,-270)
 addAnimationByPrefix('spicospooky','idle','stageback glow',24,true)
 setProperty('spicospooky.visible',false)
 addLuaSprite('spicospooky')
 
-makeAnimatedLuaSprite('smom','fatherTempest/tempestBG-playerGone',-500,-270)
+makeAnimatedLuaSprite('smom','stage_assets/fatherTempest/tempestBG-playerGone',-500,-270)
 addAnimationByPrefix('smom','idle','stageback glow',24,true)
 setProperty('smom.visible',false)
 addLuaSprite('smom')
 
-makeAnimatedLuaSprite('sdying','fatherTempest/tempestBG-dying',-500,-270)
+makeAnimatedLuaSprite('sdying','stage_assets/fatherTempest/tempestBG-dying',-500,-270)
 addAnimationByPrefix('sdying','idle','stageback glow',24,true)
 setProperty('sdying.visible',false)
 addLuaSprite('sdying')
 	
-makeAnimatedLuaSprite('sdying2','fatherTempest/tempestBG-dying2',-500,-270)
+makeAnimatedLuaSprite('sdying2','stage_assets/fatherTempest/tempestBG-dying2',-500,-270)
 addAnimationByPrefix('sdying2','idle','stageback glow',24,true)
 setProperty('sdying2.visible',false)
 addLuaSprite('sdying2')
 
-makeLuaSprite('stageback2', 'father2/stageback', -600, -400);
+makeLuaSprite('stageback2', 'stage_assets/father2/stageback', -600, -400);
 setScrollFactor('stageback2', 0.9, 0.9);
 addLuaSprite('stageback2', false);
 	
-	makeLuaSprite('stagefront', 'fatherShadow/stagefrontShadow', -550, 600);
+	makeLuaSprite('stagefront', 'stage_assets/fatherShadow/stagefrontShadow', -550, 600);
 	scaleObject('stagefront', 1.1, 1.1);
 	addLuaSprite('stagefront', false);
 
-	makeLuaSprite('stagefront2', 'stagefrontEvil', -800, 600);
+	makeLuaSprite('stagefront2', 'stage_assets/father/stagefrontEvil', -800, 600);
 	scaleObject('stagefront2', 1.2, 1.2);
 	addLuaSprite('stagefront2', false);
 
-	makeLuaSprite('light','fatherShadow/stage_lightShadow',0,-100)
+	makeLuaSprite('light','stage_assets/fatherShadow/stage_lightShadow',0,-100)
     makeLuaSprite('light2','stage_light',0,-100)
 	makeLuaSprite('light3','stage_lightAlt',0,-100)
 	
-	makeLuaSprite('light-alt','fatherShadow/stage_lightShadow',1600,-100)
-	makeLuaSprite('light2-alt','stage_light',1600,-100)
-	makeLuaSprite('light3-alt','stage_lightAlt',1600,-100)
+	makeLuaSprite('light-alt','stage_assets/fatherShadow/stage_lightShadow',1600,-100)
+	makeLuaSprite('light2-alt','stage_assets/father/stage_light',1600,-100)
+	makeLuaSprite('light3-alt','stage_assets/father/stage_lightAlt',1600,-100)
 	setPropertyLuaSprite('light-alt', 'flipX', true);
 	setPropertyLuaSprite('light2-alt', 'flipX', true);
 	setPropertyLuaSprite('light3-alt', 'flipX', true);
@@ -73,19 +73,19 @@ addLuaSprite('stageback2', false);
 	setProperty('stageback2.alpha',0)
 end
 function onCreatePost()
-makeLuaSprite('tempestLights', 'fatherTempest/tempestLights', -350, -250);
+makeLuaSprite('tempestLights', 'stage_assets/fatherTempest/tempestLights', -350, -250);
 addLuaSprite('tempestLights', true);
 setProperty('tempestLights.alpha',0)
-makeLuaSprite('stagecurtains', 'fatherShadow/stagecurtainsShadow', -800, -450);
+makeLuaSprite('stagecurtains', 'stage_assets/fatherShadow/stagecurtainsShadow', -800, -450);
 setScrollFactor('stagecurtains', 1.3, 1.3);
 scaleObject('stagecurtains', 1.2, 1.2);
 addLuaSprite('stagecurtains', true);
-makeLuaSprite('stagecurtains2', 'father2/stagecurtains', -800, -450);
+makeLuaSprite('stagecurtains2', 'stage_assets/father2/stagecurtains', -800, -450);
 setScrollFactor('stagecurtains2', 1.3, 1.3);
 scaleObject('stagecurtains2', 1.2, 1.2);
 addLuaSprite('stagecurtains2', true);
 setProperty('stagecurtains2.alpha',0)
-makeAnimatedLuaSprite('tempestDudes','fatherTempest/tempestDudes',-350,750)
+makeAnimatedLuaSprite('tempestDudes','stage_assets/fatherTempest/tempestDudes',-350,750)
 addAnimationByPrefix('tempestDudes','idle','fgCrowd',24,true)
 scaleObject('tempestDudes', 2, 2);
 addLuaSprite('tempestDudes',true)

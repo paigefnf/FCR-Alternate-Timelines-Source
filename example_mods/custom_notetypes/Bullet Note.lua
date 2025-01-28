@@ -2,7 +2,7 @@ local SingAnims = {'dodgeLEFT', 'dodgeDOWN', 'dodgeUP', 'dodgeRIGHT'} --Sing Ani
 function onCreate()
 	for i = 0, getProperty('unspawnNotes.length') - 1 do
 if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Bullet Note' then
-setPropertyFromGroup('unspawnNotes', i, 'texture', 'noteSkins/NOTE_assets-bullet');			
+setPropertyFromGroup('unspawnNotes', i, 'texture', 'ui/noteSkins/NOTE_assets-bullet');			
 setPropertyFromGroup('unspawnNotes', i, 'noteSplashData.texture', 'noteSplashes/noteSplashes-electric');		
 setPropertyFromGroup('unspawnNotes', i, 'noAnimation', true);
 setPropertyFromGroup("playerStrums", i, 'useRGBShader', false)			

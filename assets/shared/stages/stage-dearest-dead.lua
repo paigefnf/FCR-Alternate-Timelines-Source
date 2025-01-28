@@ -1,15 +1,15 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('stageback', 'fatherShadow/stagebackShadow', -400, -400);
+	makeLuaSprite('stageback', 'stage_assets/fatherShadow/stagebackShadow', -400, -400);
 	setScrollFactor('stageback', 0.9, 0.9);
 	addLuaSprite('stageback', false);
 
-	makeLuaSprite('stagefront', 'fatherShadow/stagefrontShadow', -600, 600);
+	makeLuaSprite('stagefront', 'stage_assets/fatherShadow/stagefrontShadow', -600, 600);
 	setScrollFactor('stagefront', 0.9, 0.9);
 	scaleObject('stagefront', 1.1, 1.1);
 	addLuaSprite('stagefront', false);
 
-	makeLuaSprite('stagecurtains', 'fatherShadow/stagecurtainsShadow', -300, -300);
+	makeLuaSprite('stagecurtains', 'stage_assets/fatherShadow/stagecurtainsShadow', -300, -300);
 	setScrollFactor('stagecurtains', 1.3, 1.3);
 	scaleObject('stagecurtains', 0.9, 0.9);
 	addLuaSprite('stagecurtains', false);
