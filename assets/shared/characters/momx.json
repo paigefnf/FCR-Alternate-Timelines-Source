@@ -1,0 +1,81 @@
+{
+"animations": [
+{
+"loop": false,
+"offsets": [
+0,
+0
+],
+"anim": "idle",
+"fps": 24,
+"name": "Mom Idle",
+"indices": []
+},
+{
+"loop": false,
+"offsets": [
+209,
+-50
+],
+"anim": "singLEFT",
+"fps": 24,
+"name": "Mom Left Pose",
+"indices": []
+},
+{
+"loop": false,
+"offsets": [
+12,
+-37
+],
+"anim": "singRIGHT",
+"fps": 24,
+"name": "Mom Pose Left",
+"indices": []
+},
+{
+"loop": false,
+"offsets": [
+37,
+-212
+],
+"anim": "singDOWN",
+"fps": 24,
+"name": "MOM DOWN POSE",
+"indices": []
+},
+{
+"loop": false,
+"offsets": [
+34,
+62
+],
+"anim": "singUP",
+"fps": 24,
+"name": "Mom Up Pose",
+"indices": []
+}
+],
+"no_antialiasing": false,
+"image": "characters/extras/corruptionx/MM_X",
+"position": [
+0,
+0
+],
+"healthicon": "mom-evil",
+"priorityAnim": [
+],
+"flip_x": false,
+"healthbar_colors": [
+154,
+27,
+59
+],
+"camera_position": [
+0,
+150
+],
+"sing_duration": 4,
+"scale": 1,
+"_editor_isPlayer": false
+}

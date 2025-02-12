@@ -5,13 +5,13 @@ setScrollFactor('stageback', 0.9, 0.9);
 makeLuaSprite('stagefront', 'stage_assets/father/stagefrontFCR', -800, 600);
 scaleObject('stagefront', 1.1, 1.1);
 
-makeLuaSprite('light','stage_lightFCR',-50,-50)
+makeLuaSprite('light','stage_assets/father/stage_lightFCR',-50,-50)
 
-makeLuaSprite('light2','stage_lightAlt',-50,-50)
+makeLuaSprite('light2','stage_assets/father/stage_lightAlt',-50,-50)
 
-makeLuaSprite('light-alt','stage_lightFCR',1650,-50)
+makeLuaSprite('light-alt','stage_assets/father/stage_lightFCR',1650,-50)
 
-makeLuaSprite('light2-alt','stage_lightAlt',1650,-50)
+makeLuaSprite('light2-alt','stage_assets/father/stage_lightAlt',1650,-50)
 setPropertyLuaSprite('light-alt', 'flipX', true);
 setPropertyLuaSprite('light2-alt', 'flipX', true);
 setProperty('light2.visible',false)

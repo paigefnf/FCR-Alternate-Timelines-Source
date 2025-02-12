@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				75,
+				420
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bef idle"
+		},
+		{
+			"offsets": [
+				87,
+				429
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bef left"
+		},
+		{
+			"offsets": [
+				70,
+				417
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bef down"
+		},
+		{
+			"offsets": [
+				44,
+				437
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bef up"
+		},
+		{
+			"offsets": [
+				46,
+				410
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bef right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/extras/echo/bef1",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bef1",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		10,
+		-540
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

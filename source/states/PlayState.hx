@@ -1126,8 +1126,8 @@ class PlayState extends MusicBeatState
 		}
 
 		var tempScore:String = 'Points:${songScore}'
-		+ (!instakillOnMiss ? ' Combo Breaks:${songMisses}' : "")
-		+ ' Grade:${str}';
+		+ (!instakillOnMiss ? ' / Combo Breaks:${songMisses}' : "")
+		+ ' / Grade:${str}';
 		// "tempScore" variable is used to prevent another memory leak, just in case
 		// "\n" here prevents the text from being cut off by beat zooms
 		scoreTxt.text = '${tempScore}\n';
@@ -1150,11 +1150,11 @@ class PlayState extends MusicBeatState
 		{
 			if (bads > 0 || shits > 0) ratingFC = 'FC';
 			else if (goods > 0) ratingFC = 'GFC';
-			else if (sicks > 0) ratingFC = 'PFC';
+			else if (sicks > 0) ratingFC = 'P';
 		}
 		else {
 			if (songMisses < 10) ratingFC = 'CB';
-			else ratingFC = 'Clear';
+			else ratingFC = '';
 		}
 	}
 
@@ -1631,7 +1631,7 @@ class PlayState extends MusicBeatState
 			FlxG.camera.followLerp = 2.4 * cameraSpeed * playbackRate;
 			if(!startingSong && !endingSong && boyfriend.getAnimationName().startsWith('idle')) {
 				boyfriendIdleTime += elapsed;
-				if(boyfriendIdleTime >= 0.15) { // Kind of a mercy thing for making the achievement easier to get as it's apparently frustrating to some playerss
+				if(boyfriendIdleTime >= 0.15) { // Kind of a mercy thing for making the achievement easier to get as it's apparently frustrating to some players
 					boyfriendIdled = true;
 				}
 			} else {
@@ -1647,11 +1647,6 @@ class PlayState extends MusicBeatState
 
 		setOnScripts('curDecStep', curDecStep);
 		setOnScripts('curDecBeat', curDecBeat);
-
-		if(botplayTxt != null && botplayTxt.visible) {
-			botplaySine += 180 * elapsed;
-			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
-		}
 
 		if (controls.PAUSE && startedCountdown && canPause)
 		{
@@ -1816,11 +1811,11 @@ class PlayState extends MusicBeatState
 	// Health icon updaters
 	public dynamic function updateIconsScale(elapsed:Float)
 	{
-		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, Math.exp(-elapsed * 3 * playbackRate)); //sexy icon bounce
+		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, Math.exp(-elapsed * 1 * playbackRate)); //sexy icon bounce (note to self: set number back to 3 if it's awful)
 		iconP1.scale.set(mult, mult);
 		iconP1.updateHitbox();
 
-		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, Math.exp(-elapsed * 3 * playbackRate)); //sexy icon bounce
+		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, Math.exp(-elapsed * 1 * playbackRate)); //sexy icon bounce (note to self: set number back to 3 if it's awful)
 		iconP2.scale.set(mult, mult);
 		iconP2.updateHitbox();
 	}
@@ -2016,7 +2011,6 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'Play Animation':
-				//trace('Anim to play: ' + value1);
 				var char:Character = dad;
 				switch(value2.toLowerCase().trim()) {
 					case 'bf' | 'boyfriend':
@@ -2504,7 +2498,6 @@ class PlayState extends MusicBeatState
 		comboSpr.x = placement;
 		comboSpr.acceleration.y = FlxG.random.int(200, 300) * playbackRate * playbackRate;
 		comboSpr.velocity.y -= FlxG.random.int(140, 160) * playbackRate;
-		comboSpr.visible = (!ClientPrefs.data.hideHud && showCombo);
 		comboSpr.x += ClientPrefs.data.comboOffset[0];
 		comboSpr.y -= ClientPrefs.data.comboOffset[1];
 		comboSpr.antialiasing = antialias;
@@ -2557,36 +2550,34 @@ class PlayState extends MusicBeatState
 			numScore.visible = !ClientPrefs.data.hideHud;
 			numScore.antialiasing = antialias;
 
-			//if (combo >= 10 || combo == 0)
 			if(showComboNum)
 				comboGroup.add(numScore);
 
-			FlxTween.tween(numScore, {alpha: 0}, 0.2 / playbackRate, {
-				onComplete: function(tween:FlxTween)
-				{
-					numScore.destroy();
-				},
-				startDelay: Conductor.crochet * 0.002 / playbackRate
-			});
+			FlxTween.tween(numScore, {alpha: 0}, 0.007 / playbackRate, {onComplete: _ -> {
+				numScore.kill();
+				numScore.alpha = 1;
+			},
+			startDelay: Conductor.crochet * 0.001 / playbackRate
+		});
 
 			daLoop++;
 			if(numScore.x > xThing) xThing = numScore.x;
 		}
 		comboSpr.x = xThing + 50;
-		FlxTween.tween(rating, {alpha: 0}, 0.2 / playbackRate, {
-			startDelay: Conductor.crochet * 0.001 / playbackRate
+		
+		FlxTween.tween(rating, {alpha: 0}, 0.15 / playbackRate, {
+			startDelay: Conductor.crochet * 0.0005 / playbackRate
 		});
 
-		FlxTween.tween(comboSpr, {alpha: 0}, 0.2 / playbackRate, {
+		FlxTween.tween(comboSpr, {alpha: 0}, 0.1 / playbackRate, {
 			onComplete: function(tween:FlxTween)
 			{
 				comboSpr.destroy();
 				rating.destroy();
 			},
-			startDelay: Conductor.crochet * 0.002 / playbackRate
+			startDelay: Conductor.crochet * 0.001 / playbackRate
 		});
 	}
-
 	public var strumsBlocked:Array<Bool> = [];
 	private function onKeyPress(event:KeyboardEvent):Void
 	{

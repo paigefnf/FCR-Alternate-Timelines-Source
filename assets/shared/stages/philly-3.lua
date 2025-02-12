@@ -6,7 +6,7 @@ setLuaSpriteScrollFactor('bg2', 0.1, 0.1);
 makeLuaSprite('city','stage_assets/philly3/city', -600, -400);
 setLuaSpriteScrollFactor('city', 0.3, 0.3)	
 makeLuaSprite('streetBehind','stage_assets/philly/behindTrain', -200, -100);
-makeLuaSprite('phillyStreet','street', -650, 500);	
+makeLuaSprite('phillyStreet','stage_assets/philly/street', -650, 500);	
 makeLuaSprite('overlayLights', 'overlay', 0, 0);
 setObjectCamera('overlayLights', 'hud');
 makeLuaSprite('black', '', 0, 0);

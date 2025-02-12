@@ -1,0 +1,128 @@
+{
+	"storyName": "Main",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Dispatch",
+			"mom-2",
+			[
+				75,
+				0,
+				60
+			]
+		],
+		[
+			"Bedeviled",
+			"dad-1",
+			[
+				126,
+				73,
+				153
+			]
+		],
+		[
+			"Despondency",
+			"dad-2",
+			[
+				126,
+				73,
+				133
+			]
+		],
+		[
+			"Eclipsed Hope",
+			"dad-fakeout",
+			[
+				66,
+				33,
+				113
+			]
+		],
+		[
+			"Times Up Remix",
+			"pico-spirit",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Dispatch Remix",
+			"mom2",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Defeat Evil Cover",
+			"mom-evil",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Comatose",
+			"pico-3",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Comatose SC Mix",
+			"catnap-corrupt",
+			[
+				66,
+				33,
+				113
+			]
+		]
+		[
+			"Minds Eye Squared",
+			"bf-resurgence",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Overwrite Cover",
+			"mom-evil",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Relighted Cover",
+			"dad-evil",
+			[
+				66,
+				33,
+				113
+			]
+		],
+		[
+			"Echo",
+			"bef1",
+			[
+				49,
+				176,
+				209
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Week 1"
+}
