@@ -1,1 +1,168 @@
-{"animations": [{"loop": false,"offsets": [13,-10],"anim": "idle","fps": 24,"name": "Pico Idle Dance","indices": []},{"loop": false,"offsets": [-136,20],"anim": "singUP","fps": 24,"name": "pico Up note0","indices": []},{"loop": false,"offsets": [-22,-93],"anim": "singDOWN","fps": 24,"name": "Pico Down Note0","indices": []},{"offsets": [-140,3],"loop": false,"fps": 24,"anim": "singRIGHT","indices": [],"name": "Pico Note Right0"},{"offsets": [45,-7],"loop": false,"fps": 24,"anim": "singLEFT","indices": [],"name": "Pico NOTE LEFT0"},{"loop": false,"offsets": [-36,20],"anim": "singUPmiss","fps": 24,"name": "Pico missup","indices": []},{"loop": false,"offsets": [-6,-91],"anim": "singDOWNmiss","fps": 24,"name": "Pico missdown","indices": []},{"loop": false,"offsets": [45,-7],"anim": "singLEFTmiss","fps": 24,"name": "Pico missleft","indices": []},{"loop": false,"offsets": [-122,2],"anim": "singRIGHTmiss","fps": 24,"name": "Pico missright","indices": []},{"offsets": [13,5],"loop": false,"fps": 24,"anim": "reload","indices": [],"name": "Pico Reload"},{"offsets": [379,18],"loop": false,"fps": 24,"anim": "shoot","indices": [],"name": "Pico Shoot"},{"loop": false,"offsets": [-110,-10],"anim": "selfshoot","fps": 24,"name": "Pico Don't Do It","indices": []},{"loop": false,"offsets": [0,-10],"anim": "coocoo","fps": 24,"name": "Pico Coocoo","indices": []}],"vocals_file": "","no_antialiasing": false,"image": "characters/mother/definitive/pico-mom1","position": [-100,280],"healthicon": "pico-mom1","flip_x": true,"healthbar_colors": [0,0,0],"camera_position": [100,50],"sing_duration": 4,"scale": 1,"_editor_isPlayer": true}
+{
+	"animations": [
+		{
+			"offsets": [
+				13,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Pico Idle Dance"
+		},
+		{
+			"offsets": [
+				-136,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "pico Up note0"
+		},
+		{
+			"offsets": [
+				-22,
+				-93
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Pico Down Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-140,
+				3
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Pico Note Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				45,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Pico NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-36,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Pico missup"
+		},
+		{
+			"offsets": [
+				-6,
+				-91
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Pico missdown"
+		},
+		{
+			"offsets": [
+				45,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Pico missleft"
+		},
+		{
+			"offsets": [
+				-122,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Pico missright"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				5
+			],
+			"anim": "reload",
+			"fps": 24,
+			"name": "Pico Reload",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				379,
+				18
+			],
+			"anim": "shoot",
+			"fps": 24,
+			"name": "Pico Shoot",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-110,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "selfshoot",
+			"indices": [],
+			"name": "Pico Don't Do It"
+		},
+		{
+			"offsets": [
+				14,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "laugh",
+			"indices": [],
+			"name": "Pico Laughing"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mother/definitive/pico-mom1",
+	"position": [
+		-100,
+		280
+	],
+	"healthicon": "pico-mom1",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		100,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

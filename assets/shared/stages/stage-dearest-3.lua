@@ -57,10 +57,10 @@ doTweenAlpha('iconP1','iconP1',0,0.01,'linear')
 end
 end
 function onStepHit()
-if curStep == 277 then
+if curStep == 512 then
 doTweenAlpha('flash','flash',1,0.75,'linear')
 end
-if curStep == 288 then
+if curStep == 544 then
 doTweenAlpha('iconP1','iconP1',1,0.01,'linear')
 setProperty('boyfriend.visible',true)
 doTweenAlpha('flash','flash',0,0.5,'linear')
@@ -69,42 +69,42 @@ setProperty('stagebackbf.visible',true)
 setProperty('stagefront.visible',false)
 setProperty('stagefront2.visible',true)
 end
-if curStep == 1018 then
+if curStep == 1056 then
 doTweenAlpha('flash','flash',1,0.75,'linear')
 end
-if curStep == 1024 then
+if curStep == 1087 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackbf.visible',false)
 setProperty('stagebackpico.visible',true)
 end
-if curStep == 1532 then
+if curStep == 1599 then
 doTweenAlpha('flash','flash',1,0.75,'linear')
 end
-if curStep == 1536 then
+if curStep == 1632 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackpico.visible',false)
 setProperty('stagebackspooky.visible',true)
 end
-if curStep == 2240 then
+if curStep == 2146 then
 doTweenAlpha('flash','flash',1,0.75,'linear')
 end
-if curStep == 2304 then
+if curStep == 2592 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackspooky.visible',false)
 setProperty('stagebackmom.visible',true)
 end
-if curStep == 3576 then
-doTweenAlpha('flash','flash',1,0.75,'linear')
+if curStep == 3312 then
+doTweenAlpha('flash','flash',1,15,'linear')
 end
-if curStep == 3584 then
+if curStep == 3520 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackmom.visible',false)
 setProperty('stagebackbf.visible',true)
 end
-if curStep == 5120 then
-doTweenAlpha('flash','flash',1,0.75,'linear')
+if curStep == 4928 then
+doTweenAlpha('flash','flash',1,5,'linear')
 end
-if curStep == 5152 then
+if curStep == 4960 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 end
 end
