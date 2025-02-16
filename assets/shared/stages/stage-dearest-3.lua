@@ -85,7 +85,7 @@ doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackpico.visible',false)
 setProperty('stagebackspooky.visible',true)
 end
-if curStep == 2146 then
+if curStep == 2416 then
 doTweenAlpha('flash','flash',1,0.75,'linear')
 end
 if curStep == 2592 then
