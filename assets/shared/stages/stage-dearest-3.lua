@@ -94,7 +94,7 @@ setProperty('stagebackspooky.visible',false)
 setProperty('stagebackmom.visible',true)
 end
 if curStep == 3312 then
-doTweenAlpha('flash','flash',1,15,'linear')
+doTweenAlpha('flash','flash',1,10,'linear')
 end
 if curStep == 3520 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
@@ -102,7 +102,7 @@ setProperty('stagebackmom.visible',false)
 setProperty('stagebackbf.visible',true)
 end
 if curStep == 4928 then
-doTweenAlpha('flash','flash',1,5,'linear')
+doTweenAlpha('flash','flash',1,1,'linear')
 end
 if curStep == 4960 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
