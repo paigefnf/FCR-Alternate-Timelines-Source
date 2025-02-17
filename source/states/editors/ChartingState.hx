@@ -259,7 +259,14 @@ class ChartingState extends MusicBeatState
 		nextRenderedSustains = new FlxTypedGroup<FlxSprite>();
 		nextRenderedNotes = new FlxTypedGroup<Note>();
 
-		FlxG.mouse.visible = true;
+		var cursor:FlxSprite;
+
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('cursor'));
+		FlxG.mouse.load(cursor.pixels);
 		//FlxG.save.bind('funkin', CoolUtil.getSavePath());
 
 		//addSection();

@@ -46,11 +46,7 @@ setObjectCamera('lay','hud')
 addLuaSprite('lay')
 setProperty('boyfriend.visible',false)
 end
-function opponentNoteHit()
-if getProperty('health') > 0.1 and drain == true then
-setProperty('health',getProperty('health') - 0.02)
-end
-end
+
 function onUpdate()
 if curStep <= 0 then
 doTweenAlpha('iconP1','iconP1',0,0.01,'linear')
@@ -68,6 +64,11 @@ setProperty('stageback.visible',false)
 setProperty('stagebackbf.visible',true)
 setProperty('stagefront.visible',false)
 setProperty('stagefront2.visible',true)
+function opponentNoteHit()
+if getProperty('health') > 0.1 then
+setProperty('health',getProperty('health') - 0.007)
+end
+end
 end
 if curStep == 1056 then
 doTweenAlpha('flash','flash',1,0.75,'linear')
@@ -92,6 +93,11 @@ if curStep == 2592 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackspooky.visible',false)
 setProperty('stagebackmom.visible',true)
+function opponentNoteHit()
+if getProperty('health') > 0.1 then
+setProperty('health',getProperty('health') - 0.005)
+end
+end
 end
 if curStep == 3312 then
 doTweenAlpha('flash','flash',1,10,'linear')
@@ -100,6 +106,11 @@ if curStep == 3520 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
 setProperty('stagebackmom.visible',false)
 setProperty('stagebackbf.visible',true)
+function opponentNoteHit()
+if getProperty('health') > 0.1 then
+setProperty('health',getProperty('health') - 0)
+end
+end
 end
 if curStep == 4928 then
 doTweenAlpha('flash','flash',1,1,'linear')

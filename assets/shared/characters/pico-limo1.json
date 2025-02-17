@@ -1,147 +1,136 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				13,
 				-10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Pico Idle Dance"
-		},
-		{
-			"offsets": [
-				-136,
-				20
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "pico Up note0"
-		},
-		{
-			"offsets": [
-				-22,
-				-93
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Pico Down Note0"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-140,
-				3
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Pico Note Right0",
+			"name": "Pico Idle Dance",
 			"indices": []
 		},
 		{
 			"loop": false,
+			"offsets": [
+				-120,
+				40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "pico Up note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-93
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Pico Down Note0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-139,
+				-4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Pico Note Right0"
+		},
+		{
 			"offsets": [
 				45,
 				-7
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Pico NOTE LEFT0",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Pico NOTE LEFT0"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-36,
 				20
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Pico missup"
+			"fps": 24,
+			"name": "Pico missup",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-6,
 				-91
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Pico missdown"
+			"fps": 24,
+			"name": "Pico missdown",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				45,
 				-7
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "Pico missleft"
+			"fps": 24,
+			"name": "Pico missleft",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-122,
 				2
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "Pico missright"
+			"fps": 24,
+			"name": "Pico missright",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				13,
 				5
 			],
-			"anim": "reload",
+			"loop": false,
 			"fps": 24,
-			"name": "Pico Reload",
-			"indices": []
+			"anim": "reload",
+			"indices": [],
+			"name": "Pico Reload"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				379,
 				18
 			],
-			"anim": "shoot",
-			"fps": 24,
-			"name": "Pico Shoot",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-110,
-				-10
-			],
 			"loop": false,
 			"fps": 24,
-			"anim": "selfshoot",
+			"anim": "shoot",
 			"indices": [],
-			"name": "Pico Don't Do It"
+			"name": "Pico Shoot"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				14,
-				10
+				20
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "laugh",
-			"indices": [],
-			"name": "Pico Laughing"
+			"fps": 24,
+			"name": "Pico Laughing",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
