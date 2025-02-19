@@ -3,7 +3,7 @@
 		{
 			"offsets": [
 				13,
-				-10
+				-12
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				-110,
-				50
+				-112,
+				44
 			],
 			"loop": false,
 			"fps": 24,
@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				-7,
-				-93
+				-90
 			],
 			"loop": false,
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-114,
-				-11
+				-115,
+				-12
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -48,7 +48,7 @@
 			"loop": false,
 			"offsets": [
 				45,
-				-7
+				-8
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -58,7 +58,7 @@
 		{
 			"offsets": [
 				-36,
-				47
+				40
 			],
 			"loop": false,
 			"fps": 24,
@@ -69,7 +69,7 @@
 		{
 			"offsets": [
 				-6,
-				-116
+				-118
 			],
 			"loop": false,
 			"fps": 24,
@@ -79,8 +79,8 @@
 		},
 		{
 			"offsets": [
-				45,
-				-7
+				46,
+				-8
 			],
 			"loop": false,
 			"fps": 24,
@@ -91,7 +91,7 @@
 		{
 			"offsets": [
 				-116,
-				-12
+				-14
 			],
 			"loop": false,
 			"fps": 24,
@@ -102,8 +102,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				13,
-				21
+				15,
+				18
 			],
 			"anim": "reload",
 			"fps": 24,
@@ -114,7 +114,7 @@
 			"loop": false,
 			"offsets": [
 				379,
-				-12
+				-14
 			],
 			"anim": "shoot",
 			"fps": 24,
@@ -124,7 +124,7 @@
 		{
 			"offsets": [
 				14,
-				5
+				3
 			],
 			"loop": false,
 			"fps": 24,

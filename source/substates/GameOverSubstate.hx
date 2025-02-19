@@ -8,6 +8,7 @@ import flixel.FlxSubState;
 
 import states.StoryMenuState;
 import states.FreeplayState;
+import backend.ClientPrefs;
 
 class GameOverSubstate extends MusicBeatSubstate
 {
@@ -43,8 +44,16 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	var charX:Float = 0;
 	var charY:Float = 0;
+
 	override function create()
 	{
+		/*var gameOverBG:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('stage_assets/backAlt'));
+		gameOverBG.antialiasing = ClientPrefs.data.antialiasing;
+		gameOverBG.x -= 750;
+		gameOverBG.y -= 680;
+		gameOverBG.updateHitbox();
+		add(gameOverBG);*/
+
 		instance = this;
 
 		Conductor.songPosition = 0;
@@ -72,6 +81,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	}
 
 	public var startedDeath:Bool = false;
+
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
@@ -108,11 +118,6 @@ class GameOverSubstate extends MusicBeatSubstate
 
 			if(boyfriend.animation.curAnim.name == 'firstDeath')
 			{
-				if(boyfriend.animation.curAnim.curFrame >= 12 && !moveCamera)
-				{
-					FlxG.camera.follow(camFollow, LOCKON, 0.6);
-					moveCamera = true;
-				}
 
 				if (boyfriend.animation.curAnim.finished && !playingDeathSound)
 				{
