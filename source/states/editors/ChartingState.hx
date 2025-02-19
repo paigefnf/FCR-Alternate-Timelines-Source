@@ -1531,13 +1531,13 @@ class ChartingState extends MusicBeatState
 			var label = check.getLabel().text;
 			switch (label)
 			{
-				case 'Must hit section':
+				case 'Player Section': // forgot to change these, old labels causes them to not update the grid and heads later
 					_song.notes[curSec].mustHitSection = check.checked;
 
 					updateGrid();
 					updateHeads();
 
-				case 'GF section':
+				case 'GF Section':
 					_song.notes[curSec].gfSection = check.checked;
 
 					updateGrid();

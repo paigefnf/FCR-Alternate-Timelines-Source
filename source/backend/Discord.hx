@@ -8,7 +8,7 @@ import hxdiscord_rpc.Types;
 class DiscordClient
 {
 	public static var isInitialized:Bool = false;
-	private static final _defaultID:String = "863222024192262205";
+	private static final _defaultID:String = "1341891647469785131";
 	public static var clientID(default, set):String = _defaultID;
 	private static var presence:DiscordRichPresence = DiscordRichPresence.create();
 
@@ -79,7 +79,7 @@ class DiscordClient
 		isInitialized = true;
 	}
 
-	public static function changePresence(?details:String = 'In the Menus', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
+	public static function changePresence(?details:String = 'Main Menu', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
 	{
 		var startTimestamp:Float = 0;
 		if (hasStartTimestamp) startTimestamp = Date.now().getTime();
