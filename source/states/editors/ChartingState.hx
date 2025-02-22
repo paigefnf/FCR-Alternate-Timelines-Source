@@ -265,13 +265,8 @@ class ChartingState extends MusicBeatState
 
 		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
 
-		cursor.loadGraphic(Paths.image('cursor'));
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
 		FlxG.mouse.load(cursor.pixels);
-		//FlxG.save.bind('funkin', CoolUtil.getSavePath());
-
-		//addSection();
-
-		// sections = _song.notes;
 
 		updateJsonData();
 		currentSongName = Paths.formatToSongPath(_song.song);
@@ -1531,7 +1526,7 @@ class ChartingState extends MusicBeatState
 			var label = check.getLabel().text;
 			switch (label)
 			{
-				case 'Player Section': // forgot to change these, old labels causes them to not update the grid and heads later
+				case 'Player Section': // forgot to change these, old labels causes them to not update the grid and heads
 					_song.notes[curSec].mustHitSection = check.checked;
 
 					updateGrid();

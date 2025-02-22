@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-mom-mind-squared.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mom healthy icon0000" x="0" y="0" width="107" height="119" frameX="0" frameY="-2" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0001" x="0" y="0" width="107" height="119" frameX="0" frameY="-2" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0002" x="107" y="0" width="106" height="121" frameX="-1" frameY="-1" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0003" x="107" y="0" width="106" height="121" frameX="-1" frameY="-1" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0004" x="213" y="0" width="108" height="123"/>
+	<SubTexture name="mom healthy icon0005" x="213" y="0" width="108" height="123"/>
+	<SubTexture name="mom healthy icon0006" x="0" y="0" width="107" height="119" frameX="0" frameY="-2" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0007" x="0" y="0" width="107" height="119" frameX="0" frameY="-2" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0008" x="0" y="0" width="107" height="119" frameX="0" frameY="-2" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0009" x="0" y="0" width="107" height="119" frameX="0" frameY="-2" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom healthy icon0010" x="213" y="0" width="108" height="123"/>
+	<SubTexture name="mom healthy icon0011" x="213" y="0" width="108" height="123"/>
+	<SubTexture name="mom hurt icon0000" x="327" y="123" width="107" height="114" frameX="0" frameY="0" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0001" x="327" y="123" width="107" height="114" frameX="0" frameY="0" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0002" x="0" y="242" width="107" height="112" frameX="0" frameY="-1" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0003" x="0" y="242" width="107" height="112" frameX="0" frameY="-1" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0004" x="327" y="123" width="107" height="114" frameX="0" frameY="0" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0005" x="327" y="123" width="107" height="114" frameX="0" frameY="0" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0006" x="0" y="242" width="107" height="112" frameX="0" frameY="-1" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom hurt icon0007" x="0" y="242" width="107" height="112" frameX="0" frameY="-1" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0000" x="0" y="242" width="107" height="112" frameX="-2" frameY="-9" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0001" x="0" y="242" width="107" height="112" frameX="-2" frameY="-9" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0002" x="327" y="123" width="107" height="114" frameX="-2" frameY="-8" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0003" x="220" y="123" width="107" height="113" frameX="-2" frameY="-9" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0004" x="104" y="123" width="116" height="110" frameX="0" frameY="-11" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0005" x="0" y="123" width="104" height="119" frameX="-2" frameY="-3" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0006" x="321" y="0" width="104" height="122" frameX="-2" frameY="0" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to healthy icon0007" x="0" y="0" width="107" height="119" frameX="-2" frameY="-3" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom to hurt icon0000" x="0" y="0" width="107" height="119" frameX="-2" frameY="-3" frameWidth="108" frameHeight="123"/>
+	<SubTexture name="mom to hurt icon0001" x="321" y="0" width="104" height="122" frameX="-2" frameY="0" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to hurt icon0002" x="0" y="123" width="104" height="119" frameX="-2" frameY="-3" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to hurt icon0003" x="104" y="123" width="116" height="110" frameX="0" frameY="-11" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to hurt icon0004" x="220" y="123" width="107" height="113" frameX="-2" frameY="-9" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to hurt icon0005" x="327" y="123" width="107" height="114" frameX="-2" frameY="-8" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to hurt icon0006" x="0" y="242" width="107" height="112" frameX="-2" frameY="-9" frameWidth="116" frameHeight="122"/>
+	<SubTexture name="mom to hurt icon0007" x="0" y="242" width="107" height="112" frameX="-2" frameY="-9" frameWidth="116" frameHeight="122"/>
+</TextureAtlas>

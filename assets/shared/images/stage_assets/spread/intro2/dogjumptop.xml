@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dogjumptop.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="dogjumptop0000" x="3403" y="0" width="3403" height="2743" frameX="-101" frameY="-81" frameWidth="3563" frameHeight="2909"/>
+	<SubTexture name="dogjumptop0001" x="0" y="2887" width="3550" height="1960" frameX="-4" frameY="-453" frameWidth="3563" frameHeight="2909"/>
+	<SubTexture name="dogjumptop0002" x="0" y="0" width="3403" height="2887" frameX="-101" frameY="-8" frameWidth="3563" frameHeight="2909"/>
+	<SubTexture name="dogjumptop0003" x="3403" y="0" width="3403" height="2743" frameX="-101" frameY="-81" frameWidth="3563" frameHeight="2909"/>
+	<SubTexture name="dogjumptop0004" x="0" y="2887" width="3550" height="1960" frameX="-4" frameY="-453" frameWidth="3563" frameHeight="2909"/>
+	<SubTexture name="dogjumptop0005" x="3403" y="2743" width="4" height="4" frameX="0" frameY="0" frameWidth="3563" frameHeight="2909"/>
+	<SubTexture name="dogjumptop0006" x="3403" y="2743" width="4" height="4" frameX="0" frameY="0" frameWidth="3563" frameHeight="2909"/>
+</TextureAtlas>

@@ -484,7 +484,7 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
 		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
 
-		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'ui/timeBar', function() return songPercent, 0, 1);
+		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'ui/bars/time/timeBar', function() return songPercent, 0, 1);
 		timeBar.scrollFactor.set();
 		timeBar.screenCenter(X);
 		timeBar.alpha = 0;
@@ -532,11 +532,11 @@ class PlayState extends MusicBeatState
 
 		if(curSong.toLowerCase() == 'echo')
 		{
-			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/healthBar', function() return curHealth, 0, 2);
+			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/healthBar', function() return curHealth, 0, 2);
 		}
 		else
 		{
-			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/barCorruption', function() return curHealth, 0, 2);
+			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/barCorruption', function() return curHealth, 0, 2);
 		}		
 		healthBar.screenCenter(X);
 		healthBar.leftToRight = false;
