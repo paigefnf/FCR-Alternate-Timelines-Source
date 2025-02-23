@@ -123,8 +123,26 @@
 			]
 		],
 		[
-			"Echo",
-			"bef1",
+			"Outrank",
+			"bf-mom1",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Facing The Downfall",
+			"bf-mom2",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Fatigue",
+			"bf-mom3",
 			[
 				49,
 				176,
