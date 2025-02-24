@@ -83,7 +83,8 @@
 		<assets path='example_mods' rename='mods' embed='false'/>
 	</section>
 	<assets path='art/readme.txt' rename='thank you.txt' />
-
+	<assets path='art/secret folder dont open' rename='very sigma folder' />
+.
 	<!-- _______________________________ Libraries ______________________________ -->
 
 	<haxelib name="flixel" />

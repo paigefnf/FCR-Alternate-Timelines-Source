@@ -22,11 +22,10 @@ addLuaSprite('lay2', false)
 setProperty('lay2.alpha',0)
 end
 function onUpdate()
-if songName == 'Fuck-You' then
-setProperty('dad.x',100)
-setProperty('dad.y',200)
-end
 if songName == 'Fatigue' then
-setProperty('camGame.alpha',0.8)
+setProperty('camGame.alpha',1)
+end
+if songName == 'Outrank' then
+setProperty('camGame.alpha',1)
 end
 end
