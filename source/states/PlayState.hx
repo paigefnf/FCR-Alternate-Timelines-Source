@@ -534,6 +534,11 @@ class PlayState extends MusicBeatState
 		{
 			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/healthBar', function() return curHealth, 0, 2);
 		}
+		else if
+		(curSong.toLowerCase() == 'dispatch mania')
+		{
+				healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/barCorruptionOG', function() return curHealth, 0, 2);
+		}
 		else
 		{
 			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/barCorruption', function() return curHealth, 0, 2);
@@ -566,7 +571,7 @@ class PlayState extends MusicBeatState
 		updateScore(false);
 		uiGroup.add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBar.y + 55, FlxG.width - 800, "[Autoplay]", 32);
+		botplayTxt = new FlxText(400, timeBar.y + 55, FlxG.width - 800, "[Bot]", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
@@ -1129,12 +1134,11 @@ class PlayState extends MusicBeatState
 		if(totalPlayed != 0)
 		{
 			var percent:Float = CoolUtil.floorDecimal(ratingPercent * 100, 2);
-			str += '(${percent}%)[${ratingFC}]';
+			str += '${percent}%';
 		}
 
-		var tempScore:String = 'Points:${songScore}'
-		+ (!instakillOnMiss ? ' / Combo Breaks:${songMisses}' : "")
-		+ ' / Grade:${str}';
+		var tempScore:String = ' Points:${songScore}' + (!instakillOnMiss ? '                          Combo Breaks:${songMisses}' : "") + '                         Grade:${str}';
+
 		// "tempScore" variable is used to prevent another memory leak, just in case
 		// "\n" here prevents the text from being cut off by beat zooms
 		scoreTxt.text = '${tempScore}\n';
@@ -1818,11 +1822,11 @@ class PlayState extends MusicBeatState
 	// Health icon updaters
 	public dynamic function updateIconsScale(elapsed:Float)
 	{
-		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, Math.exp(-elapsed * 1 * playbackRate)); //sexy icon bounce (note to self: set number back to 3 if it's awful)
+		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, Math.exp(-elapsed * 10 * playbackRate)); //sexy icon bounce (note to self: set number back to 1 if it's awful)
 		iconP1.scale.set(mult, mult);
 		iconP1.updateHitbox();
 
-		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, Math.exp(-elapsed * 1 * playbackRate)); //sexy icon bounce (note to self: set number back to 3 if it's awful)
+		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, Math.exp(-elapsed * 10 * playbackRate)); //sexy icon bounce (note to self: set number back to 1 if it's awful)
 		iconP2.scale.set(mult, mult);
 		iconP2.updateHitbox();
 	}
@@ -2756,10 +2760,6 @@ class PlayState extends MusicBeatState
 
 			if (!holdArray.contains(true) || endingSong)
 				playerDance();
-
-			#if ACHIEVEMENTS_ALLOWED
-			else checkForAchievement(['oversinging']);
-			#end
 		}
 
 		// TO DO: Find a better way to handle controller inputs, this should work for now
@@ -2932,10 +2932,10 @@ class PlayState extends MusicBeatState
 			if(!note.noMissAnimation) {
 				switch(note.noteType) {
 					case 'Hurt Note': //Hurt note
-						if(boyfriend.animOffsets.exists('hurt')) {
+						/*if(boyfriend.animOffsets.exists('hurt')) {
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
-						}
+						}*/
 				}
 			}
 
@@ -3086,20 +3086,22 @@ class PlayState extends MusicBeatState
 		if (generatedMusic)
 			notes.sort(FlxSort.byY, ClientPrefs.data.downScroll ? FlxSort.ASCENDING : FlxSort.DESCENDING);
 
+		if (curBeat % 2 == 0)
+	{	
 		iconP1.scale.set(1.2, 1.2);
 		iconP2.scale.set(1.2, 1.2);
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
-
-		characterBopper(curBeat);
-
-		super.beatHit();
-		lastBeatHit = curBeat;
-
-		setOnScripts('curBeat', curBeat);
-		callOnScripts('onBeatHit');
 	}
+	characterBopper(curBeat);
+
+	super.beatHit();
+	lastBeatHit = curBeat;
+
+	setOnScripts('curBeat', curBeat);
+	callOnScripts('onBeatHit');
+}
 
 	public function characterBopper(beat:Int):Void
 	{
@@ -3114,7 +3116,7 @@ class PlayState extends MusicBeatState
 	public function playerDance():Void
 	{
 		var anim:String = boyfriend.getAnimationName();
-		if(boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 #if FLX_PITCH / FlxG.sound.music.pitch #end) * boyfriend.singDuration && anim.startsWith('sing') && !anim.endsWith('miss'))
+		if(boyfriend.holdTimer > Conductor.stepCrochet * (0.0020 #if FLX_PITCH / FlxG.sound.music.pitch #end) * boyfriend.singDuration && anim.startsWith('sing') && !anim.endsWith('miss'))
 			boyfriend.dance();
 	}
 

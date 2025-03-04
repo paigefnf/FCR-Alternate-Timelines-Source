@@ -1,5 +1,33 @@
 function onCreate()
 
+precacheImage('characters/father/definitive/bf-dad')
+precacheImage('characters/father/definitive/bf-dad-alt')
+precacheImage('characters/father/definitive/dad-3alt')
+precacheImage('characters/father/definitive/dad-3alt2')
+precacheImage('characters/father/definitive/dad-3alt3')
+precacheImage('characters/father/definitive/dad-3alt4')
+precacheImage('characters/father/definitive/dad-angry')
+precacheImage('characters/father/definitive/dad-evil')
+precacheImage('characters/father/definitive/mom-dad')
+precacheImage('characters/father/definitive/pico-dad')
+precacheImage('characters/father/spooky-dad')
+precacheImage('characters/father/gf-evil')
+precacheImage('characters/father/gf-dad3')
+precacheImage('characters/father/gf-dad3alt')
+precacheImage('characters/father/gf-dad3alt2')
+precacheImage('characters/father/gf-dad3alt3')
+precacheImage('characters/father/gf-dad3alt4')
+precacheImage('characters/father/gf-dad3fakeout')
+
+precacheImage('stage_assets/father2/stageback')
+precacheImage('stage_assets/father3/stagebackAltBf')
+precacheImage('stage_assets/father3/stagebackAltPico')
+precacheImage('stage_assets/father3/stagebackAltSP')
+precacheImage('stage_assets/father3/stagebackAltMom')
+precacheImage('stage_assets/father2/stagefront')
+precacheImage('stage_assets/father/stagefrontAlt')
+precacheImage('stage_assets/father2/stagecurtains')
+
 makeLuaSprite('stageback', 'stage_assets/father2/stageback', -600, -300);
 setScrollFactor('stageback', 0.9, 0.9);
 addLuaSprite('stageback', false);

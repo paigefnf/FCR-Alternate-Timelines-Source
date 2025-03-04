@@ -1,0 +1,1797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="glitchNotes.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="arrowDOWN0000" x="10" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0001" x="190" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0002" x="370" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0003" x="550" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0004" x="730" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0005" x="910" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0006" x="1090" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0007" x="1270" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0008" x="1450" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0009" x="1630" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0010" x="1810" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0011" x="1990" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0012" x="2170" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0013" x="2350" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0014" x="2530" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0015" x="2710" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0016" x="2890" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0017" x="3070" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0018" x="3250" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0019" x="3430" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0020" x="3610" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0021" x="3790" y="10" width="170" height="170"/>
+	<SubTexture name="arrowDOWN0022" x="3790" y="10" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0000" x="10" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0001" x="190" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0002" x="370" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0003" x="550" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0004" x="730" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0005" x="910" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0006" x="1090" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0007" x="1270" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0008" x="1450" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0009" x="1630" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0010" x="1810" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0011" x="1990" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0012" x="2170" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0013" x="2350" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0014" x="2530" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0015" x="2710" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0016" x="2890" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0017" x="3070" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0018" x="3250" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0019" x="3430" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0020" x="3610" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0021" x="3790" y="190" width="170" height="170"/>
+	<SubTexture name="arrowLEFT0022" x="3790" y="190" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0000" x="10" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0001" x="190" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0002" x="370" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0003" x="550" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0004" x="730" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0005" x="910" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0006" x="1090" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0007" x="1270" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0008" x="1450" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0009" x="1630" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0010" x="1810" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0011" x="1990" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0012" x="2170" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0013" x="2350" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0014" x="2530" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0015" x="2710" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0016" x="2890" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0017" x="3070" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0018" x="3250" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0019" x="3430" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0020" x="3610" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0021" x="3790" y="370" width="170" height="170"/>
+	<SubTexture name="arrowRIGHT0022" x="3790" y="370" width="170" height="170"/>
+	<SubTexture name="arrowUP0000" x="10" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0001" x="190" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0002" x="370" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0003" x="550" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0004" x="730" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0005" x="910" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0006" x="1090" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0007" x="1270" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0008" x="1450" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0009" x="1630" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0010" x="1810" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0011" x="1990" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0012" x="2170" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0013" x="2350" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0014" x="2530" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0015" x="2710" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0016" x="2890" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0017" x="3070" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0018" x="3250" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0019" x="3430" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0020" x="3610" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0021" x="3790" y="550" width="170" height="170"/>
+	<SubTexture name="arrowUP0022" x="3790" y="550" width="170" height="170"/>
+	<SubTexture name="blue0000" x="10" y="730" width="170" height="170"/>
+	<SubTexture name="blue0001" x="190" y="730" width="170" height="170"/>
+	<SubTexture name="blue0002" x="370" y="730" width="170" height="170"/>
+	<SubTexture name="blue0003" x="550" y="730" width="170" height="170"/>
+	<SubTexture name="blue0004" x="730" y="730" width="170" height="170"/>
+	<SubTexture name="blue0005" x="910" y="730" width="170" height="170"/>
+	<SubTexture name="blue0006" x="1090" y="730" width="170" height="170"/>
+	<SubTexture name="blue0007" x="1270" y="730" width="170" height="170"/>
+	<SubTexture name="blue0008" x="1450" y="730" width="170" height="170"/>
+	<SubTexture name="blue0009" x="1630" y="730" width="170" height="170"/>
+	<SubTexture name="blue0010" x="1810" y="730" width="170" height="170"/>
+	<SubTexture name="blue0011" x="1990" y="730" width="170" height="170"/>
+	<SubTexture name="blue0012" x="2170" y="730" width="170" height="170"/>
+	<SubTexture name="blue0013" x="2350" y="730" width="170" height="170"/>
+	<SubTexture name="blue0014" x="2530" y="730" width="170" height="170"/>
+	<SubTexture name="blue0015" x="2710" y="730" width="170" height="170"/>
+	<SubTexture name="blue0016" x="2890" y="730" width="170" height="170"/>
+	<SubTexture name="blue0017" x="3070" y="730" width="170" height="170"/>
+	<SubTexture name="blue0018" x="3250" y="730" width="170" height="170"/>
+	<SubTexture name="blue0019" x="3430" y="730" width="170" height="170"/>
+	<SubTexture name="blue0020" x="3610" y="730" width="170" height="170"/>
+	<SubTexture name="blue0021" x="3790" y="730" width="170" height="170"/>
+	<SubTexture name="blue0022" x="10" y="910" width="170" height="170"/>
+	<SubTexture name="blue hold end0000" x="190" y="910" width="46" height="64"/>
+	<SubTexture name="blue hold piece0000" x="246" y="910" width="46" height="44"/>
+	<SubTexture name="down confirm0000" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0001" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0002" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0003" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0004" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0005" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0006" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0007" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0008" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0009" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0010" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0011" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0012" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0013" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0014" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0015" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0016" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0017" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0018" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0019" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0020" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0021" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0022" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0023" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0024" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0025" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0026" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0027" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0028" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0029" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0030" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0031" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0032" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0033" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0034" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0035" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0036" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0037" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0038" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0039" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0040" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0041" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0042" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0043" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0044" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0045" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0046" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0047" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0048" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0049" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0050" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0051" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0052" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0053" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0054" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0055" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0056" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0057" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0058" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0059" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0060" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0061" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0062" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0063" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0064" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0065" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0066" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0067" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0068" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0069" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0070" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0071" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0072" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0073" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0074" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0075" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0076" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0077" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0078" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0079" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0080" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0081" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0082" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0083" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0084" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0085" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0086" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0087" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0088" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0089" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0090" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0091" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0092" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0093" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0094" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0095" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0096" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0097" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0098" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0099" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0100" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0101" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0102" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0103" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0104" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0105" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0106" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0107" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0108" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0109" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0110" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0111" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0112" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0113" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0114" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0115" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0116" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0117" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0118" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0119" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0120" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0121" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0122" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0123" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0124" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0125" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0126" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0127" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0128" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0129" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0130" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0131" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0132" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0133" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0134" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0135" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0136" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0137" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0138" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0139" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0140" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0141" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0142" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0143" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0144" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0145" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0146" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0147" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0148" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0149" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0150" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0151" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0152" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0153" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0154" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0155" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0156" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0157" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0158" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0159" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0160" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0161" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0162" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0163" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0164" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0165" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0166" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0167" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0168" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0169" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0170" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0171" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0172" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0173" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0174" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0175" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0176" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0177" x="3182" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0178" x="3362" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0179" x="3542" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0180" x="3722" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0181" x="3902" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0182" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0183" x="10" y="1090" width="170" height="170"/>
+	<SubTexture name="down confirm0184" x="302" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0185" x="482" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0186" x="662" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0187" x="842" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0188" x="1022" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0189" x="1202" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0190" x="1382" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0191" x="1562" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0192" x="1742" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0193" x="1922" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0194" x="2102" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0195" x="2282" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0196" x="2462" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0197" x="2642" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0198" x="2822" y="910" width="170" height="170"/>
+	<SubTexture name="down confirm0199" x="3002" y="910" width="170" height="170"/>
+	<SubTexture name="down press0000" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0001" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0002" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0003" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0004" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0005" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0006" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0007" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0008" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0009" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0010" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0011" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0012" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0013" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0014" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0015" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0016" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0017" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0018" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0019" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0020" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0021" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0022" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0023" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0024" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0025" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0026" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0027" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0028" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0029" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0030" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0031" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0032" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0033" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0034" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0035" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0036" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0037" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0038" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0039" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0040" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0041" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0042" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0043" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0044" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0045" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0046" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0047" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0048" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0049" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0050" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0051" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0052" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0053" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0054" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0055" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0056" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0057" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0058" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0059" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0060" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0061" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0062" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0063" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0064" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0065" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0066" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0067" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0068" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0069" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0070" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0071" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0072" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0073" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0074" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0075" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0076" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0077" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0078" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0079" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0080" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0081" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0082" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0083" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0084" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0085" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0086" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0087" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0088" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0089" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0090" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0091" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0092" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0093" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0094" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0095" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0096" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0097" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0098" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0099" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0100" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0101" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0102" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0103" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0104" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0105" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0106" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0107" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0108" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0109" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0110" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0111" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0112" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0113" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0114" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0115" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0116" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0117" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0118" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0119" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0120" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0121" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0122" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0123" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0124" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0125" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0126" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0127" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0128" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0129" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0130" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0131" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0132" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0133" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0134" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0135" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0136" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0137" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0138" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0139" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0140" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0141" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0142" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0143" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0144" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0145" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0146" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0147" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0148" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0149" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0150" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0151" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0152" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0153" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0154" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0155" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0156" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0157" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0158" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0159" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0160" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0161" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0162" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0163" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0164" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0165" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0166" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0167" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0168" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0169" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0170" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0171" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0172" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0173" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0174" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0175" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0176" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0177" x="3070" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0178" x="3250" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0179" x="3430" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0180" x="3610" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0181" x="3790" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0182" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0183" x="10" y="1270" width="170" height="170"/>
+	<SubTexture name="down press0184" x="190" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0185" x="370" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0186" x="550" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0187" x="730" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0188" x="910" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0189" x="1090" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0190" x="1270" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0191" x="1450" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0192" x="1630" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0193" x="1810" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0194" x="1990" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0195" x="2170" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0196" x="2350" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0197" x="2530" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0198" x="2710" y="1090" width="170" height="170"/>
+	<SubTexture name="down press0199" x="2890" y="1090" width="170" height="170"/>
+	<SubTexture name="green0000" x="190" y="1270" width="170" height="170"/>
+	<SubTexture name="green0001" x="370" y="1270" width="170" height="170"/>
+	<SubTexture name="green0002" x="550" y="1270" width="170" height="170"/>
+	<SubTexture name="green0003" x="730" y="1270" width="170" height="170"/>
+	<SubTexture name="green0004" x="910" y="1270" width="170" height="170"/>
+	<SubTexture name="green0005" x="1090" y="1270" width="170" height="170"/>
+	<SubTexture name="green0006" x="1270" y="1270" width="170" height="170"/>
+	<SubTexture name="green0007" x="1450" y="1270" width="170" height="170"/>
+	<SubTexture name="green0008" x="1630" y="1270" width="170" height="170"/>
+	<SubTexture name="green0009" x="1810" y="1270" width="170" height="170"/>
+	<SubTexture name="green0010" x="1990" y="1270" width="170" height="170"/>
+	<SubTexture name="green0011" x="2170" y="1270" width="170" height="170"/>
+	<SubTexture name="green0012" x="2350" y="1270" width="170" height="170"/>
+	<SubTexture name="green0013" x="2530" y="1270" width="170" height="170"/>
+	<SubTexture name="green0014" x="2710" y="1270" width="170" height="170"/>
+	<SubTexture name="green0015" x="2890" y="1270" width="170" height="170"/>
+	<SubTexture name="green0016" x="3070" y="1270" width="170" height="170"/>
+	<SubTexture name="green0017" x="3250" y="1270" width="170" height="170"/>
+	<SubTexture name="green0018" x="3430" y="1270" width="170" height="170"/>
+	<SubTexture name="green0019" x="3610" y="1270" width="170" height="170"/>
+	<SubTexture name="green0020" x="3790" y="1270" width="170" height="170"/>
+	<SubTexture name="green0021" x="10" y="1450" width="170" height="170"/>
+	<SubTexture name="green0022" x="10" y="1450" width="170" height="170"/>
+	<SubTexture name="green hold end0000" x="190" y="910" width="46" height="64"/>
+	<SubTexture name="green hold piece0000" x="246" y="910" width="46" height="44"/>
+	<SubTexture name="left confirm0000" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0001" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0002" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0003" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0004" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0005" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0006" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0007" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0008" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0009" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0010" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0011" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0012" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0013" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0014" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0015" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0016" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0017" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0018" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0019" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0020" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0021" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0022" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0023" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0024" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0025" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0026" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0027" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0028" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0029" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0030" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0031" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0032" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0033" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0034" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0035" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0036" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0037" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0038" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0039" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0040" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0041" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0042" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0043" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0044" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0045" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0046" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0047" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0048" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0049" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0050" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0051" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0052" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0053" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0054" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0055" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0056" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0057" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0058" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0059" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0060" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0061" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0062" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0063" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0064" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0065" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0066" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0067" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0068" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0069" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0070" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0071" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0072" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0073" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0074" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0075" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0076" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0077" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0078" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0079" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0080" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0081" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0082" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0083" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0084" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0085" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0086" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0087" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0088" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0089" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0090" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0091" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0092" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0093" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0094" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0095" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0096" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0097" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0098" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0099" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0100" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0101" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0102" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0103" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0104" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0105" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0106" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0107" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0108" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0109" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0110" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0111" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0112" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0113" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0114" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0115" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0116" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0117" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0118" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0119" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0120" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0121" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0122" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0123" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0124" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0125" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0126" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0127" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0128" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0129" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0130" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0131" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0132" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0133" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0134" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0135" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0136" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0137" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0138" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0139" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0140" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0141" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0142" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0143" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0144" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0145" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0146" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0147" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0148" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0149" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0150" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0151" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0152" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0153" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0154" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0155" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0156" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0157" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0158" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0159" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0160" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0161" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0162" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0163" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0164" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0165" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0166" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0167" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0168" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0169" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0170" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0171" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0172" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0173" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0174" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0175" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0176" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0177" x="3070" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0178" x="3250" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0179" x="3430" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0180" x="3610" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0181" x="3790" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0182" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0183" x="10" y="1630" width="170" height="170"/>
+	<SubTexture name="left confirm0184" x="190" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0185" x="370" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0186" x="550" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0187" x="730" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0188" x="910" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0189" x="1090" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0190" x="1270" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0191" x="1450" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0192" x="1630" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0193" x="1810" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0194" x="1990" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0195" x="2170" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0196" x="2350" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0197" x="2530" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0198" x="2710" y="1450" width="170" height="170"/>
+	<SubTexture name="left confirm0199" x="2890" y="1450" width="170" height="170"/>
+	<SubTexture name="left press0000" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0001" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0002" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0003" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0004" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0005" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0006" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0007" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0008" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0009" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0010" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0011" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0012" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0013" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0014" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0015" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0016" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0017" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0018" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0019" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0020" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0021" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0022" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0023" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0024" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0025" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0026" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0027" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0028" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0029" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0030" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0031" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0032" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0033" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0034" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0035" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0036" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0037" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0038" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0039" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0040" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0041" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0042" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0043" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0044" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0045" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0046" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0047" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0048" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0049" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0050" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0051" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0052" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0053" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0054" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0055" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0056" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0057" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0058" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0059" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0060" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0061" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0062" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0063" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0064" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0065" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0066" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0067" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0068" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0069" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0070" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0071" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0072" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0073" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0074" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0075" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0076" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0077" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0078" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0079" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0080" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0081" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0082" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0083" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0084" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0085" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0086" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0087" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0088" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0089" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0090" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0091" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0092" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0093" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0094" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0095" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0096" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0097" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0098" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0099" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0100" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0101" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0102" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0103" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0104" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0105" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0106" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0107" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0108" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0109" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0110" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0111" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0112" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0113" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0114" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0115" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0116" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0117" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0118" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0119" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0120" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0121" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0122" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0123" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0124" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0125" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0126" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0127" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0128" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0129" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0130" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0131" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0132" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0133" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0134" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0135" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0136" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0137" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0138" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0139" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0140" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0141" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0142" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0143" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0144" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0145" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0146" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0147" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0148" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0149" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0150" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0151" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0152" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0153" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0154" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0155" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0156" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0157" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0158" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0159" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0160" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0161" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0162" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0163" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0164" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0165" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0166" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0167" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0168" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0169" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0170" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0171" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0172" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0173" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0174" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0175" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0176" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0177" x="3070" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0178" x="3250" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0179" x="3430" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0180" x="3610" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0181" x="3790" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0182" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0183" x="10" y="1810" width="170" height="170"/>
+	<SubTexture name="left press0184" x="190" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0185" x="370" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0186" x="550" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0187" x="730" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0188" x="910" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0189" x="1090" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0190" x="1270" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0191" x="1450" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0192" x="1630" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0193" x="1810" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0194" x="1990" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0195" x="2170" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0196" x="2350" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0197" x="2530" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0198" x="2710" y="1630" width="170" height="170"/>
+	<SubTexture name="left press0199" x="2890" y="1630" width="170" height="170"/>
+	<SubTexture name="purple hold end0000" x="190" y="910" width="46" height="64"/>
+	<SubTexture name="purple0000" x="190" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0001" x="370" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0002" x="550" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0003" x="730" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0004" x="910" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0005" x="1090" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0006" x="1270" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0007" x="1450" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0008" x="1630" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0009" x="1810" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0010" x="1990" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0011" x="2170" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0012" x="2350" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0013" x="2530" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0014" x="2710" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0015" x="2890" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0016" x="3070" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0017" x="3250" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0018" x="3430" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0019" x="3610" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0020" x="3790" y="1810" width="170" height="170"/>
+	<SubTexture name="purple0021" x="10" y="1990" width="170" height="170"/>
+	<SubTexture name="purple0022" x="10" y="1990" width="170" height="170"/>
+	<SubTexture name="purple hold piece0000" x="246" y="910" width="46" height="44"/>
+	<SubTexture name="red0000" x="190" y="1990" width="170" height="170"/>
+	<SubTexture name="red0001" x="370" y="1990" width="170" height="170"/>
+	<SubTexture name="red0002" x="550" y="1990" width="170" height="170"/>
+	<SubTexture name="red0003" x="730" y="1990" width="170" height="170"/>
+	<SubTexture name="red0004" x="910" y="1990" width="170" height="170"/>
+	<SubTexture name="red0005" x="1090" y="1990" width="170" height="170"/>
+	<SubTexture name="red0006" x="1270" y="1990" width="170" height="170"/>
+	<SubTexture name="red0007" x="1450" y="1990" width="170" height="170"/>
+	<SubTexture name="red0008" x="1630" y="1990" width="170" height="170"/>
+	<SubTexture name="red0009" x="1810" y="1990" width="170" height="170"/>
+	<SubTexture name="red0010" x="1990" y="1990" width="170" height="170"/>
+	<SubTexture name="red0011" x="2170" y="1990" width="170" height="170"/>
+	<SubTexture name="red0012" x="2350" y="1990" width="170" height="170"/>
+	<SubTexture name="red0013" x="2530" y="1990" width="170" height="170"/>
+	<SubTexture name="red0014" x="2710" y="1990" width="170" height="170"/>
+	<SubTexture name="red0015" x="2890" y="1990" width="170" height="170"/>
+	<SubTexture name="red0016" x="3070" y="1990" width="170" height="170"/>
+	<SubTexture name="red0017" x="3250" y="1990" width="170" height="170"/>
+	<SubTexture name="red0018" x="3430" y="1990" width="170" height="170"/>
+	<SubTexture name="red0019" x="3610" y="1990" width="170" height="170"/>
+	<SubTexture name="red0020" x="3790" y="1990" width="170" height="170"/>
+	<SubTexture name="red0021" x="10" y="2170" width="170" height="170"/>
+	<SubTexture name="red0022" x="10" y="2170" width="170" height="170"/>
+	<SubTexture name="red hold end0000" x="190" y="910" width="46" height="64"/>
+	<SubTexture name="red hold piece0000" x="246" y="910" width="46" height="44"/>
+	<SubTexture name="right confirm0000" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0001" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0002" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0003" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0004" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0005" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0006" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0007" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0008" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0009" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0010" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0011" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0012" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0013" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0014" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0015" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0016" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0017" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0018" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0019" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0020" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0021" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0022" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0023" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0024" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0025" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0026" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0027" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0028" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0029" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0030" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0031" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0032" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0033" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0034" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0035" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0036" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0037" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0038" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0039" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0040" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0041" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0042" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0043" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0044" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0045" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0046" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0047" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0048" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0049" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0050" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0051" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0052" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0053" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0054" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0055" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0056" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0057" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0058" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0059" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0060" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0061" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0062" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0063" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0064" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0065" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0066" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0067" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0068" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0069" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0070" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0071" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0072" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0073" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0074" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0075" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0076" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0077" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0078" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0079" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0080" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0081" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0082" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0083" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0084" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0085" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0086" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0087" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0088" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0089" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0090" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0091" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0092" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0093" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0094" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0095" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0096" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0097" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0098" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0099" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0100" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0101" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0102" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0103" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0104" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0105" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0106" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0107" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0108" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0109" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0110" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0111" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0112" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0113" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0114" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0115" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0116" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0117" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0118" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0119" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0120" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0121" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0122" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0123" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0124" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0125" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0126" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0127" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0128" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0129" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0130" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0131" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0132" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0133" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0134" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0135" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0136" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0137" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0138" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0139" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0140" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0141" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0142" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0143" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0144" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0145" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0146" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0147" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0148" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0149" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0150" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0151" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0152" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0153" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0154" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0155" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0156" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0157" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0158" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0159" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0160" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0161" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0162" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0163" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0164" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0165" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0166" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0167" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0168" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0169" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0170" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0171" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0172" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0173" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0174" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0175" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0176" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0177" x="3070" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0178" x="3250" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0179" x="3430" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0180" x="3610" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0181" x="3790" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0182" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0183" x="10" y="2350" width="170" height="170"/>
+	<SubTexture name="right confirm0184" x="190" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0185" x="370" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0186" x="550" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0187" x="730" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0188" x="910" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0189" x="1090" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0190" x="1270" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0191" x="1450" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0192" x="1630" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0193" x="1810" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0194" x="1990" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0195" x="2170" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0196" x="2350" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0197" x="2530" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0198" x="2710" y="2170" width="170" height="170"/>
+	<SubTexture name="right confirm0199" x="2890" y="2170" width="170" height="170"/>
+	<SubTexture name="right press0000" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0001" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0002" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0003" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0004" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0005" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0006" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0007" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0008" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0009" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0010" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0011" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0012" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0013" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0014" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0015" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0016" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0017" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0018" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0019" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0020" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0021" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0022" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0023" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0024" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0025" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0026" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0027" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0028" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0029" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0030" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0031" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0032" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0033" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0034" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0035" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0036" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0037" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0038" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0039" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0040" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0041" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0042" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0043" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0044" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0045" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0046" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0047" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0048" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0049" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0050" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0051" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0052" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0053" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0054" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0055" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0056" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0057" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0058" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0059" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0060" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0061" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0062" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0063" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0064" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0065" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0066" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0067" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0068" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0069" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0070" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0071" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0072" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0073" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0074" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0075" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0076" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0077" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0078" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0079" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0080" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0081" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0082" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0083" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0084" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0085" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0086" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0087" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0088" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0089" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0090" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0091" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0092" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0093" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0094" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0095" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0096" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0097" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0098" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0099" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0100" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0101" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0102" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0103" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0104" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0105" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0106" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0107" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0108" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0109" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0110" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0111" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0112" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0113" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0114" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0115" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0116" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0117" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0118" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0119" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0120" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0121" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0122" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0123" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0124" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0125" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0126" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0127" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0128" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0129" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0130" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0131" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0132" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0133" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0134" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0135" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0136" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0137" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0138" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0139" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0140" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0141" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0142" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0143" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0144" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0145" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0146" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0147" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0148" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0149" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0150" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0151" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0152" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0153" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0154" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0155" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0156" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0157" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0158" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0159" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0160" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0161" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0162" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0163" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0164" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0165" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0166" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0167" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0168" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0169" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0170" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0171" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0172" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0173" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0174" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0175" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0176" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0177" x="3070" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0178" x="3250" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0179" x="3430" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0180" x="3610" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0181" x="3790" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0182" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0183" x="10" y="2530" width="170" height="170"/>
+	<SubTexture name="right press0184" x="190" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0185" x="370" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0186" x="550" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0187" x="730" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0188" x="910" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0189" x="1090" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0190" x="1270" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0191" x="1450" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0192" x="1630" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0193" x="1810" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0194" x="1990" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0195" x="2170" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0196" x="2350" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0197" x="2530" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0198" x="2710" y="2350" width="170" height="170"/>
+	<SubTexture name="right press0199" x="2890" y="2350" width="170" height="170"/>
+	<SubTexture name="up confirm0000" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0001" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0002" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0003" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0004" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0005" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0006" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0007" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0008" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0009" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0010" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0011" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0012" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0013" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0014" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0015" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0016" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0017" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0018" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0019" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0020" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0021" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0022" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0023" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0024" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0025" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0026" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0027" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0028" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0029" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0030" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0031" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0032" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0033" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0034" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0035" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0036" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0037" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0038" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0039" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0040" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0041" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0042" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0043" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0044" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0045" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0046" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0047" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0048" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0049" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0050" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0051" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0052" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0053" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0054" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0055" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0056" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0057" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0058" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0059" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0060" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0061" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0062" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0063" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0064" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0065" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0066" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0067" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0068" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0069" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0070" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0071" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0072" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0073" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0074" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0075" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0076" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0077" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0078" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0079" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0080" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0081" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0082" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0083" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0084" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0085" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0086" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0087" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0088" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0089" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0090" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0091" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0092" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0093" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0094" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0095" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0096" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0097" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0098" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0099" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0100" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0101" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0102" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0103" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0104" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0105" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0106" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0107" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0108" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0109" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0110" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0111" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0112" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0113" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0114" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0115" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0116" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0117" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0118" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0119" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0120" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0121" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0122" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0123" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0124" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0125" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0126" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0127" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0128" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0129" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0130" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0131" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0132" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0133" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0134" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0135" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0136" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0137" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0138" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0139" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0140" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0141" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0142" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0143" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0144" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0145" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0146" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0147" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0148" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0149" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0150" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0151" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0152" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0153" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0154" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0155" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0156" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0157" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0158" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0159" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0160" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0161" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0162" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0163" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0164" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0165" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0166" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0167" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0168" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0169" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0170" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0171" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0172" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0173" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0174" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0175" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0176" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0177" x="3070" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0178" x="3250" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0179" x="3430" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0180" x="3610" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0181" x="3790" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0182" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0183" x="10" y="2710" width="170" height="170"/>
+	<SubTexture name="up confirm0184" x="190" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0185" x="370" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0186" x="550" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0187" x="730" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0188" x="910" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0189" x="1090" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0190" x="1270" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0191" x="1450" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0192" x="1630" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0193" x="1810" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0194" x="1990" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0195" x="2170" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0196" x="2350" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0197" x="2530" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0198" x="2710" y="2530" width="170" height="170"/>
+	<SubTexture name="up confirm0199" x="2890" y="2530" width="170" height="170"/>
+	<SubTexture name="up press0000" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0001" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0002" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0003" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0004" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0005" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0006" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0007" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0008" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0009" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0010" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0011" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0012" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0013" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0014" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0015" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0016" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0017" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0018" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0019" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0020" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0021" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0022" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0023" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0024" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0025" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0026" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0027" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0028" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0029" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0030" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0031" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0032" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0033" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0034" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0035" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0036" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0037" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0038" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0039" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0040" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0041" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0042" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0043" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0044" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0045" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0046" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0047" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0048" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0049" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0050" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0051" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0052" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0053" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0054" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0055" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0056" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0057" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0058" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0059" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0060" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0061" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0062" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0063" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0064" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0065" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0066" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0067" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0068" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0069" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0070" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0071" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0072" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0073" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0074" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0075" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0076" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0077" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0078" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0079" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0080" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0081" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0082" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0083" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0084" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0085" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0086" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0087" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0088" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0089" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0090" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0091" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0092" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0093" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0094" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0095" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0096" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0097" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0098" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0099" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0100" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0101" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0102" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0103" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0104" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0105" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0106" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0107" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0108" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0109" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0110" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0111" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0112" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0113" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0114" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0115" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0116" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0117" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0118" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0119" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0120" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0121" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0122" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0123" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0124" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0125" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0126" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0127" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0128" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0129" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0130" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0131" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0132" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0133" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0134" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0135" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0136" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0137" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0138" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0139" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0140" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0141" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0142" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0143" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0144" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0145" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0146" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0147" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0148" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0149" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0150" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0151" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0152" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0153" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0154" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0155" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0156" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0157" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0158" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0159" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0160" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0161" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0162" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0163" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0164" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0165" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0166" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0167" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0168" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0169" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0170" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0171" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0172" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0173" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0174" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0175" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0176" x="2890" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0177" x="3070" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0178" x="3250" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0179" x="3430" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0180" x="3610" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0181" x="3790" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0182" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0183" x="10" y="2890" width="170" height="170"/>
+	<SubTexture name="up press0184" x="190" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0185" x="370" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0186" x="550" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0187" x="730" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0188" x="910" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0189" x="1090" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0190" x="1270" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0191" x="1450" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0192" x="1630" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0193" x="1810" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0194" x="1990" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0195" x="2170" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0196" x="2350" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0197" x="2530" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0198" x="2710" y="2710" width="170" height="170"/>
+	<SubTexture name="up press0199" x="2890" y="2710" width="170" height="170"/>
+</TextureAtlas>

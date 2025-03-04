@@ -19,10 +19,10 @@ class FlashingState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"WARNING!!!\n
+		"WARNING!!!\n
 			This mod contains blood and flashing lights!\n
-			Press ENTER or ESC to continue.\n
-			You've been warned!",
+			Thanks for choosing, FCR: Alternate Realities!\n
+			Press ENTER or ESC to proceed.",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);

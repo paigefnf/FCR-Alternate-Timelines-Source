@@ -4,6 +4,8 @@ import flixel.FlxG;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
 import openfl.system.System;
+import states.MainMenuState;
+import lime.app.Application;
 
 /**
 	The FPS class provides an easy-to-use monitor to display
@@ -33,7 +35,7 @@ class FPSCounter extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat("_sans", 14, color);
+		defaultTextFormat = new TextFormat("VCR OSD Mono", 14, color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";
@@ -62,7 +64,7 @@ class FPSCounter extends TextField
 	}
 
 	public dynamic function updateText():Void { // so people can override it in hscript
-		text = 'FPS: ${currentFPS} • Memory: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}';
+		text = 'FPS:${currentFPS} • Memory:${flixel.util.FlxStringUtil.formatBytes(memoryMegas)} • Pysch Engine:v${MainMenuState.psychEngineVersion} • Friday Night Funkin:v${MainMenuState.funkinVersion}';
 
 		textColor = 0xFFFFFFFF;
 		if (currentFPS < FlxG.drawFramerate * 0.5)

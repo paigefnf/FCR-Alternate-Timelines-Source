@@ -28,4 +28,7 @@ end
 if songName == 'Outrank' then
 setProperty('camGame.alpha',1)
 end
+if songName == 'Facing The Downfall' then
+setProperty('camGame.alpha',1)
+end
 end

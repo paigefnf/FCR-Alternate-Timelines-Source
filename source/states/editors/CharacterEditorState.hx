@@ -68,9 +68,19 @@ class CharacterEditorState extends MusicBeatState
 	{
 		if(ClientPrefs.data.cacheOnGPU) Paths.clearStoredMemory();
 
-		FlxG.sound.music.stop();
-		camEditor = initPsychCamera();
+		var cursor:FlxSprite;
 
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
+		FlxG.mouse.load(cursor.pixels);
+
+		FlxG.sound.playMusic(Paths.music('tea-time'), 1);
+
+		camEditor = initPsychCamera();
+		
 		camHUD = new FlxCamera();
 		camHUD.bgColor.alpha = 0;
 		FlxG.cameras.add(camHUD, false);

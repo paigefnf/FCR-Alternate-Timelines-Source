@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-289
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "GF Idle Dance Glow"
+		},
+		{
+			"offsets": [
+				-1,
+				-303
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "GF Sing DOWN Glow"
+		},
+		{
+			"offsets": [
+				-14,
+				-279
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "GF Sing UP Glow"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-288
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "GF Sing RIGHT Glow",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-294
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "GF Sing LEFT Glow",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/alley/definitive/gf_Downfall_Dark",
+	"position": [
+		50,
+		0
+	],
+	"healthicon": "gf-worried",
+	"flip_x": true,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		100,
+		290
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

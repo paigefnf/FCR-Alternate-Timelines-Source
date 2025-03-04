@@ -1,7 +1,7 @@
 {
 	"song": {
 		"sectionLengths": [],
-		"player1": "gf-blank",
+		"player1": "gf-blank-mania-player",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -8680,6 +8680,7 @@
 		"validScore": true,
 		"stage": "limo-2",
 		"needsVoices": false,
+		"arrowSkin": "ui/noteSkins/NOTE_assets-Icelation",
 		"gf": "gf",
 		"speed": 2.8,
 		"bpm": 180
