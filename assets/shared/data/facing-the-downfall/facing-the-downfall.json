@@ -1,10 +1,10 @@
 {
 	"song": {
 		"player1": "bf-mom1-paige",
-		"gfVersion": "gf-blank",
+		"events": [],
+		"player2": "gf-blank",
 		"notes": [
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						0,
@@ -12,15 +12,15 @@
 						1500
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						3600,
@@ -48,10 +48,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						4800,
@@ -74,10 +74,10 @@
 						100
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						6400,
@@ -85,10 +85,10 @@
 						1400
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						8800,
@@ -96,10 +96,10 @@
 						700
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						9600,
@@ -112,10 +112,10 @@
 						500
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						11200,
@@ -123,10 +123,10 @@
 						1300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						13200,
@@ -144,10 +144,10 @@
 						1100
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						15200,
@@ -160,10 +160,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						16000,
@@ -176,10 +176,10 @@
 						200
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						18400,
@@ -187,10 +187,10 @@
 						700
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						19200,
@@ -198,10 +198,10 @@
 						900
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						20800,
@@ -209,10 +209,10 @@
 						700
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						22400,
@@ -225,10 +225,10 @@
 						700
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						24000,
@@ -241,10 +241,10 @@
 						300
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						25600,
@@ -252,62 +252,62 @@
 						1100
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"changeBPM": true,
 				"bpm": 160,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						43250,
@@ -320,10 +320,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						44000,
@@ -331,10 +331,10 @@
 						658
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						46250,
@@ -342,10 +342,10 @@
 						658
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						47000,
@@ -353,10 +353,10 @@
 						658
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						48500,
@@ -364,10 +364,10 @@
 						1410
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						50000,
@@ -385,10 +385,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						52250,
@@ -396,10 +396,10 @@
 						658
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						53000,
@@ -407,10 +407,11 @@
 						1410
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
+				"sectionBeats": 2,
 				"sectionNotes": [
 					[
 						54500,
@@ -418,11 +419,10 @@
 						1326
 					]
 				],
-				"sectionBeats": 2,
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						55437.5,
@@ -465,10 +465,10 @@
 						564
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						56750,
@@ -506,10 +506,10 @@
 						470
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						58625,
@@ -547,10 +547,10 @@
 						188
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						59937.5,
@@ -583,10 +583,11 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
+				"sectionBeats": 2,
 				"sectionNotes": [
 					[
 						61250,
@@ -624,11 +625,10 @@
 						0
 					]
 				],
-				"sectionBeats": 2,
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						62000,
@@ -676,10 +676,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						63500,
@@ -707,10 +707,10 @@
 						188
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						65000,
@@ -753,10 +753,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						66500,
@@ -784,10 +784,10 @@
 						470
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						68000,
@@ -825,10 +825,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						69500,
@@ -866,10 +866,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						71000,
@@ -907,10 +907,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						72687.5,
@@ -938,10 +938,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						74000,
@@ -979,10 +979,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						75500,
@@ -1020,10 +1020,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						77000,
@@ -1061,10 +1061,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						78875,
@@ -1092,10 +1092,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						80000,
@@ -1138,10 +1138,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						81500,
@@ -1184,10 +1184,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						83375,
@@ -1225,10 +1225,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						84500,
@@ -1256,10 +1256,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						86000,
@@ -1302,10 +1302,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						87500,
@@ -1348,10 +1348,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						89000,
@@ -1389,10 +1389,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						91250,
@@ -1420,10 +1420,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						92000,
@@ -1466,10 +1466,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						93687.5,
@@ -1508,10 +1508,10 @@
 						"No Animation"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						95000,
@@ -1554,10 +1554,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						96687.5,
@@ -1590,10 +1590,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						98187.5,
@@ -1636,10 +1636,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						99687.5,
@@ -1672,10 +1672,10 @@
 						282
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						101000,
@@ -1758,10 +1758,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						102687.5,
@@ -1834,10 +1834,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						104000,
@@ -1902,10 +1902,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						105687.5,
@@ -1955,10 +1955,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						107000,
@@ -2017,10 +2017,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						108687.5,
@@ -2076,10 +2076,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						110375,
@@ -2139,10 +2139,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						111687.5,
@@ -2192,10 +2192,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						113000,
@@ -2255,10 +2255,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						114687.5,
@@ -2314,10 +2314,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						116000,
@@ -2393,10 +2393,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						117500,
@@ -2461,10 +2461,10 @@
 						"Hurt Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						119000,
@@ -2502,9 +2502,11 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						120687.5,
@@ -2549,14 +2551,14 @@
 						188
 					]
 				],
-				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"bpm": 155,
+				"mustHitSection": true,
 				"changeBPM": false,
-				"mustHitSection": true
+				"bpm": 155
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						122093.75,
@@ -2620,15 +2622,13 @@
 						"Hurt Note"
 					]
 				],
-				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"bpm": 155,
+				"mustHitSection": false,
 				"changeBPM": false,
-				"mustHitSection": false
+				"bpm": 155
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						123500,
@@ -2687,14 +2687,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						125187.5,
@@ -2756,14 +2756,14 @@
 						0
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						126687.5,
@@ -2826,14 +2826,14 @@
 						188
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						129125,
@@ -2841,14 +2841,14 @@
 						0
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						129875,
@@ -2866,14 +2866,14 @@
 						282
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						131000,
@@ -2901,14 +2901,14 @@
 						188
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						132875,
@@ -2936,14 +2936,14 @@
 						95
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						134000,
@@ -2951,14 +2951,14 @@
 						658
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						135875,
@@ -2976,14 +2976,14 @@
 						282
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						137000,
@@ -2991,14 +2991,14 @@
 						658
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						138875,
@@ -3016,14 +3016,14 @@
 						282
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						140000,
@@ -3031,14 +3031,14 @@
 						658
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						141875,
@@ -3071,14 +3071,14 @@
 						94
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						143000,
@@ -3086,14 +3086,14 @@
 						658
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						144875,
@@ -3122,14 +3122,14 @@
 						"No Animation"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						146000,
@@ -3137,14 +3137,14 @@
 						658
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						148250,
@@ -3158,14 +3158,14 @@
 						"No Animation"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						149000,
@@ -3184,14 +3184,14 @@
 						282
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						150500,
@@ -3204,14 +3204,14 @@
 						282
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						152000,
@@ -3312,14 +3312,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 175,
 				"changeBPM": true,
-				"bpm": 175
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						153371.428571429,
@@ -3426,14 +3426,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						154742.857142857,
@@ -3517,14 +3517,14 @@
 						"No Animation"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						156114.285714286,
@@ -3589,14 +3589,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						157485.714285714,
@@ -3714,14 +3714,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						158857.142857143,
@@ -3828,14 +3828,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						160657.142857143,
@@ -3919,14 +3919,14 @@
 						"No Animation"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						162285.714285714,
@@ -4045,14 +4045,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						162971.428571429,
@@ -4146,14 +4146,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						164342.857142857,
@@ -4225,14 +4225,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						165714.285714286,
@@ -4303,14 +4303,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						167257.142857143,
@@ -4372,14 +4372,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						168542.857142857,
@@ -4509,14 +4509,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						170342.857142857,
@@ -4624,14 +4624,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						171200,
@@ -4732,14 +4732,14 @@
 						0
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						172742.857142857,
@@ -4939,14 +4939,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						173942.857142857,
@@ -5051,14 +5051,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						175314.285714286,
@@ -5184,14 +5184,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						176685.714285714,
@@ -5291,14 +5291,14 @@
 						"No Animation"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						178057.142857143,
@@ -5391,14 +5391,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						179428.571428572,
@@ -5539,14 +5539,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						180800,
@@ -5732,14 +5732,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						182514.285714286,
@@ -5835,14 +5835,14 @@
 						"No Animation"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						183542.857142857,
@@ -5949,14 +5949,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						184914.285714286,
@@ -6084,14 +6084,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						186285.714285714,
@@ -6187,14 +6187,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						187657.142857143,
@@ -6283,14 +6283,14 @@
 						0
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						189200,
@@ -6376,14 +6376,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						190400,
@@ -6554,14 +6554,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						191942.857142857,
@@ -6690,14 +6690,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						193142.857142857,
@@ -6830,14 +6830,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						194685.714285715,
@@ -6946,14 +6946,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						195885.714285715,
@@ -7020,14 +7020,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						197257.142857143,
@@ -7084,14 +7084,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						198628.571428572,
@@ -7136,14 +7136,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						200085.714285715,
@@ -7194,14 +7194,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						201457.142857143,
@@ -7240,14 +7240,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						202828.571428572,
@@ -7292,14 +7292,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						204114.285714286,
@@ -7344,14 +7344,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						205485.714285715,
@@ -7402,14 +7402,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						206857.142857143,
@@ -7466,14 +7466,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						208228.571428572,
@@ -7602,14 +7602,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						209600,
@@ -7660,14 +7660,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						210971.428571429,
@@ -7736,14 +7736,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						212342.857142858,
@@ -7818,14 +7818,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						213714.285714286,
@@ -7888,14 +7888,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						215342.857142858,
@@ -7940,14 +7940,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						216542.857142858,
@@ -8028,14 +8028,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						217828.571428572,
@@ -8104,14 +8104,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						219200,
@@ -8150,14 +8150,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						220657.142857143,
@@ -8196,14 +8196,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						222028.571428572,
@@ -8248,14 +8248,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						223400,
@@ -8294,14 +8294,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						224771.428571429,
@@ -8352,14 +8352,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						226142.857142858,
@@ -8404,14 +8404,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						227428.571428572,
@@ -8450,14 +8450,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						228885.714285715,
@@ -8490,14 +8490,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						230171.428571429,
@@ -8530,14 +8530,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						231714.285714286,
@@ -8564,14 +8564,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						233000,
@@ -8610,14 +8610,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						234457.142857143,
@@ -8650,14 +8650,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						235657.142857143,
@@ -8696,14 +8696,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						237200.000000001,
@@ -8742,14 +8742,14 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": false
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [
 					[
 						238571.428571429,
@@ -8818,5431 +8818,30 @@
 						"Hurt Note"
 					]
 				],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			},
 			{
-				"sectionBeats": 4,
 				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 150,
 				"changeBPM": false,
-				"bpm": 150
+				"mustHitSection": true
 			}
 		],
-		"player2": "gf-blank",
-		"events": [
-			[
-				0,
-				[
-					[
-						"badapplelol",
-						"a",
-						"0.01"
-					]
-				]
-			],
-			[
-				12.5,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				16.6666666666667,
-				[
-					[
-						"OpponentNotesFade",
-						"0.5",
-						"0"
-					]
-				]
-			],
-			[
-				27.5,
-				[
-					[
-						"Set Cam Zoom",
-						"1.4",
-						"0.1"
-					]
-				]
-			],
-			[
-				13192.5,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				13200,
-				[
-					[
-						"Change Character",
-						"bf",
-						"gf-downfall-dark"
-					]
-				]
-			],
-			[
-				25595,
-				[
-					[
-						"Change Character",
-						"bf",
-						"gf-blank"
-					]
-				]
-			],
-			[
-				25600,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				31967.5,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				31970,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						"0.1"
-					]
-				]
-			],
-			[
-				31972.5,
-				[
-					[
-						"badapplelol",
-						"b",
-						"0.01"
-					]
-				]
-			],
-			[
-				31979.1666666667,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-mom2-paige"
-					]
-				]
-			],
-			[
-				31985,
-				[
-					[
-						"Change Character",
-						"dad",
-						"mom-paige-alley1"
-					]
-				]
-			],
-			[
-				31997.5,
-				[
-					[
-						"Cam Toggle improv",
-						"0",
-						"1"
-					]
-				]
-			],
-			[
-				32000,
-				[
-					[
-						"OpponentNotesFade",
-						"0.5",
-						"1"
-					]
-				]
-			],
-			[
-				43995.3125,
-				[
-					[
-						"Set Cam Zoom",
-						"1.3",
-						""
-					]
-				]
-			],
-			[
-				55976.5625,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				55992.96875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				56000,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						""
-					]
-				]
-			],
-			[
-				56375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				56750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				57125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				57500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				57875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				58250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				58625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				59000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				59375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				59750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				60125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				60500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				60875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				61250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				61625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				62000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				62375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				62750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				63125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				63500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				63875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				64250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				64625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				65000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				65375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				65750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				66125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				66500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				66875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				67250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				67625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				68000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				68375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				68750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				69125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				69500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				69875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				70250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				70625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				71000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				71375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				71750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				72125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				72500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				72875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				73250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				73625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				74000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				74375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				74750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				75125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				75500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				75875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				76250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				76625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				77000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				77375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				77750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				78125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				78500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				78875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				79250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				79625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				79995.3125,
-				[
-					[
-						"Set Cam Zoom",
-						"1.1",
-						""
-					]
-				]
-			],
-			[
-				80000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				80375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				80750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				81125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				81500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				81875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				82250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				82625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				83000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				83375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				83750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				84125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				84500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				84875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				85250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				85625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				86000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				86375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				86750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				87125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				87500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				87875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				88250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				88625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				89000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				89375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				89750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				90125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				90495.3125,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						""
-					]
-				]
-			],
-			[
-				90500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				90875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				91250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				91625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				91997.65625,
-				[
-					[
-						"Set Cam Zoom",
-						"1.2",
-						""
-					]
-				]
-			],
-			[
-				92000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				92375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				92750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				93125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				93500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				93875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				94250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				94625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				95000,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				95375,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				95750,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				96125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				96500,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				96875,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				97250,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				97625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.010",
-						"0.01"
-					]
-				]
-			],
-			[
-				98000,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				98375,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				98750,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				99125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				99500,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				99875,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				100250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				100625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				100995.3125,
-				[
-					[
-						"Set Cam Zoom",
-						"1.3",
-						""
-					]
-				]
-			],
-			[
-				101000,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				101187.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				101375,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				101562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				101750,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				101937.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102312.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102500,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102593.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102781.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102875,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				102968.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103156.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103242.96875,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103250,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						"0.1"
-					]
-				]
-			],
-			[
-				103437.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103531.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103718.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103812.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103906.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103981.25,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				103984.765625,
-				[
-					[
-						"Toggle Trail",
-						"0",
-						"1"
-					]
-				]
-			],
-			[
-				103988.28125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				103995.3125,
-				[
-					[
-						"Set Cam Zoom",
-						"1.25",
-						"0.1"
-					]
-				]
-			],
-			[
-				104000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				104003.90625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				104007.8125,
-				[
-					[
-						"Better Cinematics",
-						"0.5",
-						"70"
-					]
-				]
-			],
-			[
-				104550.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				104555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				104562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				105109.375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				105115.625,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				105125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				105500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				105664.0625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				105680.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				105687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				106062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				106437.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				106625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				106812.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				106981.25,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				106985.9375,
-				[
-					[
-						"Toggle Trail",
-						"1",
-						"0"
-					]
-				]
-			],
-			[
-				106997.65625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				107000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				107023.4375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				107550.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				107555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				107562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				108115.625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				108117.96875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				108125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				108500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				108675.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				108680.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				108687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				109062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				109250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				109437.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				109625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				109974.21875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				109983.59375,
-				[
-					[
-						"Toggle Trail",
-						"0",
-						"1"
-					]
-				]
-			],
-			[
-				109995.3125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				110000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				110031.25,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				110550.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				110555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				110562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				111110.9375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				111120.3125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				111125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				111490.625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				111500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				111678.125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				111687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				112062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				112250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				112625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				112988.28125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				112992.96875,
-				[
-					[
-						"Toggle Trail",
-						"1",
-						"0"
-					]
-				]
-			],
-			[
-				112997.65625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.024",
-						"0.04"
-					]
-				]
-			],
-			[
-				113000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				113031.25,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				113548.4375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				113555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				113562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.024",
-						"0.04"
-					]
-				]
-			],
-			[
-				114113.28125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				114117.96875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				114125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.024",
-						"0.04"
-					]
-				]
-			],
-			[
-				114500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				114678.125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				114680.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				114687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.024",
-						"0.04"
-					]
-				]
-			],
-			[
-				115062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.024",
-						"0.04"
-					]
-				]
-			],
-			[
-				115250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				115625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				115985.9375,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				115990.625,
-				[
-					[
-						"Toggle Trail",
-						"0",
-						"1"
-					]
-				]
-			],
-			[
-				115995.3125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				116000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				116031.25,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				116548.4375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				116555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				116562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				117116.40625,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				117121.09375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				117125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				117500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				117664.0625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				117680.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				117687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				118055.46875,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				118531.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118718.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118812.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118906.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118992.96875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				118997.65625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				119000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				119023.4375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				119550.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				119557.8125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				119562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				120115.625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				120122.65625,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				120125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				120500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				120675.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				120680.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				120687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				121062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				121250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				121437.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				121625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				121983.59375,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				121988.28125,
-				[
-					[
-						"Toggle Trail",
-						"1",
-						"0"
-					]
-				]
-			],
-			[
-				121995.3125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				122000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				122031.25,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				122553.125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				122555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				122562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				123115.625,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				123120.3125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				123125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				123488.28125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				123500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				123682.8125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				123687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				124062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				124250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				124625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				124987.109375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				124990.625,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				124995.3125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				125000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				125546.09375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				125555.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				125562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				126110.9375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				126120.3125,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				126125,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				126500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0010",
-						"2, 0.0010"
-					]
-				]
-			],
-			[
-				126675.78125,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				126680.46875,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				126687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				127062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				127250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				127625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				127964.84375,
-				[
-					[
-						"OpponentNotesFade",
-						"0.5",
-						"0"
-					]
-				]
-			],
-			[
-				127976.5625,
-				[
-					[
-						"Toggle Trail",
-						"0",
-						"0"
-					]
-				]
-			],
-			[
-				127978.90625,
-				[
-					[
-						"Change Character",
-						"dad",
-						"gf-blank"
-					]
-				]
-			],
-			[
-				127985.9375,
-				[
-					[
-						"badapplelol",
-						"a",
-						"0.01"
-					]
-				]
-			],
-			[
-				127994.140625,
-				[
-					[
-						"Add Camera Flash",
-						"",
-						"BLACK"
-					]
-				]
-			],
-			[
-				127999.560546875,
-				[
-					[
-						"Set Cam Zoom",
-						"1.12",
-						""
-					]
-				]
-			],
-			[
-				128000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				128015.625,
-				[
-					[
-						"Better Cinematics",
-						"0.5",
-						"40"
-					]
-				]
-			],
-			[
-				129500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				131000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				132500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				134000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				135500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				137000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				138500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				139531.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				139625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				139718.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				139812.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				139906.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				139976.5625,
-				[
-					[
-						"Better Cinematics",
-						"0.5",
-						"45"
-					]
-				]
-			],
-			[
-				139990.625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				139997.65625,
-				[
-					[
-						"Set Cam Zoom",
-						"1.2",
-						"0.1"
-					]
-				]
-			],
-			[
-				140000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				141312.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				141495.3125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				141500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				142625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				142995.3125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				143000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				144125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				144218.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				144312.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				144497.65625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				144500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				145625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				145988.28125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				145992.96875,
-				[
-					[
-						"Set Cam Zoom",
-						"1.25",
-						"0.1"
-					]
-				]
-			],
-			[
-				146000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				146375,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				146750,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				147125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				147492.96875,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				147500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				147875,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				148250,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				148625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				148988.28125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				148995.3125,
-				[
-					[
-						"Set Cam Zoom",
-						"1.3",
-						"0.1"
-					]
-				]
-			],
-			[
-				149000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				149187.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				149375,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				149562.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				149750,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				149937.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150125,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150312.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150490.625,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150497.65625,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						""
-					]
-				]
-			],
-			[
-				150500,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0013",
-						"2, 0.0013"
-					]
-				]
-			],
-			[
-				150593.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150687.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150781.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150875,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				150968.75,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				151062.5,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				151156.25,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				151531.25,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				151625,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				151718.75,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				151812.5,
-				[
-					[
-						"Add Camera Zoom",
-						"0.020",
-						"0.04"
-					]
-				]
-			],
-			[
-				151906.25,
-				[
-					[
-						"Better Cinematics",
-						"0.5",
-						"55"
-					]
-				]
-			],
-			[
-				151964.84375,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				151968.75,
-				[
-					[
-						"OpponentNotesFade",
-						"0.5",
-						"1"
-					]
-				]
-			],
-			[
-				151976.5625,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-mom2-alt-paige"
-					]
-				]
-			],
-			[
-				151981.25,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				151990.625,
-				[
-					[
-						"Change Character",
-						"dad",
-						"mom-paige-alley1"
-					]
-				]
-			],
-			[
-				151995.3125,
-				[
-					[
-						"badapplelol",
-						"b",
-						"0.01"
-					]
-				]
-			],
-			[
-				151997.65625,
-				[
-					[
-						"Change Scroll Speed",
-						"1.1",
-						"0.5"
-					]
-				]
-			],
-			[
-				152000,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				152685.714285714,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				153367.142857143,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				153371.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				154057.142857143,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				154742.857142857,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				154742.857142857,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				155428.571428571,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				156107.857142857,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				156114.285714286,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				156800,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				157485.714285714,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				157485.714285714,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				158171.428571429,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				158855,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				158857.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				159542.857142857,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				160228.571428571,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				160228.571428571,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				160914.285714286,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				161600,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				161600,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				162285.714285714,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				162969.285714286,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				162971.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				163657.142857143,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				164342.857142857,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				164342.857142857,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				165028.571428572,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				165707.857142857,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				165714.285714286,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				166400,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				167085.714285714,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				167085.714285714,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				167771.428571429,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				168455,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				168457.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				169142.857142857,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				169826.428571429,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				169828.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				170514.285714286,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				171200,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				171200,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				171885.714285714,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				172567.142857143,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				172571.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0015",
-						"2, 0.0015"
-					]
-				]
-			],
-			[
-				173246.428571429,
-				[
-					[
-						"TweenSpin",
-						"",
-						""
-					]
-				]
-			],
-			[
-				173257.142857143,
-				[
-					[
-						"Set Cam Zoom",
-						"1.25",
-						"0.1"
-					]
-				]
-			],
-			[
-				173923.571428572,
-				[
-					[
-						"Flashing Camera",
-						"",
-						""
-					]
-				]
-			],
-			[
-				173930,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-mom2-alt2-paige"
-					]
-				]
-			],
-			[
-				173935.714285714,
-				[
-					[
-						"Change Scroll Speed",
-						"1.2",
-						"0.5"
-					]
-				]
-			],
-			[
-				173940.714285714,
-				[
-					[
-						"Change Character",
-						"dad",
-						"mom-paige-alley2"
-					]
-				]
-			],
-			[
-				173942.857142857,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				173942.857142857,
-				[
-					[
-						"noteskinchangeBF",
-						"ui/noteSkins/trollgeNotes",
-						""
-					]
-				]
-			],
-			[
-				173942.857142857,
-				[
-					[
-						"Better Cinematics",
-						"0.5",
-						"70"
-					]
-				]
-			],
-			[
-				173942.857142857,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				173948.214285714,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						"0.1"
-					]
-				]
-			],
-			[
-				173950.714285714,
-				[
-					[
-						"Play Sound",
-						"mic-dropped",
-						"1"
-					]
-				]
-			],
-			[
-				173957.857142857,
-				[
-					[
-						"noteskinchangeOPPT",
-						"ui/noteSkins/glitchNotes",
-						""
-					]
-				]
-			],
-			[
-				174628.571428572,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				175307.857142857,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				175314.285714286,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				176000,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				176685.714285714,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				176685.714285714,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				177371.428571429,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				178057.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				178057.142857143,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				178742.857142857,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				179426.428571429,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				179428.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				180114.285714286,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				180800,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				180800,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				181485.714285714,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				182169.285714286,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				182171.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				182857.142857143,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				183542.321428572,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				183542.857142857,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				184228.571428572,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				184907.857142857,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				184914.285714286,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				185600,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				186283.571428572,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				186285.714285714,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				186971.428571429,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				187652.857142857,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				187657.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				188342.857142857,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				189024.285714286,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				189028.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				189714.285714286,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				190393.571428572,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				190400,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				191085.714285715,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				191765,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				191771.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				192457.142857143,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				193140.714285715,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				193142.857142857,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				193828.571428572,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				194512.142857143,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				194514.285714286,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0020",
-						"2, 0.0020"
-					]
-				]
-			],
-			[
-				195200,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				195881.428571429,
-				[
-					[
-						"arrowswap",
-						"b",
-						"0.5"
-					]
-				]
-			],
-			[
-				195885.714285715,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				197248.571428572,
-				[
-					[
-						"Play Animation",
-						"end1",
-						"bf"
-					]
-				]
-			],
-			[
-				197255,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				197257.142857143,
-				[
-					[
-						"arrowswap",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
-				197685.714285715,
-				[
-					[
-						"Play Animation",
-						"end2",
-						"bf"
-					]
-				]
-			],
-			[
-				198628.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				199995.714285715,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				201371.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				202738.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				204112.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				205481.428571429,
-				[
-					[
-						"Play Animation",
-						"end3",
-						"bf"
-					]
-				]
-			],
-			[
-				205485.714285715,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				206171.428571429,
-				[
-					[
-						"Play Animation",
-						"idle-alt",
-						"bf"
-					]
-				]
-			],
-			[
-				206857.142857143,
-				[
-					[
-						"OpponentNotesFade",
-						"5",
-						"0"
-					]
-				]
-			],
-			[
-				206857.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				208228.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				209597.857142857,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				210971.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				212338.571428572,
-				[
-					[
-						"PlayerNotesFade",
-						"5",
-						"0"
-					]
-				]
-			],
-			[
-				212342.857142858,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				213712.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				215085.714285715,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				216452.857142858,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				217828.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				219191.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				220571.428571429,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				221942.857142858,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				223310,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				224685.714285715,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				226055,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				227428.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				228797.857142858,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				230167.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				231542.857142858,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				232912.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				234285.714285715,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				235657.142857143,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			],
-			[
-				237028.571428572,
-				[
-					[
-						"Screen Shake",
-						"2, 0.0011",
-						"2, 0.0011"
-					]
-				]
-			]
-		],
+		"gfVersion": "gf-blank",
 		"player3": null,
 		"song": "Facing The Downfall",
-		"needsVoices": true,
-		"freeplayCategory": "duality",
 		"stage": "alleyway",
-		"bpm": 150,
-		"speed": 2.8
+		"freeplayCategory": "duality",
+		"needsVoices": true,
+		"speed": 2.8,
+		"bpm": 150
 	}
 }
