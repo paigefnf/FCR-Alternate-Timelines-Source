@@ -7,7 +7,7 @@
 	"songs": [
 		[
 			"Dispatch",
-			"mom-2",
+			"mom2",
 			[
 				75,
 				0,
@@ -105,24 +105,6 @@
 			]
 		],
 		[
-			"Overwrite Cover",
-			"mom-evil",
-			[
-				127,
-				19,
-				73
-			]
-		],
-		[
-			"Relighted Cover",
-			"dad-evil",
-			[
-				66,
-				33,
-				113
-			]
-		],
-		[
 			"Outrank",
 			"bf-alley1",
 			[
@@ -141,6 +123,15 @@
 			]
 		],
 		[
+			"Glammed",
+			"mom3-1",
+			[
+				75,
+				0,
+				60
+			]
+		],
+		[
 			"Fatigue",
 			"bf-mom3",
 			[
@@ -151,7 +142,7 @@
 		],
 		[
 			"Dispatch Mania",
-			"mom-2",
+			"mom2",
 			[
 				75,
 				0,
