@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-153
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MOM DOWN POSE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				180,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mom Pose Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				112
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Mom Up Pose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				45
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Mom Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				-20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Mom Left Pose",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/extras/rickroll/momRoll",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "mom",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		100,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

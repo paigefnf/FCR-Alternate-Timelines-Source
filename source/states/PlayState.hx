@@ -530,14 +530,13 @@ class PlayState extends MusicBeatState
 		FlxG.worldBounds.set(0, 0, FlxG.width, FlxG.height);
 		moveCameraSection();
 
-		if(curSong.toLowerCase() == 'echo')
+		if(curSong.toLowerCase() == 'echo' || curSong.toLowerCase() == 'indomitable2weak')
 		{
-			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/healthBar', function() return curHealth, 0, 2);
+			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/healthBarOG', function() return curHealth, 0, 2);
 		}
-		else if
-		(curSong.toLowerCase() == 'dispatch mania')
+		else if(curSong.toLowerCase() == 'dispatch mania' || curSong.toLowerCase() == 'lemonkiller')
 		{
-				healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/barCorruptionOG', function() return curHealth, 0, 2);
+			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/barCorruptionOG', function() return curHealth, 0, 2);
 		}
 		else
 		{
@@ -3079,7 +3078,6 @@ class PlayState extends MusicBeatState
 	override function beatHit()
 	{
 		if(lastBeatHit >= curBeat) {
-			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
 			return;
 		}
 
@@ -3088,8 +3086,8 @@ class PlayState extends MusicBeatState
 
 		if (curBeat % 2 == 0)
 	{	
-		iconP1.scale.set(1.2, 1.2);
-		iconP2.scale.set(1.2, 1.2);
+		iconP1.scale.set(1.1, 1.1);
+		iconP2.scale.set(1.1, 1.1);
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();

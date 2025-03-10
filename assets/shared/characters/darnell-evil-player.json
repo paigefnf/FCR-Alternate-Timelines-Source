@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Darnell Idle"
+		},
+		{
+			"offsets": [
+				22,
+				-35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Darnell Pose Down"
+		},
+		{
+			"offsets": [
+				-10,
+				63
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Darnell pose up"
+		},
+		{
+			"offsets": [
+				1,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Darnell pose right"
+		},
+		{
+			"offsets": [
+				41,
+				5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "darnell pose left"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mother/darnell_evil",
+	"position": [
+		50,
+		300
+	],
+	"healthicon": "darnell-evil",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		40,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

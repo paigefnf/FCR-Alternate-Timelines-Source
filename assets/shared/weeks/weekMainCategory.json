@@ -148,7 +148,25 @@
 				0,
 				60
 			]
-		]
+		],
+		[
+			"Indomitable2weak",
+			"mom",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"LemonKiller",
+			"monster",
+			[
+				0,
+				0,
+				0
+			]
+		],
 	],
 	"hideStoryMode": true,
 	"weekName": "Week 1"
