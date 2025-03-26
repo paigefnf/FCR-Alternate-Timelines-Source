@@ -18,6 +18,7 @@ typedef SwagSong =
 	var player2:String;
 	var gfVersion:String;
 	var stage:String;
+	var chartVer:String;
 
 	@:optional var gameOverChar:String;
 	@:optional var gameOverSound:String;
@@ -90,57 +91,45 @@ class Song
 		this.bpm = bpm;
 	}
 
-	public static function loadFromJson(jsonInput:String, ?folder:String):SwagSong
-	{
-		var rawJson = null;
-		
-		var formattedFolder:String = Paths.formatToSongPath(folder);
-		var formattedSong:String = Paths.formatToSongPath(jsonInput);
-		#if MODS_ALLOWED
-		var moddyFile:String = Paths.modsJson(formattedFolder + '/' + formattedSong);
-		if(FileSystem.exists(moddyFile)) {
-			rawJson = File.getContent(moddyFile).trim();
-		}
-		#end
-
-		if(rawJson == null) {
-			var path:String = Paths.json(formattedFolder + '/' + formattedSong);
-
-			#if sys
-			if(FileSystem.exists(path))
-				rawJson = File.getContent(path).trim();
-			else
-			#end
-				rawJson = Assets.getText(Paths.json(formattedFolder + '/' + formattedSong)).trim();
-		}
-
-		while (!rawJson.endsWith("}"))
+	public static function loadFromJson(jsonInput:String, ?folder:String, ?mod:Bool = false):SwagSong
 		{
-			rawJson = rawJson.substr(0, rawJson.length - 1);
-			// LOL GOING THROUGH THE BULLSHIT TO CLEAN IDK WHATS STRANGE
-		}
-
-		// FIX THE CASTING ON WINDOWS/NATIVE
-		// Windows???
-		// trace(songData);
-
-		// trace('LOADED FROM JSON: ' + songData.notes);
-		/* 
-			for (i in 0...songData.notes.length)
+			var rawJson = null;
+	
+			var formattedFolder:String = Paths.formatToSongPath(folder);
+			var formattedSong:String = Paths.formatToSongPath(jsonInput);
+			#if MODS_ALLOWED
+			var moddyFile:String = Paths.modsChartJson(formattedFolder + '/charts/' + formattedSong);
+			if (FileSystem.exists(moddyFile))
 			{
-				trace('LOADED FROM JSON: ' + songData.notes[i].sectionNotes);
-				// songData.notes[i].sectionNotes = songData.notes[i].sectionNotes
+				rawJson = File.getContent(moddyFile).trim();
 			}
-
-				daNotes = songData.notes;
-				daSong = songData.song;
-				daBpm = songData.bpm; */
-
-		var songJson:Dynamic = parseJSONshit(rawJson);
-		if(jsonInput != 'events') StageData.loadDirectory(songJson);
-		onLoadJson(songJson);
-		return songJson;
-	}
+			#end
+	
+			if (rawJson == null)
+			{
+				if (mod)
+				{
+					rawJson = File.getContent(moddyFile).trim();
+				}
+				else
+				{
+					#if sys
+					rawJson = File.getContent(Paths.chartJson(formattedFolder + '/charts/' + formattedSong)).trim();
+					#else
+					rawJson = Assets.getText(Paths.chartJson(formattedFolder + '/charts/' + formattedSong)).trim();
+					#end
+				}
+			}
+	
+			while (!rawJson.endsWith("}"))
+			{
+				rawJson = rawJson.substr(0, rawJson.length - 1);
+			}
+			var songJson:Dynamic = parseJSONshit(rawJson);
+			if (jsonInput != 'events') StageData.loadDirectory(songJson);
+			onLoadJson(songJson);
+			return songJson;
+		}
 
 	public static function parseJSONshit(rawJson:String):SwagSong
 	{

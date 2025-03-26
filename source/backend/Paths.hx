@@ -125,10 +125,45 @@ class Paths
 		return getSharedPath(file);
 	}
 
+	public static function getChartEventPath(file:String, ?type:AssetType = TEXT, ?library2:Null<String> = null, ?modsAllowed:Bool = false):String
+		{
+			#if MODS_ALLOWED
+			if(modsAllowed)
+			{
+				var customFile:String = file;
+				if (library2 != null)
+					customFile = '$library2/$file';
+	
+				var modded:String = modFolders(customFile);
+				if(FileSystem.exists(modded)) return modded;
+			}
+			#end
+	
+			if (library2 != null)
+				return getLibraryPath2(file, library2);
+	
+			if (currentLevel != null)
+			{
+				var levelPath:String = '';
+				if(currentLevel != 'songs') {
+					levelPath = getLibraryPathForce(file, 'week_assets', currentLevel);
+					if (OpenFlAssets.exists(levelPath, type))
+						return levelPath;
+				}
+			}
+	
+			return getSongPath(file);
+		}
+
 	static public function getLibraryPath(file:String, library = "shared")
 	{
 		return if (library == "shared") getSharedPath(file); else getLibraryPathForce(file, library);
 	}
+
+	static public function getLibraryPath2(file:String, library2 = "songs")
+		{
+			return if (library2 == "songs") getSharedPath(file); else getLibraryPathForce(file, library2);
+		}
 
 	inline static function getLibraryPathForce(file:String, library:String, ?level:String)
 	{
@@ -142,6 +177,16 @@ class Paths
 		return 'assets/shared/$file';
 	}
 
+	inline public static function getCharJSONPath(file:String = '')
+		{
+			return 'assets/shared/data/$file';
+		}
+
+	inline public static function getSongPath(file:String = '')
+	{
+		return 'assets/songs/$file';
+	}
+
 	inline static public function txt(key:String, ?library:String)
 	{
 		return getPath('data/$key.txt', TEXT, library);
@@ -152,9 +197,19 @@ class Paths
 		return getPath('data/$key.xml', TEXT, library);
 	}
 
-	inline static public function json(key:String, ?library:String)
+	inline static public function json(key:String, ?library:String) //backup purposes
 	{
 		return getPath('data/$key.json', TEXT, library);
+	}
+
+	inline static public function chartJson(key:String, ?library2:String)
+	{
+		return getChartEventPath('$key.json', TEXT, library2);
+	}
+
+	inline static public function eventsJson(key:String, ?library2:String)
+	{
+		return getChartEventPath('$key.json', TEXT, library2);
 	}
 
 	inline static public function shaderFragment(key:String, ?library:String)
@@ -200,7 +255,7 @@ class Paths
 
 	inline static public function voices(song:String, postfix:String = null):Any
 	{
-		var songKey:String = '${formatToSongPath(song)}/Voices';
+		var songKey:String = '${formatToSongPath(song)}/audio/Voices';
 		if(postfix != null) songKey += '-' + postfix;
 		//trace('songKey test: $songKey');
 		var voices = returnSound(null, songKey, 'songs');
@@ -209,7 +264,7 @@ class Paths
 
 	inline static public function inst(song:String):Any
 	{
-		var songKey:String = '${formatToSongPath(song)}/Inst';
+		var songKey:String = '${formatToSongPath(song)}/audio/Inst';
 		var inst = returnSound(null, songKey, 'songs');
 		return inst;
 	}
@@ -469,15 +524,23 @@ class Paths
 
 	#if MODS_ALLOWED
 	inline static public function mods(key:String = '') {
-		return 'mods/' + key;
+		return 'content/' + key;
 	}
 
 	inline static public function modsFont(key:String) {
 		return modFolders('fonts/' + key);
 	}
 
-	inline static public function modsJson(key:String) {
+	inline static public function modsJson(key:String) { //backup purposes
 		return modFolders('data/' + key + '.json');
+	}
+
+	inline static public function modsChartJson(key:String) {
+		return modFolders('songs/' + key + '.json');
+	}
+
+	inline static public function modsEventJson(key:String) {
+		return modFolders('songs/' + key + '.json');
 	}
 
 	inline static public function modsVideo(key:String) {
@@ -504,20 +567,6 @@ class Paths
 		return modFolders('images/' + key + '.json');
 	}
 
-	/* Goes unused for now
-
-	inline static public function modsShaderFragment(key:String, ?library:String)
-	{
-		return modFolders('shaders/'+key+'.frag');
-	}
-	inline static public function modsShaderVertex(key:String, ?library:String)
-	{
-		return modFolders('shaders/'+key+'.vert');
-	}
-	inline static public function modsAchievements(key:String) {
-		return modFolders('achievements/' + key + '.json');
-	}*/
-
 	static public function modFolders(key:String) {
 		if(Mods.currentModDirectory != null && Mods.currentModDirectory.length > 0) {
 			var fileToCheck:String = mods(Mods.currentModDirectory + '/' + key);
@@ -531,7 +580,7 @@ class Paths
 			if(FileSystem.exists(fileToCheck))
 				return fileToCheck;
 		}
-		return 'mods/' + key;
+		return 'content/' + key;
 	}
 	#end
 
@@ -598,23 +647,7 @@ class Paths
 				animationJson = getTextFromFile('images/$originalPath/Animation.json');
 			}
 		}
-
-		//trace(folderOrImg);
-		//trace(spriteJson);
-		//trace(animationJson);
 		spr.loadAtlasEx(folderOrImg, spriteJson, animationJson);
 	}
-
-	/*private static function getContentFromFile(path:String):String
-	{
-		var onAssets:Bool = false;
-		var path:String = Paths.getPath(path, TEXT, true);
-		if(FileSystem.exists(path) || (onAssets = true && Assets.exists(path, TEXT)))
-		{
-			//trace('Found text: $path');
-			return !onAssets ? File.getContent(path) : Assets.getText(path);
-		}
-		return null;
-	}*/
 	#end
 }

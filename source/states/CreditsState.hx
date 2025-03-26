@@ -40,7 +40,7 @@ class CreditsState extends MusicBeatState
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['FCR Alternate Timelines'],
-			['PaigeVA',		'paige',		'Creator of FCR: Alternate Timelines',					 'https://www.youtube.com/@PaigeVA',		'7aa3ff'],
+			['PaigeFNF',			'paige',			'Creator of FCR: Alternate Timelines & Paper Engine',		 'https://www.youtube.com/@PaigeFNF',	'7aa3ff'],
 			[''],			
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer and Head of Psych Engine',					 'https://ko-fi.com/shadowmario',		'444444'],

@@ -64,7 +64,7 @@ class FPSCounter extends TextField
 	}
 
 	public dynamic function updateText():Void { // so people can override it in hscript
-		text = 'FPS:${currentFPS} • Memory:${flixel.util.FlxStringUtil.formatBytes(memoryMegas)} • Pysch Engine:v${MainMenuState.psychEngineVersion} • Friday Night Funkin:v${MainMenuState.funkinVersion}';
+		text = 'FPS:${currentFPS} • Memory:${flixel.util.FlxStringUtil.formatBytes(memoryMegas)} • Paper Engine:v${MainMenuState.paperEngineVersion} • Friday Night Funkin:v${MainMenuState.funkinVersion}';
 
 		textColor = 0xFFFFFFFF;
 		if (currentFPS < FlxG.drawFramerate * 0.5)

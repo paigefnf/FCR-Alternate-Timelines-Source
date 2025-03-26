@@ -1,0 +1,47 @@
+{
+	"storyName": "Volume 2",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "Volume1",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Minds Eye Squared Resurgence",
+			"bf-resurgence",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Hatred",
+			"dad-evil",
+			[
+				66,
+				33,
+				113
+			]
+		],
+		[
+			"LemonKiller",
+			"monster",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Finis Mundi",
+			"dad-fakeout",
+			[
+				66,
+				33,
+				113
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Volume 2"
+}

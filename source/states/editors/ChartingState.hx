@@ -171,6 +171,8 @@ class ChartingState extends MusicBeatState
 	public static var quantization:Int = 16;
 	public static var curQuant = 3;
 
+	public static var chartVer = "1.0";
+
 	public var quantizations:Array<Int> = [
 		4,
 		8,
@@ -206,7 +208,8 @@ class ChartingState extends MusicBeatState
 				player2: 'dad',
 				gfVersion: 'gf',
 				speed: 1,
-				stage: 'stage'
+				stage: 'stage',
+				chartVer: chartVer
 			};
 			addSection();
 			PlayState.SONG = _song;
@@ -258,6 +261,9 @@ class ChartingState extends MusicBeatState
 
 		nextRenderedSustains = new FlxTypedGroup<FlxSprite>();
 		nextRenderedNotes = new FlxTypedGroup<Note>();
+
+		if (_song.chartVer == null)
+			_song.chartVer = "1.0";
 
 		var cursor:FlxSprite;
 
@@ -412,9 +418,9 @@ class ChartingState extends MusicBeatState
 		{
 
 			var songName:String = Paths.formatToSongPath(_song.song);
-			var file:String = Paths.json(songName + '/events');
+			var file:String = Paths.eventsJson(songName + '/events');
 			#if sys
-			if (#if MODS_ALLOWED FileSystem.exists(Paths.modsJson(songName + '/events')) || #end FileSystem.exists(file))
+			if (#if MODS_ALLOWED FileSystem.exists(Paths.modsEventJson(songName + '/events')) || #end FileSystem.exists(file))
 			#else
 			if (OpenFlAssets.exists(file))
 			#end
@@ -460,11 +466,11 @@ class ChartingState extends MusicBeatState
 		stepperSpeed.name = 'song_speed';
 		blockPressWhileTypingOnStepper.push(stepperSpeed);
 		#if MODS_ALLOWED
-		var directories:Array<String> = [Paths.mods('characters/'), Paths.mods(Mods.currentModDirectory + '/characters/'), Paths.getSharedPath('characters/')];
+		var directories:Array<String> = [Paths.mods('data/characters/'), Paths.mods(Mods.currentModDirectory + '/data/characters/'), Paths.getSharedPath('data/characters/')];
 		for(mod in Mods.getGlobalMods())
-			directories.push(Paths.mods(mod + '/characters/'));
+			directories.push(Paths.mods(mod + '/data/characters/'));
 		#else
-		var directories:Array<String> = [Paths.getSharedPath('characters/')];
+		var directories:Array<String> = [Paths.getSharedPath('data/characters/')];
 		#end
 
 		var tempArray:Array<String> = [];
@@ -2626,9 +2632,10 @@ class ChartingState extends MusicBeatState
 	}
 
 	var characterFailed:Bool = false;
+	
 	function loadCharacterFile(char:String):CharacterFile {
 		characterFailed = false;
-		var characterPath:String = 'characters/' + char + '.json';
+		var characterPath:String = 'data/characters/' + char + '.json';
 		#if MODS_ALLOWED
 		var path:String = Paths.modFolders(characterPath);
 		if (!FileSystem.exists(path)) {
@@ -2641,7 +2648,7 @@ class ChartingState extends MusicBeatState
 		if (!OpenFlAssets.exists(path))
 		#end
 		{
-			path = Paths.getSharedPath('characters/' + Character.DEFAULT_CHARACTER + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
+			path = Paths.getSharedPath('data/characters/' + Character.DEFAULT_CHARACTER + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
 			characterFailed = true;
 		}
 

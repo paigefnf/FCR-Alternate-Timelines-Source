@@ -77,7 +77,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'bool');
 		addOption(option);
 		
-		var option:Option = new Option('Time Bar:',
+		var option:Option = new Option('Time:',
 			"What should the Time Bar display?",
 			'timeBarType',
 			'string',

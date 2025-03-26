@@ -9,7 +9,8 @@ import options.OptionsState;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.7.3c';
+	//public static var psychEngineVersion:String = '0.7.3c';
+	public static var paperEngineVersion:String = '1.0';
 	public static var funkinVersion:String = '0.5.3';
 	public static var curSelected:Int = 0;
 
@@ -95,10 +96,14 @@ class MainMenuState extends MusicBeatState
 			//menuItem.screenCenter(X);
 		}
 
-		var psychVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Psych Engine v" + psychEngineVersion, 12);
+		/*var psychVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
 		psychVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(psychVer);
+		add(psychVer);*/
+		var paperVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Paper Engine v" + paperEngineVersion, 12);
+		paperVer.scrollFactor.set();
+		paperVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(paperVer);
 		var fnfVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "FCR Alternate Timelines v" + Application.current.meta.get('version'), 12);
 		fnfVer.scrollFactor.set();
 		fnfVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);

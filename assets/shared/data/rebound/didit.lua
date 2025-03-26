@@ -1,1 +1,0 @@
-function onCreate()makeLuaSprite('justimage',nil,0.22,0.22)makeLuaSprite('rgbcon',nil,0.006,-0.006)endfunction onStepHit()if curStep == 640 thendoTweenX('jjjj','justimage',0.06,15)doTweenY('xxxxx','justimage',0.06,15)endendfunction onUpdate()setShaderFloat('111','dark',getProperty('justimage.x'))setShaderFloat('shaderImage','dark',getProperty('justimage.y'))end

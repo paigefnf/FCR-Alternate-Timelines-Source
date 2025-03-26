@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin' Corruption Reimagined: Alternate Timelines" file="FCReimagined Alternate Timelines" packageName="com.paigeva.fcralttimelines" package="com.paigeva.fcralttimelines" main="Main" version="1.0" company="PaigeVA" />
+	<app title="Friday Night Funkin' Corruption Reimagined: Alternate Timelines" file="FCReimagined Alternate Timelines" packageName="com.paigefnf.fcralttimelines" package="com.paigefnf.fcralttimelines" main="Main" version="2.0" company="PaigeFNF" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -75,7 +75,7 @@
 	<library name="week_assets"   preload="true" />
 
 	<section if="MODS_ALLOWED">
-		<assets path='example_mods' rename='mods' embed='false'/>
+		<assets path='example_mods' rename='content' embed='false'/>
 	</section>
 	<assets path='art/readme.txt' rename='thank you.txt' />
 	<assets path='art/secret folder dont open' rename='very sigma folder' />

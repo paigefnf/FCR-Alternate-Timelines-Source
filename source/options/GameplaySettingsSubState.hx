@@ -45,6 +45,12 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'bool');
 		addOption(option);
 
+		var option:Option = new Option('Miss Sounds',
+			"If checked, a sound will play indicating you missed a note. (Readded by PaigeFNF)",
+			'missSounds',
+			'bool');
+		addOption(option);
+
 		var option:Option = new Option('Hitsound Volume',
 			'Funny notes does \"Tick!\" when you hit them.',
 			'hitsoundVolume',

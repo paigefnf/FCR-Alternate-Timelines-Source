@@ -1,0 +1,1 @@
+This folder will be kept because I'm using it to make charts, keep note that if you try to play this, it would crash since the song files are deleted, however, if you don't want to keep it, feel free to delete it.

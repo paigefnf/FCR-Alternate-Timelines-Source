@@ -1,0 +1,146 @@
+{
+	"storyName": "Volume 1",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Dispatch",
+			"mom2",
+			[
+				75,
+				0,
+				60
+			]
+		],
+		[
+			"Bedeviled",
+			"dad-1",
+			[
+				126,
+				73,
+				153
+			]
+		],
+		[
+			"Despondency",
+			"dad-2",
+			[
+				126,
+				73,
+				133
+			]
+		],
+		[
+			"Unsalvageable",
+			"dad-fakeout",
+			[
+				66,
+				33,
+				113
+			]
+		],
+		[
+			"Dispatch Remix",
+			"mom2",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Defeat Evil Cover",
+			"mom-evil",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Comatose",
+			"pico-3",
+			[
+				127,
+				19,
+				73
+			]
+		],
+		[
+			"Comatose SC Mix",
+			"catnap-corrupt",
+			[
+				66,
+				33,
+				113
+			]
+		],
+		[
+			"Eclipsed Hope",
+			"dad-fakeout",
+			[
+				66,
+				33,
+				113
+			]
+		],
+		[
+			"Outrank",
+			"bf-alley1",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Facing The Downfall",
+			"bf-alley2",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Glammed",
+			"mom3-1",
+			[
+				75,
+				0,
+				60
+			]
+		],
+		[
+			"Fatigue",
+			"bf-mom3",
+			[
+				49,
+				176,
+				209
+			]
+		],
+		[
+			"Dispatch Mania",
+			"mom2",
+			[
+				75,
+				0,
+				60
+			]
+		],
+		[
+			"Indomitable2weak",
+			"mom",
+			[
+				127,
+				19,
+				73
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Volume 1"
+}

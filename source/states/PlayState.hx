@@ -482,13 +482,13 @@ class PlayState extends MusicBeatState
 		timeTxt.borderSize = 2;
 		timeTxt.visible = updateTime = showTime;
 		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
-		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
+		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = "- " + SONG.song + " [" + Difficulty.getString().toUpperCase() + "] " + "-"; // formatted it like Forever Engine - PaigeFNF
 
 		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'ui/bars/time/timeBar', function() return songPercent, 0, 1);
 		timeBar.scrollFactor.set();
 		timeBar.screenCenter(X);
 		timeBar.alpha = 0;
-		timeBar.visible = showTime;
+		timeBar.visible = false;
 		uiGroup.add(timeBar);
 		uiGroup.add(timeTxt);
 
@@ -530,7 +530,7 @@ class PlayState extends MusicBeatState
 		FlxG.worldBounds.set(0, 0, FlxG.width, FlxG.height);
 		moveCameraSection();
 
-		if(curSong.toLowerCase() == 'echo' || curSong.toLowerCase() == 'indomitable2weak')
+		if(curSong.toLowerCase() == 'echo' || curSong.toLowerCase() == 'indomitable2weak' || curSong.toLowerCase() == 'fnf be like')
 		{
 			healthBar = new Bar(0, FlxG.height * (!ClientPrefs.data.downScroll ? 0.89 : 0.11), 'ui/bars/health/healthBarOG', function() return curHealth, 0, 2);
 		}
@@ -581,7 +581,10 @@ class PlayState extends MusicBeatState
 
 		uiGroup.cameras = [camHUD];
 		noteGroup.cameras = [camHUD];
-		
+		if (curSong.toLowerCase() == 'dispatch mania')
+		{
+			comboGroup.cameras = [camHUD];
+		}
 
 		startingSong = true;
 
@@ -609,7 +612,7 @@ class PlayState extends MusicBeatState
 
 		// SONG SPECIFIC SCRIPTS
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-		for (folder in Mods.directoriesWithFile(Paths.getSharedPath(), 'data/$songName/'))
+		for (folder in Mods.directoriesWithFile(Paths.getSongPath(), '/$songName/charts/'))
 			for (file in FileSystem.readDirectory(folder))
 			{
 				#if LUA_ALLOWED
@@ -1136,7 +1139,9 @@ class PlayState extends MusicBeatState
 			str += '${percent}%';
 		}
 
-		var tempScore:String = ' Points:${songScore}' + (!instakillOnMiss ? '                          Combo Breaks:${songMisses}' : "") + '                         Grade:${str}';
+		// var tempScore:String = ' Points:${songScore}' + (!instakillOnMiss ? '                          Combo Breaks:${songMisses}' : "") + '                         Grade:${str}';
+
+		var tempScore:String = (!instakillOnMiss ? 'Rank:${str}' + ' •' + ' Combo Breaks:${songMisses}' : "") ;
 
 		// "tempScore" variable is used to prevent another memory leak, just in case
 		// "\n" here prevents the text from being cut off by beat zooms
@@ -1311,9 +1316,9 @@ class PlayState extends MusicBeatState
 		// NEW SHIT
 		noteData = songData.notes;
 
-		var file:String = Paths.json(songName + '/events');
+		var file:String = Paths.eventsJson(songName + '/charts/' + 'events');
 		#if MODS_ALLOWED
-		if (FileSystem.exists(Paths.modsJson(songName + '/events')) || FileSystem.exists(file))
+		if (FileSystem.exists(Paths.modsEventJson(songName + '/harts/' + 'events')) || FileSystem.exists(file))
 		#else
 		if (OpenFlAssets.exists(file))
 		#end
@@ -2717,56 +2722,60 @@ class PlayState extends MusicBeatState
 
 	// Hold notes
 	private function keysCheck():Void
-	{
-		// HOLDING
-		var holdArray:Array<Bool> = [];
-		var pressArray:Array<Bool> = [];
-		var releaseArray:Array<Bool> = [];
-		for (key in keysArray)
 		{
-			holdArray.push(controls.pressed(key));
-			if(controls.controllerMode)
+			// HOLDING
+			var holdArray:Array<Bool> = [];
+			var pressArray:Array<Bool> = [];
+			var releaseArray:Array<Bool> = [];
+			for (key in keysArray)
 			{
-				pressArray.push(controls.justPressed(key));
-				releaseArray.push(controls.justReleased(key));
-			}
-		}
-
-		// TO DO: Find a better way to handle controller inputs, this should work for now
-		if(controls.controllerMode && pressArray.contains(true))
-			for (i in 0...pressArray.length)
-				if(pressArray[i] && strumsBlocked[i] != true)
-					keyPressed(i);
-
-		if (startedCountdown && !inCutscene && !boyfriend.stunned && generatedMusic)
-		{
-			if (notes.length > 0) {
-				for (n in notes) { // I can't do a filter here, that's kinda awesome
-					var canHit:Bool = (n != null && !strumsBlocked[n.noteData] && n.canBeHit
-						&& n.mustPress && !n.tooLate && !n.wasGoodHit && !n.blockHit);
-
-					if (guitarHeroSustains)
-						canHit = canHit && n.parent != null && n.parent.wasGoodHit;
-
-					if (canHit && n.isSustainNote) {
-						var released:Bool = !holdArray[n.noteData];
-
-						if (!released)
-							goodNoteHit(n);
-					}
+				holdArray.push(controls.pressed(key));
+				if(controls.controllerMode)
+				{
+					pressArray.push(controls.justPressed(key));
+					releaseArray.push(controls.justReleased(key));
 				}
 			}
+	
+			// TO DO: Find a better way to handle controller inputs, this should work for now
+			if(controls.controllerMode && pressArray.contains(true))
+				for (i in 0...pressArray.length)
+					if(pressArray[i] && strumsBlocked[i] != true)
+						keyPressed(i);
+	
+			if (startedCountdown && !inCutscene && !boyfriend.stunned && generatedMusic)
+			{
+				if (notes.length > 0) {
+					for (n in notes) { // I can't do a filter here, that's kinda awesome
+						var canHit:Bool = (n != null && !strumsBlocked[n.noteData] && n.canBeHit
+							&& n.mustPress && !n.tooLate && !n.wasGoodHit && !n.blockHit);
+	
+						if (guitarHeroSustains)
+							canHit = canHit && n.parent != null && n.parent.wasGoodHit;
+	
+						if (canHit && n.isSustainNote) {
+							var released:Bool = !holdArray[n.noteData];
+	
+							if (!released)
+								goodNoteHit(n);
+						}
+					}
+				}
+	
+				if (!holdArray.contains(true) || endingSong)
+					playerDance();
+	
+				#if ACHIEVEMENTS_ALLOWED
+				else checkForAchievement(['oversinging']);
+				#end
+			}
 
-			if (!holdArray.contains(true) || endingSong)
-				playerDance();
-		}
-
-		// TO DO: Find a better way to handle controller inputs, this should work for now
-		if((controls.controllerMode || strumsBlocked.contains(true)) && releaseArray.contains(true))
-			for (i in 0...releaseArray.length)
-				if(releaseArray[i] || strumsBlocked[i] == true)
-					keyReleased(i);
-	}
+			// TO DO: Find a better way to handle controller inputs, this should work for now
+			if((controls.controllerMode || strumsBlocked.contains(true)) && releaseArray.contains(true))
+				for (i in 0...releaseArray.length)
+					if(releaseArray[i] || strumsBlocked[i] == true)
+						keyReleased(i);
+		}			
 
 	function noteMiss(daNote:Note):Void { //You didn't hit the key and let it go offscreen, also used by Hurt Notes
 		//Dupe note remove
@@ -2774,10 +2783,14 @@ class PlayState extends MusicBeatState
 			if (daNote != note && daNote.mustPress && daNote.noteData == note.noteData && daNote.isSustainNote == note.isSustainNote && Math.abs(daNote.strumTime - note.strumTime) < 1)
 				invalidateNote(note);
 		});
-
 		noteMissCommon(daNote.noteData, daNote);
 		var result:Dynamic = callOnLuas('noteMiss', [notes.members.indexOf(daNote), daNote.noteData, daNote.noteType, daNote.isSustainNote]);
 		if(result != LuaUtils.Function_Stop && result != LuaUtils.Function_StopHScript && result != LuaUtils.Function_StopAll) callOnHScript('noteMiss', [daNote]);
+
+		if(ClientPrefs.data.missSounds)
+		{
+			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(1));
+		}	
 	}
 
 	function noteMissPress(direction:Int = 1):Void //You pressed a key when there was no notes to press for this key
@@ -2785,7 +2798,12 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.data.ghostTapping) return; //fuck it
 
 		noteMissCommon(direction);
-		FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
+		
+		if(ClientPrefs.data.missSounds)
+		{
+			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(1));
+		}
+
 		callOnScripts('noteMissPress', [direction]);
 	}
 
@@ -2900,8 +2918,14 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		if (note.isSustainNote) dad.holdTimer = 0;
+
 		if(opponentVocals.length <= 0) vocals.volume = 1;
-		strumPlayAnim(true, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
+		var time:Float = 0.15;
+		if(note.isSustainNote && !note.animation.curAnim.name.endsWith('end')) {
+			time += 0.15;
+		}
+		strumPlayAnim(true, Std.int(Math.abs(note.noteData)), time);
 		note.hitByOpponent = true;
 		
 		var result:Dynamic = callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
@@ -2914,6 +2938,7 @@ class PlayState extends MusicBeatState
 	{
 		if(note.wasGoodHit) return;
 		if(cpuControlled && note.ignoreNote) return;
+		if (note.isSustainNote) boyfriend.holdTimer = 0;
 
 		var isSus:Bool = note.isSustainNote; //GET OUT OF MY HEAD, GET OUT OF MY HEAD, GET OUT OF MY HEAD
 		var leData:Int = Math.round(Math.abs(note.noteData));
@@ -2971,10 +2996,10 @@ class PlayState extends MusicBeatState
 		}
 
 		if(!cpuControlled)
-		{
-			var spr = playerStrums.members[note.noteData];
-			if(spr != null) spr.playAnim('confirm', true);
-		}
+			{
+				var spr = playerStrums.members[note.noteData];
+				if(spr != null) spr.playAnim('confirm', true);
+			}
 		else strumPlayAnim(false, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
 		vocals.volume = 1;
 
