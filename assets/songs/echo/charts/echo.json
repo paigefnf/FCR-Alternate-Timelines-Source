@@ -3341,7 +3341,7 @@
 		"song": "Echo",
 		"arrowSkin": "ui/noteSkins/echoNotes",
 		"needsVoices": true,
-		"stage": "whitebg",
+		"stage": "whitebg-echo",
 		"speed": 2.4,
 		"bpm": 140
 	}

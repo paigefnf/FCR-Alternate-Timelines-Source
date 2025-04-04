@@ -112,8 +112,8 @@ class VisualsUISubState extends BaseOptionsMenu
 		addOption(option);
 		
 		#if !mobile
-		var option:Option = new Option('FPS Counter',
-			'If unchecked, hides FPS Counter.',
+		var option:Option = new Option('Show Debug Info',
+			'If unchecked, hides the following: FPS & Memory Counter, Engine & FNF watermarks.',
 			'showFPS',
 			'bool');
 		addOption(option);
@@ -124,7 +124,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			"What song do you prefer for the Pause Screen?",
 			'pauseMusic',
 			'string',
-			['None', 'Breakfast', 'Tea Time']);
+			['None', 'Breakfast', 'Breakfast Pico']);
 		addOption(option);
 		option.onChange = onChangePauseMusic;
 		

@@ -8,11 +8,12 @@ graveyard-2
 graveyard-3
 -----MOM STAGES-----
 limo
+limo-1
+limo-1-alt
 limo-2
 limo-3
 -----BOYFRIEND STAGES-----
 alleyway
-alleyway-bside
 -----SENPAI STAGES-----
 school
 school-2
@@ -24,6 +25,8 @@ stage-dearest-2
 stage-dearest-3
 stage-dearest-chances
 stage-dearest-tempest
+stage-dearest-3-mundi
+stage-dearest-3-eclipsed
 stage-dearest-dead
 stage
 ---DARNELL STAGES---
@@ -32,4 +35,7 @@ city-2
 -----OTHERS-----
 skeld
 alleyway-duality
+whitebg-echo
+whitebg
+madness
 

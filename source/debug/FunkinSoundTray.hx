@@ -95,18 +95,18 @@ package debug; // This whole code is created by MoonlightCatalyst - PaigeFNF
          if (controls.justPressed('volume_up'))
          {
              isMuted = false;
-             sound = FlxAssets.getSound("flixel/sounds/beep");
+             sound = Paths.sound("soundtray/Volup");
              if (sound != null) FlxG.sound.load(sound).play();
          }
          else if (controls.justPressed('volume_down'))
          {
              isMuted = false;
-             sound = FlxAssets.getSound("flixel/sounds/beep");
+             sound = Paths.sound("soundtray/Voldown");
              if (sound != null) FlxG.sound.load(sound).play();
          }
          else if (controls.justPressed('volume_mute'))
          {
-             isMuted = !isMuted;
+            isMuted = !isMuted;
          }
  
          var elapsed = deltaTime / 1000;

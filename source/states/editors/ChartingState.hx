@@ -215,7 +215,7 @@ class ChartingState extends MusicBeatState
 			PlayState.SONG = _song;
 		}
 
-		// Paths.clearMemory();
+		//FlxG.sound.playMusic(Paths.music('chartEditor/chartEditorLoop'), 1);
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence

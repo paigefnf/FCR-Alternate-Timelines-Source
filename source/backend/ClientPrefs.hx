@@ -45,7 +45,7 @@ import states.TitleState;
 	public var healthBarAlpha:Float = 1;
 	public var oldHold:Bool = false;
 	public var hitsoundVolume:Float = 0;
-	public var pauseMusic:String = 'Tea Time';
+	public var pauseMusic:String = 'Breakfast Pico';
 	public var checkForUpdates:Bool = false;
 	public var comboStacking:Bool = true;
 	public var gameplaySettings:Map<String, Dynamic> = [
