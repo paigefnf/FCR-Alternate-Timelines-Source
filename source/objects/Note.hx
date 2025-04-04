@@ -120,11 +120,13 @@ class Note extends FlxSprite
 	public var noAnimation:Bool = false;
 	public var noMissAnimation:Bool = false;
 	public var hitCausesMiss:Bool = false;
-	public var distance:Float = 2000; //plan on doing scroll directions soon -bb
+	public var distance:Float = 2000;
 
 	public var hitsoundDisabled:Bool = false;
 	public var hitsoundChartEditor:Bool = true;
 	public var hitsound:String = 'hitsound';
+	public var hitsoundChartBF:String = 'chartSounds/chartTick';
+	public var hitsoundChartDad:String = 'chartSounds/chartSnap';
 
 	private function set_multSpeed(value:Float):Float {
 		resizeByRatio(value / multSpeed);
