@@ -5,6 +5,12 @@ assets/songs/your-song-name-here/audio/
 ---- ./Inst.ogg
 ---- ./Voices.ogg
 
+Alternatively, it can also look like this if you have separate voice files:
+
+assets/songs/your-song-name-here/audio/
+---- ./Inst.ogg
+---- ./Voices-Opponent.ogg
+---- ./Voices-Player.ogg
 
 == CHARTS ==
 Put your charts here, it should look something like this:
