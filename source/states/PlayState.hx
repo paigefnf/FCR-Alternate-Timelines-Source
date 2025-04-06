@@ -366,7 +366,7 @@ class PlayState extends MusicBeatState
 			cameraSpeed = stageData.camera_speed;
 
 		boyfriendCameraOffset = stageData.camera_boyfriend;
-		if(boyfriendCameraOffset == null) //Fucks sake should have done it since the start :rolling_eyes:
+		if(boyfriendCameraOffset == null) //Fucks sake should have done it since the start 🙄
 			boyfriendCameraOffset = [0, 0];
 
 		opponentCameraOffset = stageData.camera_opponent;
@@ -392,6 +392,12 @@ class PlayState extends MusicBeatState
 			case 'school': new states.stages.School(); //Week 6 - Senpai, Roses
 			case 'schoolEvil': new states.stages.SchoolEvil(); //Week 6 - Thorns
 			case 'tank': new states.stages.Tank(); //Week 7 - Ugh, Guns, Stress
+			case 'whitebg': new states.stages.WhiteBG();
+			case 'whitebg-echo': new states.stages.WhiteBG();
+			case 'limo-1': new states.stages.FCRLimo();
+			case 'limo-1-alt': new states.stages.FCRLimo();
+			case 'limo-2': new states.stages.FCRLimo2();
+			case 'limo-3': new states.stages.FCRLimo3();
 		}
 
 		if(isPixelStage) {

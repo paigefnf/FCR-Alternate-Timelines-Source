@@ -1,38 +1,5 @@
 function onCreate()
 
-makeLuaSprite('sky','stage_assets/limo/limoSky',-3200,-800)
-setScrollFactor('sky',0.7,0.7)
-addLuaSprite('sky')
-
-makeLuaSprite('front','stage_assets/limo/frontStreet',300,-200)
-setScrollFactor('front',0.9,0.9)
-screenCenter('front','x')
-addLuaSprite('front')
-
-makeLuaSprite('light1','stage_assets/limo/streetLight',-500,-600)
-addLuaSprite('light1')
-
-makeLuaSprite('light2','stage_assets/limo/streetLight',300,-600)
-addLuaSprite('light2')
-
-makeLuaSprite('light3','stage_assets/limo/streetLight',1100,-600)
-addLuaSprite('light3')
-
-makeLuaSprite('light4','stage_assets/limo/streetLight',1900,-600)
-addLuaSprite('light4')
-
-makeLuaSprite('backCar','stage_assets/limo/backCar',-300,50)
-scaleObject('backCar',1.2,1)
-addLuaSprite('backCar')
-
-makeLuaSprite('frontCar','stage_assets/limo/frontCar',-25,0)
-addLuaSprite('frontCar')
-
-makeLuaSprite('filter','stage_assets/limo/filter',-3200,-800)
-setScrollFactor('filter',0.7,0.7)
-setProperty('filter.alpha',1)
-addLuaSprite('filter',true)
-
 makeAnimatedLuaSprite('fog','stage_assets/limo/fog',-600,-600)
 addAnimationByPrefix('fog','fog','theFog',24,true)
 setGraphicSize('fog',3000,3000)
@@ -40,12 +7,8 @@ screenCenter('fog')
 setProperty('fog.alpha',0.4)
 setScrollFactor('fog',0,0)
 addLuaSprite('fog',true)
-
-makeLuaSprite('lay','overlay',0,0)
-setObjectCamera('lay','hud')
-addLuaSprite('lay')
-
 end
+
 function onCountdownTick(count)
 if count == 2 then
 objectPlayAnimation('backMan','idle')
@@ -57,6 +20,7 @@ objectPlayAnimation('henchmen4','idle')
 objectPlayAnimation('henchmen5','idle')
 end
 end
+
 function onBeatHit()
 if curBeat %2 == 0 then
 objectPlayAnimation('henchmen1','idle')
@@ -68,6 +32,7 @@ objectPlayAnimation('backMan','idle')
 objectPlayAnimation('frontMan','idle')
 end
 end
+
 function onStepHit()
 if curStep == 64 then
 doTweenAlpha('fog','fog',0,1,'')
