@@ -651,7 +651,6 @@ class PlayState extends MusicBeatState
 
 		//PRECACHING THINGS THAT GET USED FREQUENTLY TO AVOID LAGSPIKES
 		if(ClientPrefs.data.hitsoundVolume > 0) Paths.sound('hitsound');
-		for (i in 1...4) Paths.sound('missnote$i');
 		Paths.image('alphabet');
 
 		if (PauseSubState.songName != null)
@@ -676,7 +675,7 @@ class PlayState extends MusicBeatState
 	{
 		if(generatedMusic)
 		{
-			var ratio:Float = value / songSpeed; //funny word huh
+			var ratio:Float = value / songSpeed; //funny word bruh
 			if(ratio != 1)
 			{
 				for (note in notes.members) note.resizeByRatio(ratio);
@@ -697,7 +696,7 @@ class PlayState extends MusicBeatState
 			opponentVocals.pitch = value;
 			FlxG.sound.music.pitch = value;
 
-			var ratio:Float = playbackRate / value; //funny word huh
+			var ratio:Float = playbackRate / value; //funny word bruh
 			if(ratio != 1)
 			{
 				for (note in notes.members) note.resizeByRatio(ratio);
