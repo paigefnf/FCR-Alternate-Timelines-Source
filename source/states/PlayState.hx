@@ -171,7 +171,7 @@ class PlayState extends MusicBeatState
 
 	public var camZooming:Bool = true;
 	public var camZoomingMult:Float = 1;
-	public var camZoomingDecay:Float = 8;
+	public var camZoomingDecay:Float = 1; //note to self: change it back to 8 if you want instant zooming back
 	private var curSong:String = "";
 
 	public var gfSpeed:Int = 1;
@@ -628,7 +628,7 @@ class PlayState extends MusicBeatState
 
 		// SONG SPECIFIC SCRIPTS
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-		for (folder in Mods.directoriesWithFile(Paths.getSongPath(), '/$songName/charts/'))
+		for (folder in Mods.directoriesWithFile(Paths.getSongPath(), '$songName/charts/'))
 			for (file in FileSystem.readDirectory(folder))
 			{
 				#if LUA_ALLOWED
