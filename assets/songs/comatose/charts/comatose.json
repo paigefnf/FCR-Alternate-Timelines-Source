@@ -1,59 +1,8 @@
 {
 	"song": {
-		"player1": "bf-mom3",
-		"events": [
-			[
-				94634.6830985915,
-				[
-					[
-						"Change Character",
-						"dad",
-						"pico3-alt"
-					]
-				]
-			],
-			[
-				94645.2464788732,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-mom3-alt"
-					]
-				]
-			],
-			[
-				123367.077464789,
-				[
-					[
-						"Change Character",
-						"bf",
-						"bf-mom3-fuck"
-					]
-				]
-			],
-			[
-				123377.64084507,
-				[
-					[
-						"Change Character",
-						"dad",
-						"pico3-alt2"
-					]
-				]
-			],
-			[
-				148729.753521127,
-				[
-					[
-						"Alt Idle Animation",
-						"bf",
-						"-alt"
-					]
-				]
-			]
-		],
-		"player2": "pico3",
+		"player1": "bf-mom1-paige",
+		"events": [],
+		"player2": "pico2-alt-paige",
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -5133,8 +5082,6 @@
 				"bpm": 155
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						137323.943661972,
@@ -5232,14 +5179,14 @@
 						0
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						139859.154929577,
@@ -5337,14 +5284,14 @@
 						318
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						140704.225352113,
@@ -5442,14 +5389,14 @@
 						0
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						141971.830985915,
@@ -5532,14 +5479,14 @@
 						0
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						143661.971830986,
@@ -5594,14 +5541,14 @@
 						"No Animation"
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						145352.112676056,
@@ -5664,14 +5611,14 @@
 						106
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
-				"altAnim": false,
 				"sectionNotes": [
 					[
 						147042.253521127,
@@ -5744,86 +5691,89 @@
 						106
 					]
 				],
-				"bpm": 142,
 				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"bpm": 142,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
+				"sectionNotes": [],
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
-				"sectionNotes": [],
 				"bpm": 142,
-				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": true
 			}
 		],
 		"gfVersion": "gf-blank",
 		"player3": null,
+		"chartVer": "1.0",
 		"song": "Comatose",
 		"stage": "philly-3",
 		"freeplayCategory": "duality",

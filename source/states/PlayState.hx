@@ -3158,7 +3158,7 @@ class PlayState extends MusicBeatState
 		if (generatedMusic)
 			notes.sort(FlxSort.byY, ClientPrefs.data.downScroll ? FlxSort.ASCENDING : FlxSort.DESCENDING);
 
-		if (curBeat % 2 == 0)
+		if (curBeat % 8 == 0) //change it back to 2 if u don't like it... note to self
 	{	
 		iconP1.scale.set(1.1, 1.1);
 		iconP2.scale.set(1.1, 1.1);
