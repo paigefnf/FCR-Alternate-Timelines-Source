@@ -1,7 +1,7 @@
 #if !macro
 //Discord API
 #if DISCORD_ALLOWED
-import backend.Discord;
+import funkin.backend.Discord;
 #end
 
 //Psych
@@ -11,7 +11,7 @@ import llua.Lua;
 #end
 
 #if ACHIEVEMENTS_ALLOWED
-import backend.Achievements;
+import funkin.backend.system.Achievements;
 #end
 
 #if sys
@@ -21,23 +21,24 @@ import sys.io.*;
 import js.html.*;
 #end
 
-import backend.Paths;
-import backend.Controls;
-import backend.CoolUtil;
-import backend.MusicBeatState;
-import backend.MusicBeatSubstate;
-import backend.CustomFadeTransition;
-import backend.ClientPrefs;
-import backend.Conductor;
-import backend.BaseStage;
-import backend.Difficulty;
-import backend.Mods;
+import funkin.backend.assets.Paths;
+import funkin.backend.system.Controls;
+import funkin.data.CoolUtil;
+import funkin.backend.MusicBeatState;
+import funkin.backend.MusicBeatSubstate;
+import funkin.backend.CustomFadeTransition;
+import funkin.data.ClientPrefs;
+import funkin.backend.system.Conductor;
+import funkin.backend.assets.BaseStage;
+import funkin.backend.system.Difficulty;
+import funkin.backend.assets.Mods;
+import funkin.backend.assets.BaseStage;
 
-import objects.Alphabet;
-import objects.BGSprite;
+import funkin.objects.Alphabet;
+import funkin.objects.BGSprite;
 
-import states.PlayState;
-import states.LoadingState;
+import funkin.game.PlayState;
+import funkin.game.LoadingState;
 
 #if flxanimate
 import flxanimate.*;
