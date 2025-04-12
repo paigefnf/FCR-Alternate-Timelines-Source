@@ -25,7 +25,7 @@ class FCRLimo2 extends BaseStage
 		var light4:BGSprite = new BGSprite('stage_assets/limo2/streetLight',1900,-600);
 		add(light4);
 
-		var backCar:BGSprite = new BGSprite('stage_assets/limo2/backCar',-300,50);
+		var backCar:BGSprite = new BGSprite('stage_assets/limo2/backCar',-100,280);
 		add(backCar);
 
 		var frontCar:BGSprite = new BGSprite('stage_assets/limo2/frontCar',-25,50);
