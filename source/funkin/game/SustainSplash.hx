@@ -13,7 +13,7 @@ import funkin.game.NoteSplash;
  
      super();
  
-     frames = Paths.getSparrowAtlas('noteSplashes/holdSplashes/holdSplash');
+     frames = Paths.getSparrowAtlas('noteSplashes/holdSplashes/default');
      animation.addByPrefix('hold', 'hold', 24, true);
      animation.addByPrefix('end', 'end', 24, false);
      animation.play('hold', true, false, 0);
@@ -28,7 +28,7 @@ import funkin.game.NoteSplash;
  
      final timeThingy:Float = (startCrochet * end.parent.tail.length + (end.parent.strumTime - Conductor.songPosition + ClientPrefs.data.ratingOffset)) / playbackRate * .001;
  
-     end.extraData['holdSplash'] = this;
+     end.extraData['default'] = this;
  
      clipRect = new flixel.math.FlxRect(0, !isPixelStage ? 0 : -210, frameWidth, frameHeight);
  
@@ -76,7 +76,7 @@ import funkin.game.NoteSplash;
      super.destroy();
  
      if (end != null) {
-       end.extraData['holdSplash'] = null;
+       end.extraData['default'] = null;
      }
  
    }
