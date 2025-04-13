@@ -54,8 +54,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		super();
 
 		//precache sounds
-		Paths.sound('dialogue');
-		Paths.sound('dialogueClose');
+		Paths.sound('cutscenes/dialogue');
+		Paths.sound('cutscenes/dialogueClose');
 
 		if(song != null && song != '') {
 			FlxG.sound.playMusic(Paths.music(song), 0);
@@ -73,7 +73,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 		box = new FlxSprite(70, 370);
 		box.antialiasing = ClientPrefs.data.antialiasing;
-		box.frames = Paths.getSparrowAtlas('speech_bubble');
+		box.frames = Paths.getSparrowAtlas('dialouge/speech_bubble');
 		box.scrollFactor.set();
 		box.animation.addByPrefix('normal', 'speech bubble normal', 24);
 		box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
@@ -148,7 +148,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var daText:TypedAlphabet = null;
 	var ignoreThisFrame:Bool = true; //First frame is reserved for loading dialogue images
 
-	public var closeSound:String = 'dialogueClose';
+	public var closeSound:String = 'cutscenes/dialogueClose';
 	public var closeVolume:Float = 1;
 	override function update(elapsed:Float)
 	{
@@ -352,7 +352,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		daText.text = curDialogue.text;
 		daText.delay = curDialogue.speed;
 		daText.sound = curDialogue.sound;
-		if(daText.sound == null || daText.sound.trim() == '') daText.sound = 'dialogue';
+		if(daText.sound == null || daText.sound.trim() == '') daText.sound = 'cutscenes/dialogue';
 		
 		daText.y = DEFAULT_TEXT_Y;
 		if(daText.rows > 2) daText.y -= LONG_TEXT_ADD;

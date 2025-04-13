@@ -88,7 +88,7 @@ class NoteSplashDebugState extends MusicBeatState
 						missingText.screenCenter(Y);
 						missingText.visible = true;
 						missingTextBG.visible = true;
-						FlxG.sound.play(Paths.sound('cancelMenu'));
+						FlxG.sound.play(Paths.sound('menus/cancelMenu'));
 
 						new FlxTimer().start(2.5, function(tmr:FlxTimer)
 						{
@@ -265,7 +265,7 @@ class NoteSplashDebugState extends MusicBeatState
 			if(pressEnterToSave > 0) //save
 			{
 				saveFile();
-				FlxG.sound.play(Paths.sound('confirmMenu'), 0.4);
+				FlxG.sound.play(Paths.sound('menus/confirmMenu'), 0.4);
 				pressEnterToSave = 0;
 				visibleTime = 3;
 			}

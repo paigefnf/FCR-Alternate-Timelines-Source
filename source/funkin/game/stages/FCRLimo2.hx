@@ -4,6 +4,7 @@ import funkin.game.stages.objects.*;
 
 class FCRLimo2 extends BaseStage
 {
+
 	override function create()
 	{
 		var sky:BGSprite = new BGSprite('stage_assets/limo2/limoSky',-3200,-800, 0.7, 0.7);
@@ -24,7 +25,7 @@ class FCRLimo2 extends BaseStage
 
 		var light4:BGSprite = new BGSprite('stage_assets/limo2/streetLight',1900,-600);
 		add(light4);
-
+		
 		var backCar:BGSprite = new BGSprite('stage_assets/limo2/backCar',-100,280);
 		add(backCar);
 
@@ -36,7 +37,7 @@ class FCRLimo2 extends BaseStage
 		add(filter);
 		filter.alpha = 1;
 
-		var lay:BGSprite = new BGSprite('overlay',0,0);
+		var lay:BGSprite = new BGSprite('stage_assets/overlay',0,0);
 		lay.cameras = [camHUD];
 		add(lay);
 	}

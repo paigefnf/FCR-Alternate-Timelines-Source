@@ -349,19 +349,9 @@ class CharacterEditorState extends MusicBeatState
 					var otherSpr:FlxSprite = (spr == animateGhost) ? ghost : animateGhost;
 					if(otherSpr != null) otherSpr.visible = false;
 				}
-				/*hideGhostButton.active = true;
-				hideGhostButton.alpha = 1;*/
 				trace('created ghost image');
 			}
 		});
-
-		/*hideGhostButton = new FlxButton(20 + makeGhostButton.width, makeGhostButton.y, "Hide Ghost", function() {
-			ghost.visible = false;
-			hideGhostButton.active = false;
-			hideGhostButton.alpha = 0.6;
-		});
-		hideGhostButton.active = false;
-		hideGhostButton.alpha = 0.6;*/
 
 		var highlightGhost:FlxUICheckBox = new FlxUICheckBox(20 + makeGhostButton.x + makeGhostButton.width, makeGhostButton.y, null, null, "Highlight Ghost", 100);
 		highlightGhost.callback = function()
@@ -479,7 +469,7 @@ class CharacterEditorState extends MusicBeatState
 			else
 			{
 				reloadCharacterDropDown();
-				FlxG.sound.play(Paths.sound('cancelMenu'));
+				FlxG.sound.play(Paths.sound('menus/cancelMenu'));
 			}
 		});
 		reloadCharacterDropDown();
@@ -1046,7 +1036,7 @@ class CharacterEditorState extends MusicBeatState
 			if(!_goToPlayState)
 			{
 				MusicBeatState.switchState(new MasterEditorMenu());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music('menus/freakyMenu'));
 			}
 			else MusicBeatState.switchState(new PlayState());
 			return;

@@ -170,10 +170,10 @@ class Tank extends BaseStage
 	{
 		prepareCutscene();
 		cutsceneHandler.endTime = 12;
-		cutsceneHandler.music = 'DISTORTO';
-		Paths.sound('wellWellWell');
-		Paths.sound('killYou');
-		Paths.sound('bfBeep');
+		cutsceneHandler.music = 'cutscenes/DISTORTO';
+		Paths.sound('cutscenes/wellWellWell');
+		Paths.sound('cutscenes/killYou');
+		Paths.sound('cutscenes/bfBeep');
 
 		var wellWellWell:FlxSound = new FlxSound().loadEmbedded(Paths.sound('wellWellWell'));
 		FlxG.sound.list.add(wellWellWell);
@@ -201,7 +201,7 @@ class Tank extends BaseStage
 		{
 			boyfriend.playAnim('singUP', true);
 			boyfriend.specialAnim = true;
-			FlxG.sound.play(Paths.sound('bfBeep'));
+			FlxG.sound.play(Paths.sound('cutscenes/bfBeep'));
 		});
 
 		// Move camera to Tankman
@@ -212,7 +212,7 @@ class Tank extends BaseStage
 
 			// We should just kill you but... what the hell, it's been a boring day... let's see what you've got!
 			tankman.anim.play('killYou', true);
-			FlxG.sound.play(Paths.sound('killYou'));
+			FlxG.sound.play(Paths.sound('cutscenes/killYou'));
 		});
 	}
 	function gunsIntro()
@@ -222,7 +222,7 @@ class Tank extends BaseStage
 		cutsceneHandler.music = 'DISTORTO';
 		Paths.sound('tankSong2');
 
-		var tightBars:FlxSound = new FlxSound().loadEmbedded(Paths.sound('tankSong2'));
+		var tightBars:FlxSound = new FlxSound().loadEmbedded(Paths.sound('cutscenes/tankSong2'));
 		FlxG.sound.list.add(tightBars);
 
 		tankman.anim.addBySymbol('tightBars', 'TANK TALK 2', 24, false);
@@ -260,7 +260,7 @@ class Tank extends BaseStage
 		{
 			spr.y += 100;
 		});
-		Paths.sound('stressCutscene');
+		Paths.sound('cutscenes/stressCutscene');
 
 		pico = new FlxAnimate(gf.x + 150, gf.y + 450);
 		pico.showPivot = false;

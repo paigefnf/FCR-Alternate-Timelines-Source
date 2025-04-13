@@ -11,9 +11,9 @@ class SchoolEvil extends BaseStage
 	override function create()
 	{
 		var _song = PlayState.SONG;
-		if(_song.gameOverSound == null || _song.gameOverSound.trim().length < 1) GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
-		if(_song.gameOverLoop == null || _song.gameOverLoop.trim().length < 1) GameOverSubstate.loopSoundName = 'gameOver-pixel';
-		if(_song.gameOverEnd == null || _song.gameOverEnd.trim().length < 1) GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
+		if(_song.gameOverSound == null || _song.gameOverSound.trim().length < 1) GameOverSubstate.deathSoundName = 'gameover/fnf_loss_sfx-pixel';
+		if(_song.gameOverLoop == null || _song.gameOverLoop.trim().length < 1) GameOverSubstate.loopSoundName = 'gameover/gameOver-pixel';
+		if(_song.gameOverEnd == null || _song.gameOverEnd.trim().length < 1) GameOverSubstate.endSoundName = 'gameover/gameOverEnd-pixel';
 		if(_song.gameOverChar == null || _song.gameOverChar.trim().length < 1) GameOverSubstate.characterName = 'bf-pixel-dead';
 		
 		var posX = 400;
@@ -30,7 +30,7 @@ class SchoolEvil extends BaseStage
 		add(bg);
 		setDefaultGF('gf-pixel');
 
-		FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
+		FlxG.sound.playMusic(Paths.music('cutscenes/pixel/LunchboxScary'), 0);
 		FlxG.sound.music.fadeIn(1, 0, 0.8);
 		if(isStoryMode && !seenCutscene)
 		{
@@ -136,7 +136,7 @@ class SchoolEvil extends BaseStage
 					else
 					{
 						senpaiEvil.animation.play('idle');
-						FlxG.sound.play(Paths.sound('Senpai_Dies'), 1, false, null, true, function()
+						FlxG.sound.play(Paths.sound('game/week6/Senpai_Dies'), 1, false, null, true, function()
 						{
 							remove(senpaiEvil);
 							senpaiEvil.destroy();

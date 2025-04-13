@@ -43,9 +43,9 @@ class OptionsState extends MusicBeatState
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
-		FlxG.sound.playMusic(Paths.music('optionsMenu'), 1);
+		FlxG.sound.playMusic(Paths.music('options/optionsMenu'), 1);
 
-		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menus/freeplay/menuDesat'));
+		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menus/options/menuDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.color = 0xFFea71fd;
 		bg.updateHitbox();
@@ -94,8 +94,8 @@ class OptionsState extends MusicBeatState
 		}
 
 		if (controls.BACK) {
-			FlxG.sound.play(Paths.sound('cancelMenu'));
-			FlxG.sound.playMusic(Paths.music('freakyMenu'), 1);
+			FlxG.sound.play(Paths.sound('menus/cancelMenu'));
+			FlxG.sound.playMusic(Paths.music('menus/freakyMenu'), 1);
 			if(onPlayState)
 			{
 				StageData.loadDirectory(PlayState.SONG);
@@ -129,7 +129,7 @@ class OptionsState extends MusicBeatState
 				selectorRight.y = item.y;
 			}
 		}
-		FlxG.sound.play(Paths.sound('scrollMenu'));
+		FlxG.sound.play(Paths.sound('menus/scrollMenu'));
 	}
 
 	override function destroy()

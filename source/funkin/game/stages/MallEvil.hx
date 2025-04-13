@@ -34,7 +34,7 @@ class MallEvil extends BaseStage
 		camHUD.visible = false;
 		inCutscene = true;
 
-		FlxG.sound.play(Paths.sound('Lights_Turn_On'));
+		FlxG.sound.play(Paths.sound('game/week5/Lights_Turn_On'));
 		FlxG.camera.zoom = 1.5;
 		FlxG.camera.focusOn(new FlxPoint(400, -2050));
 

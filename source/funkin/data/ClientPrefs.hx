@@ -17,7 +17,7 @@ import funkin.backend.system.Main;
 	public var autoPause:Bool = true;
 	public var antialiasing:Bool = true;
 	public var noteSkin:String = 'Default';
-	public var splashSkin:String = 'Psych';
+	public var splashSkin:String = 'Default';
 	public var splashAlpha:Float = 0.6;
 	public var holdSplashAlpha:Float = 0.6;
 	public var lowQuality:Bool = false;

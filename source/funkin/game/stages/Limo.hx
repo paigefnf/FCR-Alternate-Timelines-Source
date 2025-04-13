@@ -68,7 +68,7 @@ class Limo extends BaseStage
 			resetLimoKill();
 
 			//PRECACHE SOUND
-			Paths.sound('dancerdeath');
+			Paths.sound('game/week4/dancerdeath');
 			setDefaultGF('gf-car');
 		}
 
@@ -108,7 +108,7 @@ class Limo extends BaseStage
 						if(dancers[i].x < FlxG.width * 1.5 && limoLight.x > (370 * i) + 170) {
 							switch(i) {
 								case 0 | 3:
-									if(i == 0) FlxG.sound.play(Paths.sound('dancerdeath'), 0.5);
+									if(i == 0) FlxG.sound.play(Paths.sound('game/week4/dancerdeath'), 0.5);
 
 									var diffStr:String = i == 3 ? ' 2 ' : ' ';
 									var particle:BGSprite = new BGSprite('gore/noooooo', dancers[i].x + 200, dancers[i].y, 0.4, 0.4, ['hench leg spin' + diffStr + 'PINK'], false);
@@ -240,7 +240,7 @@ class Limo extends BaseStage
 	function fastCarDrive()
 	{
 		//trace('Car drive');
-		FlxG.sound.play(Paths.soundRandom('carPass', 0, 1), 0.7);
+		FlxG.sound.play(Paths.soundRandom('game/week4/carPass', 0, 1), 0.7);
 
 		fastCar.velocity.x = (FlxG.random.int(170, 220) / FlxG.elapsed) * 3;
 		fastCarCanDrive = false;

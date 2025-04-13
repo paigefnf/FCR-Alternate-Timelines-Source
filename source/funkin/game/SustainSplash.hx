@@ -13,7 +13,7 @@ import funkin.game.NoteSplash;
  
      super();
  
-     frames = Paths.getSparrowAtlas('ui/holdSplashes/holdSplash');
+     frames = Paths.getSparrowAtlas('noteSplashes/holdSplashes/holdSplash');
      animation.addByPrefix('hold', 'hold', 24, true);
      animation.addByPrefix('end', 'end', 24, false);
      animation.play('hold', true, false, 0);

@@ -36,7 +36,7 @@ class FCRLimo3 extends BaseStage
 		add(filter);
 		filter.alpha = 1;
 
-		var lay:BGSprite = new BGSprite('overlay',0,0);
+		var lay:BGSprite = new BGSprite('stage_assets/overlay',0,0);
 		lay.cameras = [camHUD];
 		add(lay);
 	}
