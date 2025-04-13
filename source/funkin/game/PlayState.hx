@@ -2840,7 +2840,7 @@ class PlayState extends MusicBeatState
 
 		if(ClientPrefs.data.missSounds)
 		{
-			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(1));
+			FlxG.sound.play(Paths.soundRandom('game/missnote', 1, 3), FlxG.random.float(1));
 		}	
 	}
 
@@ -2852,7 +2852,7 @@ class PlayState extends MusicBeatState
 		
 		if(ClientPrefs.data.missSounds)
 		{
-			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(1));
+			FlxG.sound.play(Paths.soundRandom('game/missnote', 1, 3), FlxG.random.float(1));
 		}
 
 		callOnScripts('noteMissPress', [direction]);
