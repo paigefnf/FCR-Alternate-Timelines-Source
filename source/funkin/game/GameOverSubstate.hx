@@ -28,7 +28,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	public static function resetVariables() {
 		characterName = 'bf-dead';
-		deathSoundName = 'ganeover/fnf_loss_sfx';
+		deathSoundName = 'gameover/fnf_loss_sfx';
 		loopSoundName = 'gameover/gameOver';
 		endSoundName = 'gameover/gameOverEnd';
 

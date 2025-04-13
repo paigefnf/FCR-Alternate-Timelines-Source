@@ -658,7 +658,7 @@ class PlayState extends MusicBeatState
 
 		// SONG SPECIFIC SCRIPTS
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-		for (folder in Mods.directoriesWithFile(Paths.getSongPath(), '$songName/charts/'))
+		for (folder in Mods.directoriesWithFile(Paths.getSongPath(), '$songName/scripts/'))
 			for (file in FileSystem.readDirectory(folder))
 			{
 				#if LUA_ALLOWED
@@ -985,7 +985,7 @@ class PlayState extends MusicBeatState
 		var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 		var introImagesArray:Array<String> = switch(stageUI) {
 			case "pixel": ['ui/${stageUI}UI/ready-pixel', 'ui/${stageUI}UI/set-pixel', 'ui/${stageUI}UI/date-pixel'];
-			case "normal": ["ui/ready", "ui/set" ,"ui/go"];
+			case "normal": ["ui/countdown/normal/ready", "ui/countdown/normal/set" ,"ui/countdown/normal/go"];
 			default: ['${stageUI}UI/ready', '${stageUI}UI/set', '${stageUI}UI/go'];
 		}
 		introAssets.set(stageUI, introImagesArray);
@@ -1048,7 +1048,7 @@ class PlayState extends MusicBeatState
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 				var introImagesArray:Array<String> = switch(stageUI) {
 					case "pixel": ['ui/${stageUI}UI/ready-pixel', 'ui/${stageUI}UI/set-pixel', 'ui/${stageUI}UI/date-pixel'];
-					case "normal": ["ui/ready", "ui/set" ,"ui/go"];
+					case "normal": ["ui/countdown/normal/ready", "ui/countdown/normal/set" ,"ui/countdown/normal/go"];
 					default: ['${stageUI}UI/ready', '${stageUI}UI/set', '${stageUI}UI/go'];
 				}
 				introAssets.set(stageUI, introImagesArray);
@@ -2478,11 +2478,11 @@ class PlayState extends MusicBeatState
 
 	private function cachePopUpScore()
 	{
-		var uiPrefix:String = 'ui/';
+		var uiPrefix:String = 'ui/combos/normal/';
 		var uiSuffix:String = '';
 		if (stageUI != "normal")
 		{
-			uiPrefix = '${stageUI}UI/';
+			uiPrefix = '${stageUI}ui/combos/pixel/';
 			if (PlayState.isPixelStage) uiSuffix = '-pixel';
 		}
 
@@ -2530,13 +2530,13 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		var uiPrefix:String = "ui/";
+		var uiPrefix:String = "ui/combos/normal/";
 		var uiSuffix:String = '';
 		var antialias:Bool = ClientPrefs.data.antialiasing;
 
 		if (stageUI != "normal")
 		{
-			uiPrefix = '${stageUI}UI/';
+			uiPrefix = '${stageUI}ui/combos/pixel/';
 			if (PlayState.isPixelStage) uiSuffix = '-pixel';
 			antialias = !isPixelStage;
 		}
@@ -2840,7 +2840,7 @@ class PlayState extends MusicBeatState
 
 		if(ClientPrefs.data.missSounds)
 		{
-			FlxG.sound.play(Paths.soundRandom('game/missnote', 1, 3), FlxG.random.float(1));
+			FlxG.sound.play(Paths.soundRandom('game/miss/missnote', 1, 3), FlxG.random.float(1));
 		}	
 	}
 
@@ -2852,7 +2852,7 @@ class PlayState extends MusicBeatState
 		
 		if(ClientPrefs.data.missSounds)
 		{
-			FlxG.sound.play(Paths.soundRandom('game/missnote', 1, 3), FlxG.random.float(1));
+			FlxG.sound.play(Paths.soundRandom('game/miss/missnote', 1, 3), FlxG.random.float(1));
 		}
 
 		callOnScripts('noteMissPress', [direction]);

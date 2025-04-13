@@ -1,0 +1,1 @@
+function onStepHit()if curStep >= 129 thendoTweenAlpha('camGameon', 'camGame', 1, 0.01, 'linear')endend

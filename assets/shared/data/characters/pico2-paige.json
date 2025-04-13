@@ -1,1 +1,102 @@
-{"animations": [{"offsets": [0,0],"loop": false,"anim": "idle","fps": 24,"name": "Pico Idle Dance","indices": []},{"offsets": [51,3],"loop": false,"anim": "singLEFT","fps": 24,"name": "Pico Note Right0","indices": []},{"offsets": [-7,21],"loop": false,"anim": "singRIGHT","fps": 24,"name": "Pico NOTE LEFT0","indices": []},{"offsets": [8,31],"loop": false,"anim": "singUP","fps": 24,"name": "pico Up note0","indices": []},{"offsets": [9,-84],"loop": false,"anim": "singDOWN","fps": 24,"name": "Pico Down Note0","indices": []},{"offsets": [-9,18],"loop": false,"fps": 24,"anim": "shoot","indices": [],"name": "Pico Shoot"},{"offsets": [1,18],"loop": false,"fps": 24,"anim": "reload","indices": [],"name": "Pico Reloading Gun"}],"no_antialiasing": false,"image": "characters/pico/definitive/pico-2","position": [50,300],"healthicon": "pico-duality3","priorityAnim": ["shoot","reload"],"flip_x": true,"healthbar_colors": [183,216,85],"camera_position": [20,50],"sing_duration": 4,"scale": 1,"_editor_isPlayer": false}
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Pico Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				11
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Pico Note Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				18
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Pico NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				55
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "pico Up note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				-84
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Pico Down Note0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				14
+			],
+			"anim": "shoot",
+			"fps": 24,
+			"name": "Pico Shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				16
+			],
+			"anim": "reload",
+			"fps": 24,
+			"name": "Pico Reloading Gun",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/pico/definitive/pico-2",
+	"position": [
+		50,
+		300
+	],
+	"healthicon": "pico-duality3",
+	"flip_x": true,
+	"healthbar_colors": [
+		183,
+		216,
+		85
+	],
+	"camera_position": [
+		20,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

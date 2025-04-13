@@ -78,7 +78,7 @@ class CharacterEditorState extends MusicBeatState
 		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
 		FlxG.mouse.load(cursor.pixels);
 
-		FlxG.sound.playMusic(Paths.music('tea-time'), 1);
+		FlxG.sound.playMusic(Paths.music('misc/tea-time'), 1);
 
 		camEditor = initPsychCamera();
 		

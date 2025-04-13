@@ -84,7 +84,7 @@ class Note extends FlxSprite
 	public static var SUSTAIN_SIZE:Int = 44;
 	public static var swagWidth:Float = 160 * 0.7;
 	public static var colArray:Array<String> = ['purple', 'blue', 'green', 'red'];
-	public static var defaultNoteSkin(default, never):String = 'ui/noteSkins/NOTE_assets';
+	public static var defaultNoteSkin(default, never):String = 'ui/' + 'noteSkins/NOTE_assets';
 
 	public var noteSplashData:NoteSplashData = {
 		disabled: false,
@@ -124,7 +124,7 @@ class Note extends FlxSprite
 
 	public var hitsoundDisabled:Bool = false;
 	public var hitsoundChartEditor:Bool = true;
-	public var hitsound:String = 'hitsound';
+	public var hitsound:String = 'game/hitsound';
 	public var hitsoundChartBF:String = 'chartSounds/chartTick';
 	public var hitsoundChartDad:String = 'chartSounds/chartSnap';
 
@@ -201,7 +201,7 @@ class Note extends FlxSprite
 					gfNote = true;
 			}
 			if (value != null && value.length > 1) NoteTypesConfig.applyNoteTypeData(this, value);
-			if (hitsound != 'hitsound' && ClientPrefs.data.hitsoundVolume > 0) Paths.sound(hitsound); //precache new sound for being idiot-proof
+			if (hitsound != 'game/hitsound' && ClientPrefs.data.hitsoundVolume > 0) Paths.sound(hitsound); //precache new sound for being idiot-proof
 			noteType = value;
 		}
 		return value;
@@ -341,7 +341,7 @@ class Note extends FlxSprite
 		var lastScaleY:Float = scale.y;
 		var skinPostfix:String = getNoteSkinPostfix();
 		var customSkin:String = skin + skinPostfix;
-		var path:String = PlayState.isPixelStage ? 'ui/pixelUI/' : '';
+		var path:String = PlayState.isPixelStage ? 'ui/noteSkins/pixel/' : '';
 		if(customSkin == _lastValidChecked || Paths.fileExists('images/' + path + customSkin + '.png', IMAGE))
 		{
 			skin = customSkin;
@@ -351,11 +351,11 @@ class Note extends FlxSprite
 
 		if(PlayState.isPixelStage) {
 			if(isSustainNote) {
-				var graphic = Paths.image('ui/pixelUI/' + skinPixel + 'ENDS' + skinPostfix);
+				var graphic = Paths.image('ui/noteSkins/pixel/' + skinPixel + 'ENDS' + skinPostfix);
 				loadGraphic(graphic, true, Math.floor(graphic.width / 4), Math.floor(graphic.height / 2));
 				originalHeight = graphic.height / 2;
 			} else {
-				var graphic = Paths.image('ui/pixelUI/' + skinPixel + skinPostfix);
+				var graphic = Paths.image('ui/noteSkins/pixel/' + skinPixel + skinPostfix);
 				loadGraphic(graphic, true, Math.floor(graphic.width / 4), Math.floor(graphic.height / 5));
 			}
 			setGraphicSize(Std.int(width * PlayState.daPixelZoom));

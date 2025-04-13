@@ -6,6 +6,15 @@
 	"startUnlocked": true,
 	"songs": [
 		[
+			"Rebound H06 Remix",
+			"pico-2",
+			[
+				183,
+				216,
+				85
+			]
+		],
+		[
 			"Dispatch",
 			"mom2",
 			[
@@ -63,9 +72,9 @@
 			"Comatose",
 			"pico-3",
 			[
-				127,
-				19,
-				73
+				183,
+				216,
+				85
 			]
 		],
 		[

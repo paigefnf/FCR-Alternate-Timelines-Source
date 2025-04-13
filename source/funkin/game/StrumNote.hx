@@ -55,8 +55,8 @@ class StrumNote extends FlxSprite
 		else skin = Note.defaultNoteSkin;
 
 		var customSkin:String = skin + Note.getNoteSkinPostfix();
-		if(Paths.fileExists('images/ui/noteSkins/$customSkin.png', IMAGE)) skin = customSkin;
-
+		if(Paths.fileExists('images/$customSkin.png', IMAGE)) skin = customSkin; /* 4/13/25, - it took me so long to notice that the custom strum notes skins aren't working, only to finally realize 
+		that i didn't need to add "ui/noteSkins" between "images/" and "$customSkin" because it resulted in only showing the default strum notes skin - paigefnf */
 		texture = skin; //Load texture and anims
 		scrollFactor.set();
 	}
@@ -68,10 +68,10 @@ class StrumNote extends FlxSprite
 
 		if(PlayState.isPixelStage)
 		{
-			loadGraphic(Paths.image('ui/pixelUI/' + texture));
+			loadGraphic(Paths.image('ui/noteSkins/pixel/' + texture));
 			width = width / 4;
 			height = height / 5;
-			loadGraphic(Paths.image('ui/pixelUI/' + texture), true, Math.floor(width), Math.floor(height));
+			loadGraphic(Paths.image('ui/noteSkins/pixel/' + texture), true, Math.floor(width), Math.floor(height));
 
 			antialiasing = false;
 			setGraphicSize(Std.int(width * PlayState.daPixelZoom));
