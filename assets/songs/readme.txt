@@ -21,3 +21,10 @@ assets/songs/your-song-name/charts/
 ---- ./your-song-name-hard.json
 ---- ./events.json
 ---- ./preload.json
+
+== SONG SPECIFIC SCRIPTS ==
+Put your lua or hx scripts here, it should look something like this:
+
+assets/songs/your-song-name/scripts/
+---- ./your script here.lua
+---- ./YourScriptHere.hx
