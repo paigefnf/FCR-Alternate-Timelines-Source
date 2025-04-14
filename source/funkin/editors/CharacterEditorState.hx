@@ -157,7 +157,6 @@ class CharacterEditorState extends MusicBeatState
 		add(frameAdvanceText);
 
 		addHelpScreen();
-		FlxG.mouse.visible = true;
 		FlxG.camera.zoom = 1;
 
 		makeUIMenu();
@@ -1032,7 +1031,6 @@ class CharacterEditorState extends MusicBeatState
 		}
 		else if(FlxG.keys.justPressed.ESCAPE)
 		{
-			FlxG.mouse.visible = false;
 			if(!_goToPlayState)
 			{
 				MusicBeatState.switchState(new MasterEditorMenu());

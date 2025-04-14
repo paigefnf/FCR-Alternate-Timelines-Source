@@ -22,6 +22,7 @@ import haxe.Json;
 import funkin.game.HealthIcon;
 import funkin.objects.MenuCharacter;
 import funkin.objects.MenuItem;
+import funkin.objects.Alphabet;
 
 import funkin.editors.MasterEditorMenu;
 
@@ -45,15 +46,6 @@ class WeekEditorState extends MusicBeatState
 	}
 
 	override function create() {
-
-		var cursor:FlxSprite;
-
-		cursor = new FlxSprite();
-
-		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
-
-		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
-		FlxG.mouse.load(cursor.pixels);
 		
 		txtWeekTitle = new FlxText(FlxG.width * 0.7, 10, 0, "", 32);
 		txtWeekTitle.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, RIGHT);
@@ -112,8 +104,6 @@ class WeekEditorState extends MusicBeatState
 
 		addEditorBox();
 		reloadAllShit();
-
-		FlxG.mouse.visible = true;
 
 		super.create();
 	}
@@ -591,7 +581,7 @@ class WeekEditorFreeplayState extends MusicBeatState
 	var curSelected = 0;
 
 	override function create() {
-		bg = new FlxSprite().loadGraphic(Paths.image('menus/options/menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('menus/freeplay/menuDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.color = FlxColor.WHITE;
 		add(bg);
@@ -611,13 +601,8 @@ class WeekEditorFreeplayState extends MusicBeatState
 			var icon:HealthIcon = new HealthIcon(weekFile.songs[i][1]);
 			icon.sprTracker = songText;
 
-			// using a FlxGroup is too much fuss!
 			iconArray.push(icon);
 			add(icon);
-
-			// songText.x += 40;
-			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			// songText.screenCenter(X);
 		}
 
 		addEditorBox();
@@ -744,7 +729,7 @@ class WeekEditorFreeplayState extends MusicBeatState
 	}
 
 	function changeSelection(change:Int = 0) {
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.4);
 
 		curSelected += change;
 
