@@ -150,7 +150,7 @@ class NoteSplashDebugState extends MusicBeatState
 		curAnimText.scrollFactor.set();
 		add(curAnimText);
 
-		var text:FlxText = new FlxText(0, 520, FlxG.width,
+		var text:FlxText = new FlxText(180, 520, FlxG.width,
 			"Press SPACE to Reset animation\n
 			Press ENTER twice to save to the loaded Note Splash PNG's folder\n
 			A/D change selected note - Arrow Keys to change offset (Hold shift for 10x)\n
