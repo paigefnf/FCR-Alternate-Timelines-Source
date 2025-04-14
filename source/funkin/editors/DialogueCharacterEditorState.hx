@@ -96,7 +96,7 @@ class DialogueCharacterEditorState extends MusicBeatState
 
 		box = new FlxSprite(70, 370);
 		box.antialiasing = ClientPrefs.data.antialiasing;
-		box.frames = Paths.getSparrowAtlas('dialouge/speech_bubble');
+		box.frames = Paths.getSparrowAtlas('dialogue/speech_bubble');
 		box.scrollFactor.set();
 		box.animation.addByPrefix('normal', 'speech bubble normal', 24);
 		box.animation.addByPrefix('center', 'speech bubble middle', 24);
@@ -140,7 +140,6 @@ class DialogueCharacterEditorState extends MusicBeatState
 		hudGroup.add(daText);
 
 		addEditorBox();
-		FlxG.mouse.visible = true;
 		updateCharTypeBox();
 		
 		super.create();
@@ -400,7 +399,7 @@ class DialogueCharacterEditorState extends MusicBeatState
 		updateTextBox();
 	}
 
-	private static var DEFAULT_TEXT:String = 'Lorem ipsum dolor sit amet';
+	private static var DEFAULT_TEXT:String = 'Test';
 
 	function reloadCharacter() {
 		var charsArray:Array<DialogueCharacter> = [character, ghostLoop, ghostIdle];

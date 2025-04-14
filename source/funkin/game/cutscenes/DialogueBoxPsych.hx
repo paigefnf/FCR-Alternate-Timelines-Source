@@ -352,7 +352,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		daText.text = curDialogue.text;
 		daText.delay = curDialogue.speed;
 		daText.sound = curDialogue.sound;
-		if(daText.sound == null || daText.sound.trim() == '') daText.sound = 'cutscenes/dialogue';
+		if(daText.sound == null || daText.sound.trim() == '') daText.sound = 'dialogue';
 		
 		daText.y = DEFAULT_TEXT_Y;
 		if(daText.rows > 2) daText.y -= LONG_TEXT_ADD;
