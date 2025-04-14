@@ -91,35 +91,33 @@ class Song
 		this.notes = notes;
 		this.bpm = bpm;
 	}
-
-	public static function loadFromJson(jsonInput:String, ?folder:String, ?mod:Bool = false):SwagSong
+	public static function loadFromJson(jsonInput:String, ?folder:String):SwagSong
 		{
 			var rawJson = null;
-	
+			
 			var formattedFolder:String = Paths.formatToSongPath(folder);
 			var formattedSong:String = Paths.formatToSongPath(jsonInput);
 			#if MODS_ALLOWED
 			var moddyFile:String = Paths.modsChartJson(formattedFolder + '/charts/' + formattedSong);
-			if (FileSystem.exists(moddyFile))
-			{
+			if(FileSystem.exists(moddyFile)) {
 				rawJson = File.getContent(moddyFile).trim();
 			}
 			#end
 	
-			if (rawJson == null)
-			{
-				if (mod)
-				{
-					rawJson = File.getContent(moddyFile).trim();
-				}
+			if(rawJson == null) {
+				var path:String = Paths.chartJson(formattedFolder + '/charts/' + formattedSong);
+	
+				#if sys
+				if(FileSystem.exists(path))
+					rawJson = File.getContent(path).trim();
 				else
-				{
-					#if sys
-					rawJson = File.getContent(Paths.chartJson(formattedFolder + '/charts/' + formattedSong)).trim();
-					#else
+				#end
 					rawJson = Assets.getText(Paths.chartJson(formattedFolder + '/charts/' + formattedSong)).trim();
-					#end
-				}
+			}
+	
+			while (!rawJson.endsWith("}"))
+			{
+				rawJson = rawJson.substr(0, rawJson.length - 1);
 			}
 	
 			while (!rawJson.endsWith("}"))

@@ -64,10 +64,19 @@ class ModsMenuState extends MusicBeatState
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Mods Menu", null);
 		#end
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		var cursor:FlxSprite;
+
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
+		FlxG.mouse.load(cursor.pixels);
+
+		bg = new FlxSprite().loadGraphic(Paths.image('menus/mods/menuDesat'));
 		bg.color = 0xFF665AFF;
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
@@ -128,7 +137,7 @@ class ModsMenuState extends MusicBeatState
 			}
 			updateModDisplayData();
 			checkToggleButtons();
-			FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
+			FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.6);
 		});
 		buttonEnableAll.bg.color = FlxColor.GREEN;
 		buttonEnableAll.focusChangeCallback = function(focus:Bool) if(!focus) buttonEnableAll.bg.color = FlxColor.GREEN;
@@ -148,7 +157,7 @@ class ModsMenuState extends MusicBeatState
 			}
 			updateModDisplayData();
 			checkToggleButtons();
-			FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
+			FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.6);
 		});
 		buttonDisableAll.bg.color = 0xFFFF6666;
 		buttonDisableAll.focusChangeCallback = function(focus:Bool) if(!focus) buttonDisableAll.bg.color = 0xFFFF6666;
@@ -272,7 +281,7 @@ class ModsMenuState extends MusicBeatState
 			if(curMod.mustRestart) waitingToRestart = true;
 			updateModDisplayData();
 			checkToggleButtons();
-			FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
+			FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.6);
 		}, 54, 54);
 		button.icon.animation.add('icon', [4]);
 		button.icon.animation.play('icon', true);
@@ -314,7 +323,7 @@ class ModsMenuState extends MusicBeatState
 			}
 			saveTxt();
 
-			FlxG.sound.play(Paths.sound('cancelMenu'));
+			FlxG.sound.play(Paths.sound('menus/cancelMenu'));
 			if(waitingToRestart)
 			{
 				//MusicBeatState.switchState(new TitleState());
@@ -332,19 +341,16 @@ class ModsMenuState extends MusicBeatState
 
 			persistentUpdate = false;
 			FlxG.autoPause = ClientPrefs.data.autoPause;
-			FlxG.mouse.visible = false;
 			return;
 		}
 
 		if(Math.abs(FlxG.mouse.deltaX) > 10 || Math.abs(FlxG.mouse.deltaY) > 10)
 		{
 			controls.controllerMode = false;
-			if(!FlxG.mouse.visible) FlxG.mouse.visible = true;
 		}
 		
 		if(controls.controllerMode != _lastControllerMode)
 		{
-			if(controls.controllerMode) FlxG.mouse.visible = false;
 			_lastControllerMode = controls.controllerMode;
 		}
 
@@ -588,7 +594,7 @@ class ModsMenuState extends MusicBeatState
 			bgButtons.alpha = 0.8;
 		}
 
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
+		FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.6);
 	}
 
 	function getButton()
@@ -653,7 +659,7 @@ class ModsMenuState extends MusicBeatState
 		holdingElapsed = 0;
 		gottaClickAgain = true;
 		updateModDisplayData();
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
+		FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.6);
 		
 		if(hoveringOnMods)
 		{
@@ -761,7 +767,7 @@ class ModsMenuState extends MusicBeatState
 			var curMod:ModItem = modsGroup.members[curSelectedMod];
 			if(curMod != null) curMod.selectBg.visible = false;
 		}
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.6);
+		FlxG.sound.play(Paths.sound('menus/scrollMenu'), 0.6);
 	}
 
 	function checkToggleButtons()
@@ -963,7 +969,7 @@ class MenuButton extends FlxSpriteGroup
 			return;
 		}
 
-		if(!ignoreCheck && !Controls.instance.controllerMode && FlxG.mouse.justMoved && FlxG.mouse.visible)
+		if(!ignoreCheck && !Controls.instance.controllerMode && FlxG.mouse.justMoved)
 			onFocus = FlxG.mouse.overlaps(this);
 
 		if(onFocus && onClick != null && FlxG.mouse.justPressed)

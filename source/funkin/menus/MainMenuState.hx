@@ -17,8 +17,11 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
 	var optionShit:Array<String> = [
+		//'story_mode',
 		'freeplay',
 		'credits',
+		//'mods',
+		//'awards',
 		'options'
 	];
 
@@ -222,6 +225,11 @@ class MainMenuState extends MusicBeatState
 			{
 				selectedSomethin = true;
 				MusicBeatState.switchState(new MasterEditorMenu());
+			}
+			if (FlxG.keys.justPressed.EIGHT)
+			{
+				selectedSomethin = true;
+				MusicBeatState.switchState(new ModsMenuState());
 			}
 			#end
 		}
