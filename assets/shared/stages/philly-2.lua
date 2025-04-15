@@ -120,7 +120,7 @@ doTweenAlpha('lightOverlay','lightOverlay',0.2,15,'linear')
 doTweenAlpha('city2','city2',0,15,'linear')
 end
 if curStep == 1152 then
-makeLuaSprite('lightOverlay','philly2/lightOverlay', -1800, -500);
+makeLuaSprite('lightOverlay','stage_assets/philly2/lightOverlay', -1800, -500);
 addLuaSprite('lightOverlay');
 setObjectOrder('lightOverlay', 
 getObjectOrder('gfGroup')-1)
@@ -160,7 +160,7 @@ doTweenAlpha('timeBar','timeBar',1,1,'linear')
 doTweenAlpha('timeTxt','timeTxt',1,1,'linear')
 end
 if curStep == 1216 then
-makeLuaSprite('lightOverlay','philly2/lightOverlay', -1800, -200);
+makeLuaSprite('lightOverlay','stage_assets/philly2/lightOverlay', -1800, -200);
 addLuaSprite('lightOverlay', true);
 doTweenAlpha('scoreTxt','scoreTxt',1,0.001,'linear')
 doTweenAlpha('iconP2','iconP2',1,0.001,'linear')

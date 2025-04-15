@@ -8,7 +8,7 @@ function onCreate()
    setLuaSpriteScrollFactor('city', 0.3, 0.3)	
    makeLuaSprite('streetBehind','stage_assets/philly/behindTrain', -200, -50);
     makeLuaSprite('phillyStreet','stage_assets/philly/street', -650, 550);	
-    makeLuaSprite('overlayLights', 'overlay', 0, 0);
+    makeLuaSprite('overlayLights', 'stage_assets/overlay', 0, 0);
     setObjectCamera('overlayLights', 'hud');
    
    makeLuaSprite('fakeOverlay', 'stage_assets/philly/fakeOverlay', 0, 0);

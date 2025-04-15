@@ -34,10 +34,10 @@ import funkin.backend.system.Main;
 		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF0A4447],
 		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF651038]];
 	public var arrowRGBPixel:Array<Array<FlxColor>> = [
-		[0xFFA1A1A1, 0xFFFFF9FF, 0xFF60008D],
-		[0xFFA1A1A1, 0xFFF4FFFF, 0xFF003060],
-		[0xFFA1A1A1, 0xFFF6FFE6, 0xFF003100],
-		[0xFFA1A1A1, 0xFFFFFAF5, 0xFF6C0000]];
+		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF3C1F56],
+		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF1542B7],
+		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF0A4447],
+		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF651038]];
 
 	public var ghostTapping:Bool = true;
 	public var timeBarType:String = 'Time Left';

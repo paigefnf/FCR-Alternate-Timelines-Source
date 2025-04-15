@@ -984,8 +984,8 @@ class PlayState extends MusicBeatState
 	{
 		var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 		var introImagesArray:Array<String> = switch(stageUI) {
-			case "pixel": ['ui/${stageUI}UI/ready-pixel', 'ui/${stageUI}UI/set-pixel', 'ui/${stageUI}UI/date-pixel'];
-			case "normal": ["ui/countdown/normal/ready", "ui/countdown/normal/set" ,"ui/countdown/normal/go"];
+			case "pixel": ['${stageUI}UI/countdown/ready-pixel', '${stageUI}UI/countdown/set-pixel', '${stageUI}UI/countdown/date-pixel'];
+			case "normal": ["ui/countdown/ready", "ui/countdown/set" ,"ui/countdown/go"];
 			default: ['${stageUI}UI/ready', '${stageUI}UI/set', '${stageUI}UI/go'];
 		}
 		introAssets.set(stageUI, introImagesArray);
@@ -1047,8 +1047,8 @@ class PlayState extends MusicBeatState
 
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 				var introImagesArray:Array<String> = switch(stageUI) {
-					case "pixel": ['ui/${stageUI}UI/ready-pixel', 'ui/${stageUI}UI/set-pixel', 'ui/${stageUI}UI/date-pixel'];
-					case "normal": ["ui/countdown/normal/ready", "ui/countdown/normal/set" ,"ui/countdown/normal/go"];
+					case "pixel": ['${stageUI}UI/countdown/ready-pixel', '${stageUI}UI/countdown/set-pixel', '${stageUI}UI/countdown/date-pixel'];
+					case "normal": ["ui/countdown/ready", "ui/countdown/set" ,"ui/countdown/go"];
 					default: ['${stageUI}UI/ready', '${stageUI}UI/set', '${stageUI}UI/go'];
 				}
 				introAssets.set(stageUI, introImagesArray);
@@ -2478,11 +2478,11 @@ class PlayState extends MusicBeatState
 
 	private function cachePopUpScore()
 	{
-		var uiPrefix:String = 'ui/combos/normal/';
+		var uiPrefix:String = 'ui/combos/';
 		var uiSuffix:String = '';
 		if (stageUI != "normal")
 		{
-			uiPrefix = '${stageUI}ui/combos/pixel/';
+			uiPrefix = '${stageUI}UI/combos/';
 			if (PlayState.isPixelStage) uiSuffix = '-pixel';
 		}
 
@@ -2530,13 +2530,13 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		var uiPrefix:String = "ui/combos/normal/";
+		var uiPrefix:String = "ui/combos/";
 		var uiSuffix:String = '';
 		var antialias:Bool = ClientPrefs.data.antialiasing;
 
 		if (stageUI != "normal")
 		{
-			uiPrefix = '${stageUI}ui/combos/pixel/';
+			uiPrefix = '${stageUI}UI/combos/';
 			if (PlayState.isPixelStage) uiSuffix = '-pixel';
 			antialias = !isPixelStage;
 		}
@@ -2565,7 +2565,7 @@ class PlayState extends MusicBeatState
 		comboSpr.y -= ClientPrefs.data.comboOffset[1];
 		comboSpr.antialiasing = antialias;
 
-		if (combo >= 0)
+		if (combo >= 20)
 			{
 				add(comboSpr);
 			}
