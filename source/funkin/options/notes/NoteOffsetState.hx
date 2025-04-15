@@ -20,6 +20,7 @@ class NoteOffsetState extends MusicBeatState
 
 	var coolText:FlxText;
 	var rating:FlxSprite;
+	var comboSpr:FlxSprite;
 	var comboNums:FlxSpriteGroup;
 	var dumbTexts:FlxTypedGroup<FlxText>;
 
@@ -39,7 +40,7 @@ class NoteOffsetState extends MusicBeatState
 	override public function create()
 	{
 		#if DISCORD_ALLOWED
-		DiscordClient.changePresence("Delay/Combo Offset Menu", null);
+		DiscordClient.changePresence("Ajust Note Offset Menu", null);
 		#end
 
 		// Cameras
@@ -83,9 +84,8 @@ class NoteOffsetState extends MusicBeatState
 		rating.antialiasing = ClientPrefs.data.antialiasing;
 		rating.setGraphicSize(Std.int(rating.width * 0.7));
 		rating.updateHitbox();
-		
 		add(rating);
-
+		
 		comboNums = new FlxSpriteGroup();
 		comboNums.cameras = [camHUD];
 		add(comboNums);
