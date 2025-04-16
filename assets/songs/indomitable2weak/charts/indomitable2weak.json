@@ -7186,7 +7186,7 @@
 		"disableNoteRGB": true,
 		"keys": 4,
 		"song": "Indomitable2weak",
-		"arrowSkin": "ui/noteSkins/normalNotesColor",
+		"arrowSkin": "noteSkins/normalNotesColor",
 		"needsVoices": true,
 		"validScore": true,
 		"stage": "stage",

@@ -3339,7 +3339,7 @@
 		"gfVersion": "gf-blank",
 		"player3": null,
 		"song": "Echo",
-		"arrowSkin": "ui/noteSkins/echoNotes",
+		"arrowSkin": "noteSkins/echoNotes",
 		"needsVoices": true,
 		"stage": "whitebg-echo",
 		"speed": 2.4,

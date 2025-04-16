@@ -8055,7 +8055,7 @@
 		"chartVer": "1.0",
 		"gameOverEnd": "",
 		"song": "Finis Mundi",
-		"arrowSkin": "ui/noteSkins/trollgeNotes",
+		"arrowSkin": "noteSkins/trollgeNotes",
 		"speed": 3.2,
 		"events": [],
 		"gfVersion": "gf-dad-fakeout",

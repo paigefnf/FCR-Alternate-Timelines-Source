@@ -35,7 +35,7 @@ class FPSCounter extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat("VCR OSD Mono", 14, color);
+		defaultTextFormat = new TextFormat("LEMON MILK Regular", 14, color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";

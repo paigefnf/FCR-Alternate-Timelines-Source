@@ -9433,7 +9433,7 @@
 			]
 		],
 		"song": "LemonKiller",
-		"arrowSkin": "ui/noteSkins/trollgeNotes",
+		"arrowSkin": "noteSkins/trollgeNotes",
 		"needsVoices": true,
 		"stage": "alleyway",
 		"validScore": true,

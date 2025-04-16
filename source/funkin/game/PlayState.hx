@@ -609,7 +609,7 @@ class PlayState extends MusicBeatState
 		uiGroup.add(iconP2);
 
 		scoreTxt = new FlxText(0, healthBar.y + 40, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		scoreTxt.setFormat(Paths.font("lemon-milk.otf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.data.hideHud;
@@ -1186,7 +1186,7 @@ class PlayState extends MusicBeatState
 
 		// var tempScore:String = ' Points:${songScore}' + (!instakillOnMiss ? '                          Combo Breaks:${songMisses}' : "") + '                         Grade:${str}';
 
-		var tempScore:String = (!instakillOnMiss ? 'Rank:${str}' + ' •' + ' Combo Breaks:${songMisses}' : "") ;
+		var tempScore:String = (!instakillOnMiss ? 'Rank:${str}' + ' • ' + 'Combo Breaks:${songMisses}' : "") + ' • ' + 'Score:${songScore}';
 
 		// "tempScore" variable is used to prevent another memory leak, just in case
 		// "\n" here prevents the text from being cut off by beat zooms

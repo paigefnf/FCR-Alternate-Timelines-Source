@@ -8686,7 +8686,7 @@
 		],
 		"player3": null,
 		"song": "Dispatch Mania",
-		"arrowSkin": "ui/noteSkins/NOTE_assets-Icelation",
+		"arrowSkin": "noteSkins/NOTE_assets-Icelation",
 		"needsVoices": false,
 		"stage": "limo-2",
 		"validScore": true,

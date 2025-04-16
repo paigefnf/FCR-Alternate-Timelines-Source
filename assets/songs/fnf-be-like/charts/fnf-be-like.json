@@ -423,26 +423,6 @@
 				]
 			],
 			[
-				134731.018444482,
-				[
-					[
-						"noteskinchangeOPPT",
-						"ui/noteSkins/normalNotesColor",
-						""
-					]
-				]
-			],
-			[
-				134738.913181324,
-				[
-					[
-						"noteskinchangeBF",
-						"ui/noteSkins/normalNotesColor",
-						""
-					]
-				]
-			],
-			[
 				134744.834233955,
 				[
 					[
@@ -7113,7 +7093,7 @@
 		"player3": null,
 		"disableNoteRGB": true,
 		"song": "FNF Be Like",
-		"arrowSkin": "ui/noteSkins/normalNotesColor",
+		"arrowSkin": "noteSkins/normalNotesColor",
 		"needsVoices": true,
 		"stage": "stage",
 		"speed": 2.6,
