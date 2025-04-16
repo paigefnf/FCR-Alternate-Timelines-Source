@@ -64,13 +64,23 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.onChange = onChangeHitsoundVolume;
 
 		var option:Option = new Option('Rating Offset',
-			'Changes how late/early you have to hit for a "Sick!"\nHigher values mean you have to hit later.',
+			'Changes how late/early you have to hit for a "Perfect!"\nHigher values mean you have to hit later.',
 			'ratingOffset',
 			'int');
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 20;
 		option.minValue = -30;
 		option.maxValue = 30;
+		addOption(option);
+
+		var option:Option = new Option('Perfect! Hit Window',
+			'Changes the amount of time you have\nfor hitting a "Perfect!" in milliseconds.',
+			'perfectWindow',
+			'int');
+		option.displayFormat = '%vms';
+		option.scrollSpeed = 1;
+		option.minValue = 15;
+		option.maxValue = 22;
 		addOption(option);
 
 		var option:Option = new Option('Sick! Hit Window',

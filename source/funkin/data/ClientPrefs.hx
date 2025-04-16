@@ -73,6 +73,7 @@ import funkin.backend.system.Main;
 
 	public var comboOffset:Array<Int> = [0, 0, 0, 0];
 	public var ratingOffset:Int = 0;
+	public var perfectWindow:Int = 95;
 	public var sickWindow:Int = 45;
 	public var goodWindow:Int = 90;
 	public var badWindow:Int = 135;

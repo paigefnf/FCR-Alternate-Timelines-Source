@@ -28,16 +28,22 @@ class Rating
 
 	public static function loadDefault():Array<Rating>
 	{
-		var ratingsData:Array<Rating> = [new Rating('sick')]; //highest rating goes first
+		var ratingsData:Array<Rating> = [new Rating('perfect')]; //highest rating goes first
+
+		var rating:Rating = new Rating('sick');
+		rating.ratingMod = 0.9825;
+		rating.score = 350;
+		rating.noteSplash = true;
+		ratingsData.push(rating);
 
 		var rating:Rating = new Rating('good');
-		rating.ratingMod = 0.67;
+		rating.ratingMod = 0.7;
 		rating.score = 200;
 		rating.noteSplash = false;
 		ratingsData.push(rating);
 
 		var rating:Rating = new Rating('bad');
-		rating.ratingMod = 0.34;
+		rating.ratingMod = 0.4;
 		rating.score = 100;
 		rating.noteSplash = false;
 		ratingsData.push(rating);
@@ -47,6 +53,7 @@ class Rating
 		rating.score = 50;
 		rating.noteSplash = false;
 		ratingsData.push(rating);
+
 		return ratingsData;
 	}
 }
