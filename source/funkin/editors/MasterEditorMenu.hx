@@ -33,6 +33,18 @@ class MasterEditorMenu extends MusicBeatState
 		DiscordClient.changePresence("Editors Main Menu", null);
 		#end
 
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
+		var cursor:FlxSprite;
+
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
+		FlxG.mouse.load(cursor.pixels);
+
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menus/options/menuDesat'));
 		bg.scrollFactor.set();
 		bg.color = 0xFF353535;
@@ -70,15 +82,6 @@ class MasterEditorMenu extends MusicBeatState
 		changeDirectory();
 		#end
 		changeSelection();
-
-		var cursor:FlxSprite;
-
-		cursor = new FlxSprite();
-
-		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
-
-		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
-		FlxG.mouse.load(cursor.pixels);
 		
 		super.create();
 	}

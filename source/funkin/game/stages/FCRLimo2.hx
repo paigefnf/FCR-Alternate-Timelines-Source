@@ -7,6 +7,9 @@ class FCRLimo2 extends BaseStage
 
 	override function create()
 	{
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+		
 		var sky:BGSprite = new BGSprite('stage_assets/limo2/limoSky',-3200,-800, 0.7, 0.7);
 		add(sky);
 

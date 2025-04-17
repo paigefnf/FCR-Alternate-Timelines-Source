@@ -69,7 +69,7 @@ makeGraphic('flash',1280,720,'ffffff')
 setObjectCamera('flash','hud')
 setProperty('flash.alpha',0);
 addLuaSprite('flash');
-makeLuaSprite('lay','overlayLights',0,0)
+makeLuaSprite('lay','stage_assets/overlayLights',0,0)
 setObjectCamera('lay','hud')
 addLuaSprite('lay')
 setProperty('boyfriend.visible',false)
@@ -145,5 +145,7 @@ doTweenAlpha('flash','flash',1,1,'linear')
 end
 if curStep == 4960 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
+
+close(true);
 end
 end

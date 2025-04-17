@@ -61,11 +61,6 @@ class FunkinLua {
 		lua = LuaL.newstate();
 		LuaL.openlibs(lua);
 
-		//trace('Lua version: ' + Lua.version());
-		//trace("LuaJIT version: " + Lua.versionJIT());
-
-		//LuaL.dostring(lua, CLENSE);
-
 		this.scriptName = scriptName.trim();
 		var game:PlayState = PlayState.instance;
 		game.luaArray.push(this);

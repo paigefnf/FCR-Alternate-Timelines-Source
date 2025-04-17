@@ -32,6 +32,18 @@ class DialogueEditorState extends MusicBeatState
 	var dialogueFile:DialogueFile = null;
 
 	override function create() {
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
+		var cursor:FlxSprite;
+
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
+		FlxG.mouse.load(cursor.pixels);
+
 		persistentUpdate = persistentDraw = true;
 		FlxG.camera.bgColor = FlxColor.fromHSL(0, 0, 0.5);
 

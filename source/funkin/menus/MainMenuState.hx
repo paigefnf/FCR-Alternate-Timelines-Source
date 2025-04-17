@@ -41,6 +41,9 @@ class MainMenuState extends MusicBeatState
 		DiscordClient.changePresence("Main Menu", null);
 		#end
 
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
 

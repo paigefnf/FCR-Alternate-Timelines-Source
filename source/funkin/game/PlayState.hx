@@ -300,6 +300,7 @@ class PlayState extends MusicBeatState
 	{
 		//trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
 
 		startCallback = startCountdown;
 		endCallback = endSong;

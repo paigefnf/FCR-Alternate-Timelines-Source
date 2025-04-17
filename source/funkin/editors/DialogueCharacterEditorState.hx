@@ -60,6 +60,18 @@ class DialogueCharacterEditorState extends MusicBeatState
 	var curAnim:Int = 0;
 
 	override function create() {
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
+		var cursor:FlxSprite;
+
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
+		FlxG.mouse.load(cursor.pixels);
+
 		persistentUpdate = persistentDraw = true;
 		camGame = initPsychCamera();
 		camGame.bgColor = FlxColor.fromHSL(0, 0, 0.5);

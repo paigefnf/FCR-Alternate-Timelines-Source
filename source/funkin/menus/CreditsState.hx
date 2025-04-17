@@ -25,6 +25,9 @@ class CreditsState extends MusicBeatState
 		DiscordClient.changePresence("Credits Menu", null);
 		#end
 
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
 		persistentUpdate = true;
 		bg = new FlxSprite().loadGraphic(Paths.image('menus/creditsmenu/menuDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
@@ -40,7 +43,7 @@ class CreditsState extends MusicBeatState
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['FCR Alternate Timelines'],
-			['PaigeFNF',			'paige',			'Creator of FCR: Alternate Timelines & Paper Engine',		 'https://www.youtube.com/@PaigeFNF',	'7aa3ff'],
+			['PaigeFNF',			'paige',			'Creator, Coder, Charter & Made Paper Engine',		 		 'https://www.youtube.com/@PaigeFNF',	'7aa3ff'],
 			[''],			
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer and Head of Psych Engine',					 'https://ko-fi.com/shadowmario',		'444444'],

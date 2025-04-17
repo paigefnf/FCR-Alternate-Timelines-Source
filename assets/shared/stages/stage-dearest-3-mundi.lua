@@ -145,5 +145,7 @@ doTweenAlpha('flash','flash',1,1,'linear')
 end
 if curStep == 4960 then
 doTweenAlpha('flash','flash',0,0.5,'linear')
+
+close(true);
 end
 end

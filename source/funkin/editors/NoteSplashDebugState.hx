@@ -35,6 +35,18 @@ class NoteSplashDebugState extends MusicBeatState
 
 	override function create()
 	{
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
+		var cursor:FlxSprite;
+
+		cursor = new FlxSprite();
+
+		cursor.makeGraphic(15, 15, FlxColor.TRANSPARENT);
+
+		cursor.loadGraphic(Paths.image('ui/cursors/cursor'));
+		FlxG.mouse.load(cursor.pixels);
+
 		FlxG.camera.bgColor = FlxColor.fromHSL(0, 0, 0.5);
 		selection = new FlxSprite(0, 270).makeGraphic(150, 150, FlxColor.BLACK);
 		selection.alpha = 0.4;
@@ -178,7 +190,6 @@ class NoteSplashDebugState extends MusicBeatState
 		loadFrames();
 		changeSelection();
 		super.create();
-		FlxG.mouse.visible = true;
 	}
 
 	var curAnim:Int = 1;
