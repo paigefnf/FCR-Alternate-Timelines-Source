@@ -2982,11 +2982,21 @@ class PlayState extends MusicBeatState
 		if (note.isSustainNote) dad.holdTimer = 0;
 
 		if(opponentVocals.length <= 0) vocals.volume = 1;
-		var time:Float = 0.15;
-		if(note.isSustainNote && !note.animation.curAnim.name.endsWith('end')) {
-			time += 0.15;
+		//	strumPlayAnim(true, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
+
+		if(!ClientPrefs.data.oldHold) {
+			if (note.isSustainNote) {
+				var spr = opponentStrums.members[note.noteData];
+				if(note.animation.curAnim.name.endsWith('end')) {
+					spr.resetAnim = note.height / .45 / songSpeed / note.multSpeed / playbackRate * .001;
+				} else spr.resetAnim = 0;
+			} else {
+				strumPlayAnim(true, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
+			}
+		} else {
+			strumPlayAnim(true, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
 		}
-		strumPlayAnim(true, Std.int(Math.abs(note.noteData)), time);
+
 		note.hitByOpponent = true;
 
 		spawnHoldSplashOnNote(note);
@@ -2994,8 +3004,10 @@ class PlayState extends MusicBeatState
 		var result:Dynamic = callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
 		if(result != LuaUtils.Function_Stop && result != LuaUtils.Function_StopHScript && result != LuaUtils.Function_StopAll) callOnHScript('opponentNoteHit', [note]);
 
+
 		if (!note.isSustainNote) invalidateNote(note);
 	}
+
 	public function goodNoteHit(note:Note):Void
 		{
 			if(note.wasGoodHit) return;
@@ -3057,13 +3069,29 @@ class PlayState extends MusicBeatState
 					}
 				}
 			}
-
-		if(!cpuControlled)
+		if(!ClientPrefs.data.oldHold) {
+			if(!cpuControlled)
 			{
 				var spr = playerStrums.members[note.noteData];
-				if(spr != null) spr.playAnim('confirm', true);
+				if (spr != null && spr.animation.name != 'confirm') spr.playAnim('confirm', true);
+			} else {
+				if (note.isSustainNote) {
+					var spr = playerStrums.members[note.noteData];
+					if(note.animation.curAnim.name.endsWith('end')) {
+						spr.resetAnim = note.height / .45 / songSpeed / note.multSpeed / playbackRate * .001;
+					} else spr.resetAnim = 0;
+				} else {
+					strumPlayAnim(false, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
+				}
 			}
+		} else {
+			if(!cpuControlled)
+		{
+			var spr = playerStrums.members[note.noteData];
+			if(spr != null) spr.playAnim('confirm', true);
+		}
 		else strumPlayAnim(false, Std.int(Math.abs(note.noteData)), Conductor.stepCrochet * 1.25 / 1000 / playbackRate);
+		}
 		vocals.volume = 1;
 
 		spawnHoldSplashOnNote(note);
@@ -3073,6 +3101,7 @@ class PlayState extends MusicBeatState
 			if(combo > 9999) combo = 9999;
 			popUpScore(note);
 		}
+
 		var gainHealth:Bool = true; // prevent health gain, *if* sustains are treated as a singular note
 		if (guitarHeroSustains && note.isSustainNote) gainHealth = false;
 		if (gainHealth) health += note.hitHealth * healthGain;
