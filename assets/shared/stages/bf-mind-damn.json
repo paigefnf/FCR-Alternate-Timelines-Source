@@ -1,0 +1,26 @@
+{
+	"directory": "mind",
+	"defaultZoom": 0.75,
+	"isPixelStage": false,
+
+	"boyfriend": [950, 375],
+	"girlfriend": [450, 250],
+	"opponent": [225, 275],
+	"hide_girlfriend": true,
+
+	"camera_boyfriend": [0, 0],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+	"preload": {
+		"images/back": 3,
+		"images/backAlt": 2,
+		"images/overlay": 2
+	},
+
+	"_editorMeta": {
+		"dad": "senpai-wretched",
+		"boyfriend": "pico-wretched",
+		"gf": "gf"
+	}
+}
