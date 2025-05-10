@@ -1452,6 +1452,7 @@ class PlayState extends MusicBeatState
 						}
 						sustainNote.parent = swagNote;
 						oldNote = sustainNote;
+						sustainNote.noAnimation = true;
 					}
 				}
 
@@ -2955,6 +2956,9 @@ class PlayState extends MusicBeatState
 		var result:Dynamic = callOnLuas('opponentNoteHitPre', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
 		if(result != LuaUtils.Function_Stop && result != LuaUtils.Function_StopHScript && result != LuaUtils.Function_StopAll) callOnHScript('opponentNoteHitPre', [note]);
 
+		var char = note.gfNote ? gf : dad;
+		char.holdTimer = 0;
+
 		if (songName != 'tutorial')
 			camZooming = true;
 
@@ -2969,7 +2973,6 @@ class PlayState extends MusicBeatState
 				if (SONG.notes[curSection].altAnim && !SONG.notes[curSection].gfSection)
 					altAnim = '-alt';
 
-			var char:Character = dad;
 			var animToPlay:String = singAnimations[Std.int(Math.abs(Math.min(singAnimations.length-1, note.noteData)))] + altAnim;
 			if(note.gfNote) char = gf;
 
@@ -3020,6 +3023,9 @@ class PlayState extends MusicBeatState
 	
 			var result:Dynamic = callOnLuas('goodNoteHitPre', [notes.members.indexOf(note), leData, leType, isSus]);
 			if(result != LuaUtils.Function_Stop && result != LuaUtils.Function_StopHScript && result != LuaUtils.Function_StopAll) callOnHScript('goodNoteHitPre', [note]);
+
+			var char = note.gfNote ? gf : boyfriend;
+			char.holdTimer = 0;
 	
 			note.wasGoodHit = true;
 	
@@ -3047,7 +3053,6 @@ class PlayState extends MusicBeatState
 			if(!note.noAnimation) {
 				var animToPlay:String = singAnimations[Std.int(Math.abs(Math.min(singAnimations.length-1, note.noteData)))];
 	
-				var char:Character = boyfriend;
 				var animCheck:String = 'hey';
 				if(note.gfNote)
 				{
