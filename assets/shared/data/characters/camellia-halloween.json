@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				192,
+				58
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Camellia_Idle"
+		},
+		{
+			"offsets": [
+				192,
+				123
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Camellia_Down0"
+		},
+		{
+			"offsets": [
+				196,
+				120
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Camellia_Up0"
+		},
+		{
+			"offsets": [
+				272,
+				80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Camellia_Left0"
+		},
+		{
+			"offsets": [
+				192,
+				39
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Camellia_Right0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/extras/camellia/camellia_halloween",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "camellia",
+	"flip_x": false,
+	"healthbar_colors": [
+		213,
+		95,
+		86
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.85,
+	"_editor_isPlayer": false
+}
