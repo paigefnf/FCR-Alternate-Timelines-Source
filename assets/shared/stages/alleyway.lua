@@ -1,6 +1,6 @@
 function onCreate()
 
-makeLuaSprite('sky','stage_assets/alley/alleySky',-350,-100)
+makeLuaSprite('sky','stage_assets/alley/alleySky',-350,-600)
 setScrollFactor('sky',0.7,0.7)
 addLuaSprite('sky', false)
 
@@ -9,7 +9,7 @@ setScrollFactor('sky2',0.7,0.7)
 setProperty('sky2.alpha',0)
 addLuaSprite('sky2', false)
 
-makeLuaSprite('mansion','stage_assets/alley/alleyFront',-330,-250)
+makeLuaSprite('mansion','stage_assets/alley/alleyFront',-830,-250)
 addLuaSprite('mansion', false)
 
 makeLuaSprite('lay', 'stage_assets/alley/overlay', 0, 0)

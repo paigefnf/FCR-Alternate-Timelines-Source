@@ -3,6 +3,9 @@ makeLuaSprite('bg','stage_assets/back', -500, -150);
 makeAnimatedLuaSprite('Ends','stage_assets/end/itEndsHere', 600, 400)
 addAnimationByPrefix('Ends','Ends','tv static',24,true);
 scaleObject('Ends', 1.3, 1.3);
+makeLuaSprite('lay', 'stage_assets/alley/overlay', 0, 0)
+setObjectCamera('lay','hud')
+addLuaSprite('lay', false)
 makeAnimatedLuaSprite('Ends2','stage_assets/end/itEndsHereDD', 600, 400)
 addAnimationByPrefix('Ends2','Ends','tv static',24,true);
 scaleObject('Ends2', 1.3, 1.3);
@@ -46,5 +49,11 @@ setShaderFloat('glow','size',getProperty('justimage.x'))
  setShaderFloat('glow','size',getProperty('justimage.y'))
  setShaderFloat('glow','dim',getProperty('justimage.x'))
  setShaderFloat('glow','dim',getProperty('justimage.y'))
-setProperty('camHUD.alpha',0.4)
+setProperty('camHUD.alpha',1)
+
+if songName == 'Damnatio XII' then
+if curStep == 0 then
+setProperty('camGame.alpha',0)
+end
+end
 end

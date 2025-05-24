@@ -36,9 +36,6 @@ class MenuCharacterEditorState extends MusicBeatState
 		DiscordClient.changePresence("Menu Character Editor", "Editting: " + characterFile.image);
 		#end
 
-		Paths.clearStoredMemory();
-		Paths.clearUnusedMemory();
-
 		var cursor:FlxSprite;
 
 		cursor = new FlxSprite();

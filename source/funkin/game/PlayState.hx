@@ -299,8 +299,6 @@ class PlayState extends MusicBeatState
 	override public function create()
 	{
 		//trace('Playback Rate: ' + playbackRate);
-		Paths.clearStoredMemory();
-		Paths.clearUnusedMemory();
 
 		startCallback = startCountdown;
 		endCallback = endSong;
@@ -3530,7 +3528,7 @@ class PlayState extends MusicBeatState
 		}
 
 		if(spr != null) {
-			spr.playAnim('confirm', true);
+			spr.playAnim('confirm', false);
 			spr.resetAnim = time;
 		}
 	}
