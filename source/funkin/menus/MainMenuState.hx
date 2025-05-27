@@ -11,7 +11,7 @@ import flixel.input.mouse.FlxMouseEventManager;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.7.3c';
-	public static var paperEngineVersion:String = '0.1.0';
+	public static var graphicsEngineVersion:String = '0.1.0';
 	public static var funkinVersion:String = '0.6.4';
 	public static var curSelected:Int = 0;
 
@@ -103,10 +103,10 @@ class MainMenuState extends MusicBeatState
 			//menuItem.screenCenter(X);
 		}
 
-		var paperVer:FlxText = new FlxText(12, FlxG.height - 84, 0, "Paper Engine v" + paperEngineVersion, 12);
-		paperVer.scrollFactor.set();
-		paperVer.setFormat("LEMON MILK Regular", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(paperVer);
+		var graphicsVer:FlxText = new FlxText(12, FlxG.height - 84, 0, "Graphics Engine v" + graphicsEngineVersion, 12);
+		graphicsVer.scrollFactor.set();
+		graphicsVer.setFormat("LEMON MILK Regular", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(graphicsVer);
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Pysch Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
 		psychVer.setFormat("LEMON MILK Regular", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);

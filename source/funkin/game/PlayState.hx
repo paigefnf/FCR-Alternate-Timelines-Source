@@ -200,8 +200,8 @@ class PlayState extends MusicBeatState
 	public var grpHoldSplashes:FlxTypedGroup<SustainSplash>;
 
 	public var camZooming:Bool = true;
-	public var camZoomingMult:Float = 1;
-	public var camZoomingDecay:Float = 1; //note to self: change it back to 8 if you want instant zooming back
+	public var camZoomingMult:Float = 2; //change it to 1
+	public var camZoomingDecay:Float = 4; //note to self: change it back to 8 if you want instant zooming back
 	private var curSong:String = "";
 
 	public var gfSpeed:Int = 1;
@@ -3528,8 +3528,8 @@ class PlayState extends MusicBeatState
 		}
 
 		if(spr != null) {
-			spr.playAnim('confirm', false);
-			spr.resetAnim = time;
+			spr.playAnim('confirm', true);
+			spr.resetAnim = 0.01;
 		}
 	}
 

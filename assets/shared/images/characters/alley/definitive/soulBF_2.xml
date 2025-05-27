@@ -2,133 +2,133 @@
 <!--
 Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
 -->
-<TextureAtlas imagePath="soulBF_2.png" width="2143" height="2124">
-	<SubTexture name="SBF Down0000" x="0" y="569" width="601" height="566" frameX="-0" frameY="-1" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0001" x="0" y="569" width="601" height="566" frameX="-0" frameY="-1" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0002" x="0" y="569" width="601" height="566" frameX="-0" frameY="-1" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0003" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0004" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0005" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0006" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0007" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0008" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0009" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0010" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0011" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0012" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0013" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0014" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0015" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0016" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0017" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0018" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0019" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0020" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0021" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0022" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0023" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Down0024" x="0" y="0" width="603" height="569" frameX="-5" frameY="-0" frameWidth="608" frameHeight="569"/>
-	<SubTexture name="SBF Idle0000" x="0" y="1135" width="554" height="494" rotated="true" frameX="-0" frameY="-0" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0001" x="0" y="1135" width="554" height="494" rotated="true" frameX="-0" frameY="-0" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0002" x="601" y="609" width="553" height="498" rotated="true" frameX="-0" frameY="-8" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0003" x="601" y="609" width="553" height="498" rotated="true" frameX="-0" frameY="-8" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0004" x="1154" y="600" width="498" height="552" frameX="-0" frameY="-17" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0005" x="1154" y="600" width="498" height="552" frameX="-0" frameY="-17" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0006" x="554" y="1135" width="554" height="492" rotated="true" frameX="-3" frameY="-23" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0007" x="554" y="1135" width="554" height="492" rotated="true" frameX="-3" frameY="-23" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0008" x="1600" y="1152" width="485" height="555" frameX="-8" frameY="-16" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0009" x="1600" y="1152" width="485" height="555" frameX="-8" frameY="-16" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0010" x="554" y="1627" width="554" height="487" rotated="true" frameX="-6" frameY="-4" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0011" x="554" y="1627" width="554" height="487" rotated="true" frameX="-6" frameY="-4" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0012" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0013" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0014" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0015" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0016" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0017" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0018" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0019" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0020" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0021" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0022" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0023" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Idle0024" x="1108" y="1152" width="492" height="553" frameX="-1" frameY="-1" frameWidth="498" frameHeight="578"/>
-	<SubTexture name="SBF Left0000" x="0" y="1629" width="542" height="481" rotated="true" frameX="-7" frameY="-1" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0001" x="0" y="1629" width="542" height="481" rotated="true" frameX="-7" frameY="-1" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0002" x="0" y="1629" width="542" height="481" rotated="true" frameX="-7" frameY="-1" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0003" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0004" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0005" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0006" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0007" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0008" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0009" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0010" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0011" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0012" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0013" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0014" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0015" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0016" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0017" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0018" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0019" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0020" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0021" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0022" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0023" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0024" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0025" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Left0026" x="1652" y="600" width="491" height="541" frameX="-0" frameY="-0" frameWidth="491" frameHeight="544"/>
-	<SubTexture name="SBF Right0000" x="603" y="0" width="530" height="609" rotated="true" frameX="-2" frameY="-0" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0001" x="603" y="0" width="530" height="609" rotated="true" frameX="-2" frameY="-0" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0002" x="603" y="0" width="530" height="609" rotated="true" frameX="-2" frameY="-0" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0003" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0004" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0005" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0006" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0007" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0008" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0009" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0010" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0011" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0012" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0013" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0014" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0015" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0016" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0017" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0018" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0019" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0020" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0021" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0022" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Right0023" x="1133" y="0" width="529" height="600" rotated="true" frameX="-0" frameY="-1" frameWidth="611" frameHeight="530"/>
-	<SubTexture name="SBF Up0000" x="1108" y="1707" width="605" height="417" rotated="true" frameX="-0" frameY="-0" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0001" x="1108" y="1707" width="605" height="417" rotated="true" frameX="-0" frameY="-0" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0002" x="1108" y="1707" width="605" height="417" rotated="true" frameX="-0" frameY="-0" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0003" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0004" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0005" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0006" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0007" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0008" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0009" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0010" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0011" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0012" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0013" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0014" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0015" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0016" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0017" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0018" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0019" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0020" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0021" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0022" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0023" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0024" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0025" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
-	<SubTexture name="SBF Up0026" x="1662" y="0" width="420" height="598" frameX="-2" frameY="-4" frameWidth="422" frameHeight="605"/>
+<TextureAtlas imagePath="soulBF_2.png" width="7668" height="617">
+	<SubTexture name="SBF Down0000" x="5627" y="0" width="601" height="571" frameX="-0" frameY="-2" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0001" x="5627" y="0" width="601" height="571" frameX="-0" frameY="-2" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0002" x="5627" y="0" width="601" height="571" frameX="-0" frameY="-2" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0003" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0004" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0005" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0006" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0007" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0008" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0009" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0010" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0011" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0012" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0013" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0014" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0015" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0016" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0017" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0018" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0019" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0020" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0021" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0022" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0023" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Down0024" x="6228" y="0" width="603" height="575" frameX="-5" frameY="-0" frameWidth="608" frameHeight="575"/>
+	<SubTexture name="SBF Idle0000" x="3669" y="0" width="494" height="559" frameX="-0" frameY="-0" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0001" x="3669" y="0" width="494" height="559" frameX="-0" frameY="-0" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0002" x="2181" y="0" width="498" height="558" frameX="-0" frameY="-8" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0003" x="2181" y="0" width="498" height="558" frameX="-0" frameY="-8" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0004" x="2679" y="0" width="498" height="558" frameX="-0" frameY="-16" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0005" x="2679" y="0" width="498" height="558" frameX="-0" frameY="-16" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0006" x="4650" y="0" width="492" height="560" frameX="-3" frameY="-22" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0007" x="4650" y="0" width="492" height="560" frameX="-3" frameY="-22" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0008" x="5142" y="0" width="485" height="560" frameX="-8" frameY="-16" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0009" x="5142" y="0" width="485" height="560" frameX="-8" frameY="-16" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0010" x="4163" y="0" width="487" height="559" frameX="-6" frameY="-4" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0011" x="4163" y="0" width="487" height="559" frameX="-6" frameY="-4" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0012" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0013" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0014" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0015" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0016" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0017" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0018" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0019" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0020" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0021" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0022" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0023" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Idle0024" x="3177" y="0" width="492" height="558" frameX="-1" frameY="-1" frameWidth="498" frameHeight="583"/>
+	<SubTexture name="SBF Left0000" x="1209" y="0" width="481" height="547" frameX="-7" frameY="-2" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0001" x="1209" y="0" width="481" height="547" frameX="-7" frameY="-2" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0002" x="1209" y="0" width="481" height="547" frameX="-7" frameY="-2" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0003" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0004" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0005" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0006" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0007" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0008" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0009" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0010" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0011" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0012" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0013" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0014" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0015" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0016" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0017" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0018" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0019" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0020" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0021" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0022" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0023" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0024" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0025" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Left0026" x="1690" y="0" width="491" height="547" frameX="-0" frameY="-0" frameWidth="491" frameHeight="550"/>
+	<SubTexture name="SBF Right0000" x="0" y="0" width="609" height="535" frameX="-2" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0001" x="0" y="0" width="609" height="535" frameX="-2" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0002" x="0" y="0" width="609" height="535" frameX="-2" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0003" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0004" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0005" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0006" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0007" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0008" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0009" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0010" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0011" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0012" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0013" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0014" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0015" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0016" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0017" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0018" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0019" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0020" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0021" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0022" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Right0023" x="609" y="0" width="600" height="535" frameX="-0" frameY="-0" frameWidth="611" frameHeight="535"/>
+	<SubTexture name="SBF Up0000" x="7251" y="0" width="417" height="617" frameX="-0" frameY="-0" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0001" x="7251" y="0" width="417" height="617" frameX="-0" frameY="-0" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0002" x="7251" y="0" width="417" height="617" frameX="-0" frameY="-0" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0003" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0004" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0005" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0006" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0007" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0008" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0009" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0010" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0011" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0012" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0013" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0014" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0015" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0016" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0017" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0018" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0019" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0020" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0021" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0022" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0023" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0024" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0025" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
+	<SubTexture name="SBF Up0026" x="6831" y="0" width="420" height="608" frameX="-2" frameY="-6" frameWidth="422" frameHeight="617"/>
 </TextureAtlas>

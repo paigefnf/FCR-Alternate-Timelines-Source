@@ -1,1 +1,80 @@
-{"animations": [{"loop": false,"offsets": [-118,10],"fps": 24,"anim": "idle","indices": [],"name": "BF idle dance"},{"loop": false,"offsets": [-108,3],"fps": 24,"anim": "singLEFT","indices": [],"name": "BF NOTE LEFT0"},{"loop": false,"offsets": [-122,-48],"fps": 24,"anim": "singDOWN","indices": [],"name": "BF NOTE DOWN0"},{"loop": false,"offsets": [-157,39],"fps": 24,"anim": "singUP","indices": [],"name": "BF NOTE UP0"},{"loop": false,"offsets": [-167,2],"fps": 24,"anim": "singRIGHT","indices": [],"name": "BF NOTE RIGHT0"},{"loop": false,"offsets": [-113,0],"anim": "depression","fps": 24,"name": "BF is depression","indices": []}],"no_antialiasing": false,"image": "characters/alley/definitive/bf_sad","position": [-145,350],"healthicon": "bf","flip_x": true,"healthbar_colors": [49,176,209],"camera_position": [-50,10],"sing_duration": 4,"scale": 1}
+{
+	"animations": [
+		{
+			"offsets": [
+				-118,
+				10
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-108,
+				3
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-122,
+				-48
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-157,
+				39
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-167,
+				2
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/alley/definitive/bf_sad",
+	"position": [
+		-145,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-50,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

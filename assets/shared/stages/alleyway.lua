@@ -4,7 +4,7 @@ makeLuaSprite('sky','stage_assets/alley/alleySky',-350,-600)
 setScrollFactor('sky',0.7,0.7)
 addLuaSprite('sky', false)
 
-makeLuaSprite('sky2','stage_assets/alley/alleySky2',-350,-100)
+makeLuaSprite('sky2','stage_assets/alley/alleySky2',-350,-600)
 setScrollFactor('sky2',0.7,0.7)
 setProperty('sky2.alpha',0)
 addLuaSprite('sky2', false)
