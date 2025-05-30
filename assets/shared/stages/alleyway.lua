@@ -22,18 +22,26 @@ addLuaSprite('lay2', false)
 setProperty('lay2.alpha',0)
 end
 function onUpdate()
-if songName == 'Fatigue' then
-setProperty('camGame.alpha',1)
-end
 if songName == 'Outrank' then
 setProperty('camGame.alpha',1)
 end
+
 if songName == 'Facing The Downfall' then
 if curStep == 0 then
 setProperty('camGame.alpha',0)
 end
 if curStep == 1 then
 setProperty('camGame.alpha',1)
+end
+
+if songName == 'Annihilated' then
+if curStep == 0 then
+setProperty('camGame.alpha',1)
+end
+
+if songName == 'Fatigue' then
+setProperty('camGame.alpha',1)
+end
 end
 end
 end
