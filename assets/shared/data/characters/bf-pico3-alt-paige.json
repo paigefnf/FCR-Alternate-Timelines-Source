@@ -1,1 +1,168 @@
-{"animations": [{"offsets": [20,20],"loop": false,"fps": 24,"anim": "dodgeLEFT","indices": [],"name": "BF left dodge"},{"offsets": [-20,-30],"indices": [],"fps": 24,"anim": "singDOWN","loop": false,"name": "BF NOTE DOWN0"},{"offsets": [-5,13],"indices": [],"fps": 24,"anim": "singLEFT","loop": false,"name": "BF NOTE LEFT0"},{"offsets": [-3,3],"indices": [],"fps": 24,"anim": "singLEFTmiss","loop": false,"name": "BF NOTE LEFT MISS"},{"offsets": [-57,2],"indices": [],"fps": 24,"anim": "singRIGHTmiss","loop": false,"name": "BF NOTE RIGHT MISS"},{"offsets": [-22,-48],"indices": [],"fps": 24,"anim": "singDOWNmiss","loop": false,"name": "BF NOTE DOWN MISS"},{"offsets": [-35,43],"indices": [],"fps": 24,"anim": "singUPmiss","loop": false,"name": "BF NOTE UP MISS"},{"offsets": [-25,80],"indices": [],"fps": 24,"anim": "singUP","loop": false,"name": "BF NOTE UP0"},{"offsets": [-70,18],"indices": [],"fps": 24,"anim": "singRIGHT","loop": false,"name": "BF NOTE RIGHT0"},{"offsets": [-70,80],"indices": [],"fps": 24,"anim": "dodgeUP","loop": false,"name": "BF up dodge"},{"offsets": [-34,19],"indices": [],"fps": 24,"anim": "dodgeRIGHT","loop": false,"name": "BF right dodge"},{"offsets": [25,-25],"indices": [],"fps": 24,"anim": "dodgeDOWN","loop": false,"name": "BF down dodge"},{"offsets": [-5,10],"indices": [],"fps": 24,"anim": "idle","loop": false,"name": "BF idle dance"}],"no_antialiasing": false,"image": "characters/pico/definitive/bf-pico3-alt","position": [-5,360],"healthicon": "bf-pico3","flip_x": true,"healthbar_colors": [49,176,209],"camera_position": [50,20],"sing_duration": 4,"scale": 1}
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				11
+			],
+			"anim": "dodgeLEFT",
+			"fps": 24,
+			"name": "BF left dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-34
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				7
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				7
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				-48
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				43
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF NOTE UP MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				55
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				13
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				53
+			],
+			"anim": "dodgeUP",
+			"fps": 24,
+			"name": "BF up dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				9
+			],
+			"anim": "dodgeRIGHT",
+			"fps": 24,
+			"name": "BF right dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				-34
+			],
+			"anim": "dodgeDOWN",
+			"fps": 24,
+			"name": "BF down dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				13
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/pico/definitive/bf-pico3-alt",
+	"position": [
+		-5,
+		360
+	],
+	"healthicon": "bf-pico3",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		50,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -6,6 +6,15 @@
 	"startUnlocked": true,
 	"songs": [
 		[
+			"-- VOLUME 1 --",
+			"blank",
+			[
+				75,
+				0,
+				60
+			]
+		],
+		[
 			"Philophobia",
 			"gf",
 			[
@@ -149,13 +158,14 @@
 				209
 			]
 		],
+,		
 		[
-			"Dispatch Mania",
-			"mom2",
+			"Fatigue",
+			"bf-mom3",
 			[
-				75,
-				0,
-				60
+				49,
+				176,
+				209
 			]
 		],
 		[
@@ -165,15 +175,6 @@
 				127,
 				19,
 				73
-			]
-		],		
-		[
-			"Fatigue",
-			"bf-mom3",
-			[
-				49,
-				176,
-				209
 			]
 		]
 	],

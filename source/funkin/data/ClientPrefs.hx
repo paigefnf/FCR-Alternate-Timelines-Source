@@ -25,7 +25,7 @@ import funkin.backend.system.Main;
 	public var cacheOnGPU:Bool = true;
 	public var framerate:Int = 60;
 	public var camZooms:Bool = true;
-	public var missSounds:Bool = true; // re-added miss sounds to psych engine - paigeva
+	public var missSounds:Bool = true; // re-added miss sounds to psych engine - paigefnf
 	public var hideHud:Bool = false;
 	public var noteOffset:Int = 0;
 	public var arrowRGB:Array<Array<FlxColor>> = [
@@ -40,7 +40,7 @@ import funkin.backend.system.Main;
 		[0xFFA1A1A1, 0xFFFFFFFF, 0xFF651038]];
 
 	public var ghostTapping:Bool = true;
-	public var timeBarType:String = 'Time Left';
+	public var timeBarType:String = 'Song Name';
 	public var scoreZoom:Bool = false;
 	public var noReset:Bool = false;
 	public var healthBarAlpha:Float = 1;
