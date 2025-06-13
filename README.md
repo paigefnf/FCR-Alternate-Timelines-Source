@@ -20,5 +20,3 @@ If you're on Windows, follow these steps here:
 * Once all the haxe libraries have been installed, open up the terminal and type either "lime test windows" (release builds) or "lime test windows -debug" (test builds) and press enter, you should now be able to compile the mod (which usually takes about 30 minutes or less if this is the first time compiling, which happens to every other open source FNF mods)
 
 * Once it's done compiling, the game will launch and now you can start modding!
-
-* Once it's done compiling, the game will launch and now you can start modding!
